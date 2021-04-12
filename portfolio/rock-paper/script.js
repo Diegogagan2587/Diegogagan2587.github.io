@@ -10,11 +10,11 @@ function getUserPlay() { //This functions gets the user choice about rock, paper
 function getComputerPlay() { //This functions gets a ramdom numeric value between 100 and 0 and 
                              //asiggn the result to rock, paper or scissor, then return one of this strings                   
 
-    let randNumber = ( Math.random() * 100 );
+    let randNumber = ( Math.random() * 1000 ); //333.3333 - 1000 -
 
-    if(randNumber <= 100 && randNumber > 66.66) {
+    if(randNumber <= 1000 && randNumber > 666.6667) {
         return "Piedra";
-    } else if ( randNumber <= 66.66 && randNumber > 33.33 ) {
+    } else if ( randNumber <= 666.6667 && randNumber > 333.3334 ) {
         return "Papel";
     } else {
         return "Tijera";
@@ -24,6 +24,8 @@ function getComputerPlay() { //This functions gets a ramdom numeric value betwee
 function getWinner() { //This functions make an evaluation to the user input and the PC input
     let userPlayer = getUserPlay();
     let pcPlayer = getComputerPlay();
+    let winner = "Tu ganas, " + userPlayer + " vence a " + pcPlayer;
+    let loser = "Tu pierdes, " + pcPlayer + " vence a " + userPlayer;
  if ( userPlayer == pcPlayer ) {
     return "Empate";
 } else if ( 
@@ -33,18 +35,51 @@ function getWinner() { //This functions make an evaluation to the user input and
     || (userPlayer == "Papel") && ( pcPlayer == "Piedra" ) 
 
     )   {
-    return "Tu ganas, " + userPlayer + " vence a " + pcPlayer;
+    return winner;
 } else {
-    return "Tu pierdes, " + pcPlayer + " vence a " + userPlayer;
+    return loser;
 };
 }
 
-console.log(getWinner())
+
 
 function game() {
+
+
+    //Introducimos los datos de cada ronda
+    let rond1 = getWinner();
+    console.log("Ronda 1 " + rond1 );
+    let rond2 = getWinner();
+    console.log("Ronda 2 " + rond2 );
+    let rond3 = getWinner();
+    console.log("Ronda 3 " + rond3 );
+    let rond4 = getWinner();
+    console.log("Ronda 4 " + rond4 );
+    let rond5 = getWinner();
+    console.log("Ronda 5 " + rond5 );
+
+
+    //Determina los puntos por partida del usuario
+    let userScore1 = !(rond1.indexOf("Tu ganas")) ? 1 : 0 ;
+    let userScore2 = !(rond2.indexOf("Tu ganas")) ? 1 : 0 ;
+    let userScore3 = !(rond3.indexOf("Tu ganas")) ? 1 : 0 ;
+    let userScore4 = !(rond4.indexOf("Tu ganas")) ? 1 : 0 ;
+    let userScore5 = !(rond5.indexOf("Tu ganas")) ? 1 : 0 ;
+
+    //suma los puntos y mensajes en caso de ganar
+
+    let totalScore = userScore1 + userScore2 + userScore3 + userScore4 + userScore5;
+
+    //determina qien tiene mas puntos y quien es ganador
+
+    if (totalScore >= 3) {
+        console.log ("Felicidades, tu ganas la partida con " + totalScore + " puntos!");
+    } else {
+        console.log( "has perdido con tan solo " + totalScore + " puntos, ¡intentalo de nuevo!" ) ;
+    }
     
 }
 
-
+game();
 
 
