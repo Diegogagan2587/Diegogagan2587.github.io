@@ -1,9 +1,11 @@
 
 function getUserPlay() { //This functions gets the user choice about rock, paper or scissor using promt
+
     let userPlay = prompt("¿Cual es tu eleccion?","piedra, papel o tijera").toLocaleLowerCase();
     let letrMayus = userPlay.charAt(0).toUpperCase();
     let letrMinu = userPlay.slice(1);
     let finalUserPlay = letrMayus + letrMinu;
+
     return finalUserPlay;
 }
 
@@ -22,10 +24,12 @@ function getComputerPlay() { //This functions gets a ramdom numeric value betwee
 }
 
 function getWinner() { //This functions make an evaluation to the user input and the PC input
+
     let userPlayer = getUserPlay();
     let pcPlayer = getComputerPlay();
     let winner = "Tu ganas, " + userPlayer + " vence a " + pcPlayer;
     let loser = "Tu pierdes, " + pcPlayer + " vence a " + userPlayer;
+
  if ( userPlayer == pcPlayer ) {
     return "Empate";
 } else if ( 
@@ -66,11 +70,11 @@ function game() {
     let userScore4 = !(rond4.indexOf("Tu ganas")) ? 1 : 0 ;
     let userScore5 = !(rond5.indexOf("Tu ganas")) ? 1 : 0 ;
 
-    //suma los puntos y mensajes en caso de ganar
+    //suma los puntos 
 
     let totalScore = userScore1 + userScore2 + userScore3 + userScore4 + userScore5;
 
-    //determina qien tiene mas puntos y quien es ganador
+    //determina los puntos del usuario, si gana y envia mensaje al ganador en consola
 
     if (totalScore >= 3) {
         console.log ("Felicidades, tu ganas la partida con " + totalScore + " puntos!");
@@ -81,5 +85,6 @@ function game() {
 }
 
 game();
+
 
 
