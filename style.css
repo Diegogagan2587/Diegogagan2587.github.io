@@ -101,6 +101,8 @@ h1 {
 
 .social-icon-container button img:hover {
   filter: drop-shadow(8px 8px 10px #6070ff);
+  transition: 50ms;
+  transform: scale(1.5);
 }
 
 /*
