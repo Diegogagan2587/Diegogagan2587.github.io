@@ -8,20 +8,29 @@ body {
 .header-container {
   background-image: url('./img/header-shapes\ mobileheader-background.jpg');
   background-size: 92%;
-  
-  
+
+
 }
 
-.header-text{
-  margin-left: auto;
-  width: 90%;
-}
-
- h1{
+.header-text {
+  margin: 2%;
+  padding: 3%;
   width: 80%;
-  text-align: start;
-  font-size: 3rem;
+  color: #344563;
+
 }
+.lets-conect {
+  color: #7F8CFF;
+}
+
+h1 {
+  width: 100%;
+  text-align: start;
+  font-size: 2.8rem;
+  color: #172B4D;
+
+}
+
 /*
   nav-bar
 */
@@ -36,37 +45,34 @@ body {
 
 }
 
- .nav-menu-button {
+.nav-menu-button {
   background-color: rgba(0, 0, 0, 0);
   border: 0;
   flex: 1 1 32px;
   margin-right: 20px;
- }
- .nav-menu-button img {
+}
+
+.nav-menu-button img {
   width: 100%;
   height: auto;
- }
+}
 
- .nav-logo {
+.nav-logo {
   color: #6070FF;
   font-family: 'Poppins';
   font-style: normal;
   line-height: 20px;
-  flex: 20 1  auto;
+  flex: 20 1 auto;
   font-size: 2em;
   margin-left: 20px;
- }
+}
 
 
 
 
- /*
+/*
     icon container
  */
- .social-icon-container {
+.social-icon-container {
   display: flex;
- }
-
-
-
-
+}
