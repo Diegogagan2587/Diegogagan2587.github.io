@@ -3,12 +3,13 @@ body {
   width: auto;
   margin: 0 0 0 0;
   font-family: 'Poppins';
+  font-style: normal;
 
 }
 
 .header-container {
   background-image: url('./img/header-shapes\ mobileheader-background.jpg');
-  background-size: 92%;
+  background-size: 100%;
 
 
 }
@@ -20,6 +21,9 @@ body {
   width: 80%;
   color: #344563;
 
+}
+.header-text p {
+  font-weight: 200;
 }
 .lets-conect {
   color: #7F8CFF;
