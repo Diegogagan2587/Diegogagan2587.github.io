@@ -1,0 +1,25 @@
+/*
+  nav-bar
+*/
+
+.nav-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-flex button {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0px solid rgba(0, 0, 0, 0);
+}
+ .menu-button {
+  max-width: 100%;
+ }
+
+ .nav-flex p {
+  color: #6070FF;
+  font-family: 'Poppins';
+  ;
+ }
+
+
+
