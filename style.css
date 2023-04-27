@@ -22,9 +22,11 @@ body {
   color: #344563;
 
 }
+
 .header-text p {
   font-weight: 200;
 }
+
 .lets-conect {
   color: #7F8CFF;
 }
@@ -82,9 +84,10 @@ h1 {
 .social-icon-container {
   display: flex;
   width: 60%;
-  align-items:baseline;
+  align-items: baseline;
   justify-content: space-between;
 }
+
 .social-icon-container button {
   flex: 1 1 1fr;
   border: 0px;
@@ -94,10 +97,29 @@ h1 {
 }
 
 .social-icon-container button img {
- height: auto;
- width:80%;
+  height: auto;
+  width: 80%;
 }
 
 .social-icon-container button img:hover {
   filter: drop-shadow(8px 8px 10px #6070FF);
 }
+
+
+/*
+Medias Queries
+*/
+
+@media (min-width: 768px) {
+  .header-text {
+    width: 70%;
+    margin-left: 14%;
+  }
+  
+}
+
+/*@media ( max-width: 1000px ) {
+  body {
+    background-color: red;
+  }
+}*/
