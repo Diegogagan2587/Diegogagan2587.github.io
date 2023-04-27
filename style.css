@@ -2,6 +2,17 @@ body {
   width: 100vh;
   min-width: 375px;
 }
+
+.header-text{
+  margin-left: auto;
+  width: 90%;
+}
+
+ h1{
+  width: 80%;
+  text-align: start;
+  font-size: 3rem;
+}
 /*
   nav-bar
 */
@@ -10,7 +21,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /*border: 3px solid #6070FF;*/
   padding: 3%;
   margin: 3%;
   width: 100%;
@@ -36,6 +46,16 @@ body {
   flex: 20 1  auto;
   font-size: 2em;
   margin-left: 20px;
+ }
+
+
+
+
+ /*
+    icon container
+ */
+ .social-icon-container {
+  display: flex;
  }
 
 
