@@ -81,4 +81,17 @@ h1 {
  */
 .social-icon-container {
   display: flex;
+  width: 60%;
+  align-items:baseline;
+  justify-content: space-between;
+}
+.social-icon-container button {
+  flex: 1 1 1fr;
+  border: 0px;
+  background-color: rgba(0, 0, 0, 0);
+  width: fit-content;
+}
+.social-icon-container button img {
+ height: auto;
+ width:80%;
 }
