@@ -1,5 +1,6 @@
 body {
   width: 100vh;
+  min-width: 375px;
 }
 /*
   nav-bar
@@ -9,28 +10,34 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 3px solid #6070FF;
+  /*border: 3px solid #6070FF;*/
   padding: 3%;
   margin: 3%;
   width: 100%;
 
 }
 
-.nav-flex button {
-  background-color: rgba(0, 0, 0, 0);
-  /*border: 0px solid rgba(0, 0, 0, 0);*/
-}
-
  .nav-menu-button {
- 
-  flex: 1 1 16px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  flex: 1 1 32px;
+  margin-right: 20px;
+ }
+ .nav-menu-button img {
+  width: 100%;
+  height: auto;
  }
 
- .nav-logo{
+ .nav-logo {
   color: #6070FF;
   font-family: 'Poppins';
-  flex: 10, 5 , 16px;
+  font-style: normal;
+  line-height: 20px;
+  flex: 20 1  auto;
+  font-size: 2em;
+  margin-left: 20px;
  }
+
 
 
 
