@@ -1,6 +1,15 @@
 body {
-  width: 100vh;
   min-width: 375px;
+  width: auto;
+  margin: 0 0 0 0;
+
+}
+
+.header-container {
+  background-image: url('./img/header-shapes\ mobileheader-background.jpg');
+  background-size: 92%;
+  
+  
 }
 
 .header-text{
@@ -22,8 +31,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 3%;
-  margin: 3%;
-  width: 100%;
+  width: 85%;
+
 
 }
 
