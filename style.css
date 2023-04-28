@@ -94,6 +94,7 @@ body {
   line-height: 1.25em;
   color: #172b4d;
   border: 1px solid blue;
+  margin-bottom: 1%;
 }
 .header-text p {
   width: 100%;
@@ -101,6 +102,7 @@ body {
   line-height: 1.25rem;
   font-size: 1.12rem;
   font-weight: 100;
+  margin-top: 1%;
   border: 1px solid blue;
 }
 
