@@ -72,7 +72,6 @@ body {
   color: #344563;
   padding-left: 6%;
   padding-right: 6%;
-  border: 1px solid blue;
 }
 
 .header-text h1 {
@@ -86,7 +85,6 @@ body {
   align-items: center;
   order: 0;
   color: #172b4d;
-  border: 1px solid blue;
   margin-bottom: 1%;
 }
 
@@ -100,7 +98,6 @@ body {
   line-height: 24px;
   margin-top: 1%;
   margin-bottom: 1%;
-  border: 1px solid blue;
 }
 
 .lets-connect {
@@ -115,7 +112,6 @@ body {
   order: 2;
   margin-top: 1%;
   margin-bottom: 1%;
-  border: 1px solid black;
 }
 
 /*
@@ -132,7 +128,6 @@ body {
   margin-top: 1%;
   padding-left: 0;
   list-style: none;
-  border: 1px solid blue;
 }
 
 .social-icon-container a {
