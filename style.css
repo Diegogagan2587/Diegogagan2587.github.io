@@ -106,19 +106,19 @@ h1 {
   justify-content: space-between;
 }
 
-.social-icon-container button {
+.social-icon-container a {
   flex: 1 1 1fr;
   border: 0;
   background-color: rgba(0, 0, 0, 0);
   width: fit-content;
 }
 
-.social-icon-container button img {
+.social-icon-container a img {
   height: auto;
   width: 80%;
 }
 
-.social-icon-container button img:hover {
+.social-icon-container a img:hover {
   filter: drop-shadow(8px 8px 10px #6070ff);
   transition: 50ms;
   transform: scale(1.5);
