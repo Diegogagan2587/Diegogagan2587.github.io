@@ -73,6 +73,8 @@ body {
 */
 
 .header-text {
+  display: flex;
+  flex-direction: column;  /* Flex was requested in code review */
   padding-top: 17%;
   background-image: url('./img/header-shapes\ mobileheader-background.jpg');
   background-size: 100%;
