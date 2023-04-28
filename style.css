@@ -13,7 +13,7 @@ body {
   font-style: 'normal';
 }
 
-.header-container {
+.body-wrap {
   background-image: url('./img/header-shapes\ mobileheader-background.jpg');
   background-size: 100%;
 }
