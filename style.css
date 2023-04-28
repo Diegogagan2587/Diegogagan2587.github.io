@@ -16,6 +16,7 @@ body {
 .body-wrap {
   background-image: url('./img/header-shapes\ mobileheader-background.jpg');
   background-size: 100%;
+  background-position-y: -20%;
 }
 
 .header-text {
@@ -85,10 +86,11 @@ h1 {
 .nav-logo {
   color: #6070ff;
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
+  font-style:normal;
   line-height: 20px;
   flex: 20 1 auto;
-  font-size: 1em;
+  font-size: 2em;
+  font-weight: 900;
   margin-left: 20px;
 }
 
