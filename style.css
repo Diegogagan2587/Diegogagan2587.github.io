@@ -71,8 +71,8 @@ body {
 .header-text {
   padding-top: 15%;
   background-image: url('./img/header-shapes\ mobileheader-background.jpg');
-  background-size: 90%;
-  width: 100%;
+  background-size: 100%;
+  width: auto;/*This adjust to same with as browser, Do not touch it :D*/
   color: #344563;
   padding-left: 6%;
   padding-right: 6%;
@@ -113,6 +113,7 @@ body {
   justify-content: space-between;
   padding-left: 0;
   list-style: none;
+  border: 1px solid blue;
 }
 
 .social-icon-container a {
