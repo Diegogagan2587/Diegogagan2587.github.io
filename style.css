@@ -19,7 +19,6 @@ body {
 */
 
 .nav-flex-container {
-  border: 1px solid red;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -30,7 +29,6 @@ body {
 }
 
 .nav-my-logo {
-  border: 1px solid red;
   color: #6070ff;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -44,7 +42,6 @@ body {
 .nav-menu-button {
   flex: 1 1 10%;
   background-color: rgba(0, 0, 0, 0);
-  border: 1px solid red;
   padding: auto;
 }
 
