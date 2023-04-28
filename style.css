@@ -97,11 +97,10 @@ body {
   margin-bottom: 1%;
 }
 .header-text p {
-  width: 100%;
-  /* border: 2px solid black; */
-  line-height: 1.25rem;
-  font-size: 1.12rem;
-  font-weight: 100;
+
+  font-size: 1.25rem;
+  line-height: 180%;
+  font-weight: 100;/*Not working, fix this*/
   margin-top: 1%;
   border: 1px solid blue;
 }
@@ -146,8 +145,8 @@ body {
 Medias Queries
 */
 
-@media (min-width: 768px) {
-  /* .header-text {
+/* @media (min-width: 768px) {
+   .header-text {
     width: 70%;
     margin-left: 14%;
   }
@@ -159,5 +158,5 @@ Medias Queries
   .body-wrap {
     width: 100%;
     min-width: 768px;
-  } */
-}
+  } 
+} */
