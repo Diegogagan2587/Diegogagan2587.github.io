@@ -26,35 +26,39 @@ body {
   justify-content: space-around;
   align-items: center;
   padding: 3%;
-  padding-left: 3%;
-  padding-right: 3%;
-  width: 100%;
+  padding-left: 6%;
+  padding-right: 6%;
+  width: auto;
 }
 
 .nav-my-logo {
+  /*refers to My Logo text within top nav*/
   border: 1px solid red;
   color: #6070ff;
   font-family: 'Poppins', sans-serif;
   font-style:normal;
   line-height: 20px;
-  flex: 20 1 30px;
+  flex: 10 1 auto;
   font-size:5vw;
   font-weight: 900;
+  height: 100%;
 }
 
  .nav-menu-button {
-  
+  flex: 1 1 10%;
   background-color: rgba(0, 0, 0, 0);
-  color: #344563;
-  border: 0;
-  flex: 1 1 32px;
-  margin-right: 20px;
   border: 1px solid red;
+  padding: auto;
+  
+
+
+
 } 
 
- .nav-menu-button img {
-  width: 80%;
-  height: auto;
+ .nav-menu-button a img {
+  width: 40%;
+  height:40%;
+  padding-top: 5%;
 } 
 
 .nav-menu-button:hover {
