@@ -47,9 +47,11 @@ h1 {
 
 .nav-flex-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
   width: 85%;
 }
 
@@ -131,7 +133,7 @@ Medias Queries
     width: 70%;
     margin-left: 14%;
   }
-  
+
   .nav-flex-container p {
     display: block;
   }
