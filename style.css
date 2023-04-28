@@ -6,8 +6,6 @@ body {
   margin: 0 0 0 0;
   font-family: 'Poppins', sans-serif;
   font-style: 'normal';
-  
-  
 }
 
 .introduction-wrap {
@@ -32,34 +30,29 @@ body {
 }
 
 .nav-my-logo {
-  /*refers to My Logo text within top nav*/
   border: 1px solid red;
   color: #6070ff;
   font-family: 'Poppins', sans-serif;
-  font-style:normal;
+  font-style: normal;
   line-height: 20px;
   flex: 10 1 auto;
-  font-size:5vw;
+  font-size: 5vw;
   font-weight: 900;
   height: 100%;
 }
 
- .nav-menu-button {
+.nav-menu-button {
   flex: 1 1 10%;
   background-color: rgba(0, 0, 0, 0);
   border: 1px solid red;
   padding: auto;
-  
+}
 
-
-
-} 
-
- .nav-menu-button a img {
+.nav-menu-button a img {
   width: 40%;
-  height:40%;
+  height: 40%;
   padding-top: 5%;
-} 
+}
 
 .nav-menu-button:hover {
   filter: drop-shadow(8px 8px 10px #6070ff);
@@ -67,52 +60,47 @@ body {
   transform: scale(1.1);
 }
 
-
 /*
   introduction text container
 */
 
-.header-text { /*The with of this should be same as browser*/
-    background-image: url('./img/header-shapes\ mobile@2x.svg');
+.header-text {
+  background-image: url('./img/header-shapes\ mobile@2x.svg');
   background-size: 100%;
-  display: flex; /*states this is a container*/
-  flex-direction: column;  /* Flex was requested in code review */
-  align-items: baseline; /*all items are palce to the left*/
-  padding-top: 17%; /*space between nav bar and text container*/
-  width: auto;/*This adjust to same with as browser, Do not touch it :D*/
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding-top: 17%;
+  width: auto;
   color: #344563;
   padding-left: 6%;
   padding-right: 6%;
   border: 1px solid blue;
 }
 
-.header-text h1 { 
-  /*this is a flex-box*/
-   min-width: 327px;
-   min-height: 150px;
-   width: 100%;
-
+.header-text h1 {
+  /* this is a flex-box */
+  min-width: 327px;
+  min-height: 150px;
+  width: 100%;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   align-items: center;
   order: 0;
-
-
   color: #172b4d;
   border: 1px solid blue;
   margin-bottom: 1%;
 }
+
 .header-text .description {
-  /*this is a flex-box*/
   min-width: 327px;
   width: 100%;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /*auto layout*/
   margin-top: 1%;
   margin-bottom: 1%;
   border: 1px solid blue;
@@ -121,7 +109,6 @@ body {
 .lets-connect {
   min-width: 327px;
   width: auto;
-
   height: 10%;
   height: 24px;
   font-weight: 500;
@@ -134,8 +121,6 @@ body {
   border: 1px solid black;
 }
 
-
-
 /*
     Social icon container
  */
@@ -143,9 +128,8 @@ body {
 .social-icon-container {
   min-width: 163px;
   width: 40%;
-  display: flex; /*this is a flexbox container*/
-  order: 3;/*this is nested inside other flex container at position 3*/
-  
+  display: flex;
+  order: 3;
   align-items: baseline;
   justify-content: space-between;
   margin-top: 1%;
