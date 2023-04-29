@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+g@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  font-style: 'normal';
+}
 
 body {
   width: auto;
@@ -7,6 +12,7 @@ body {
   margin: 0 0 0 0;
   font-family: 'Poppins', sans-serif;
   font-style: 'normal';
+  color: #344563;
 }
 
 .introduction-wrap,
@@ -166,36 +172,110 @@ body {
   border: 2px solid green;
   padding-left: 6%;
   padding-right: 6%;
+  background-color: gray;
+  border: 1px solid black;
 }
 
 .card-element {
   display: flex;
+  flex-direction: column;
   border: 2px solid black;
-  width: 100%;
-  height: 400px;
+  width: auto;
+  height: auto;
+  margin-top: 20%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color: #7f8cff;
+  border-radius: 5%;
 }
 
 .preview-picture {
-
+  order: 0;
+  margin: auto;
+  justify-content: center;
+  min-width: 295px;
+  min-height: 220px;
+  width: 100%;
 }
 
 .project-name {
+  order: 1;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  min-width: 295px;
+  min-height: 36px;
+  color: #172B4D;
+  font-weight: 700;
+  font-size: 32px;
+
 
 }
+
 .projext-frame {
-  
+  order: 2;
+  padding-left: 0;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 90%;
+}
+
+.projext-frame li {
+  min-width: 55px;
+  min-height: 16px;
+  font-weight: 600;
+  font-size: 13px;
+  color: #344563;
 }
 
 .card-main-text {
-
+  order: 3;
+  color: #344563;
+  margin-top: 1%;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  border: 1px solid black;
+  min-width: 295px;
+  min-height: 76px;
 }
 
 .technology-tags {
+  order: 4;
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  padding-left: 0;
+  margin-bottom: 2%;
+  justify-content: space-between;
+  align-items: baseline;
+  /* border: 1px solid black; */
+}
 
+.technology-tags li {
+  list-style: none;
+  min-height: 16px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070FF;
+  background-color: #EBEBFF;
+  border-radius: 10%;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
 .See-project-button {
-  
+  order: 5;
+  border: 1px solid #DFE1E6;
+  border-radius: 5%;
+  background-color: #FFFFFF;
+  padding: 12px;
+  width: 126px;
+  margin-top: 8%;
 }
-
-
