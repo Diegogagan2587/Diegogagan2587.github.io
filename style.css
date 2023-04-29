@@ -291,6 +291,8 @@ body {
   border: 2px solid green;
   padding-left: 6%;
   padding-right: 6%;
+  padding-top: 10%;
+  margin-top: 200px;
 }
 
 .about-me-icons {
@@ -356,6 +358,7 @@ contact me section
  */
 
  .contact-me-container {
+  margin-top: 200px;
   padding-left: 6%;
   padding-right: 6%;
   padding-top: 100px;
