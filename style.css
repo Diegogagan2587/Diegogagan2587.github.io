@@ -1,4 +1,3 @@
-
 * {
   font-family: 'Poppins', sans-serif;
   font-style: 'normal';
@@ -12,19 +11,17 @@ body {
   font-family: 'Poppins', sans-serif;
   font-style: 'normal';
   color: #344563;
-  background: #FFFFFF;
+  background: #fff;
 }
 
 .introduction-wrap,
 .works-wrap,
-.about-me-wrap, 
+.about-me-wrap,
 .contact-me-container {
   width: auto;
   min-width: 375px;
   background-color: rgba(0, 0, 0, 0);
 }
-
-
 
 /*
   top-nav-bar////////
@@ -57,7 +54,7 @@ body {
   padding: auto;
 }
 
-.nav-menu-button a img {
+.nav-menu-button .nav-icon-menu {
   width: 40%;
   height: 40%;
   padding-top: 5%;
@@ -128,7 +125,7 @@ body {
 
 /*
     Social icon container///////
- */
+*/
 
 .social-icon-container {
   min-width: 163px;
@@ -149,7 +146,7 @@ body {
   width: fit-content;
 }
 
-.social-icon-container a img {
+.social-icon-container .social-icon {
   height: auto;
   width: 60%;
 }
@@ -164,24 +161,19 @@ body {
   works section//////////
 */
 
-.works-wrap {
-
-}
-
 .cards-container {
   display: grid;
   grid-template-rows: repeat(4, 1fr);
-  border: 2px solid green;
   padding-left: 6%;
   padding-right: 6%;
-  background-color: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
 }
 
 .card-element {
   display: flex;
   flex-direction: column;
-  border: 2px solid #DFE1E6;;
+  border: 2px solid #dfe1e6;
   width: auto;
   height: auto;
   margin-top: 20%;
@@ -207,7 +199,7 @@ body {
   margin-bottom: 1%;
   min-width: 295px;
   min-height: 36px;
-  color: #172B4D;
+  color: #172b4d;
   font-weight: 700;
   font-size: 32px;
 }
@@ -260,8 +252,8 @@ body {
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-  color: #6070FF;
-  background-color: #EBEBFF;
+  color: #6070ff;
+  background-color: #ebebff;
   border-radius: 10%;
   padding-left: 4%;
   padding-right: 4%;
@@ -269,10 +261,10 @@ body {
 
 .See-project-button {
   order: 5;
-  border: 1px solid #396DF2;
+  border: 1px solid #396df2;
   border-radius: 5%;
-  background-color: #FFFFFF;
-  color: #396DF2;
+  background-color: #fff;
+  color: #396df2;
   padding: 12px;
   width: 126px;
   margin-top: 8%;
@@ -292,7 +284,7 @@ body {
 }
 
 .about-me-wrap h2 {
-  color: #172B4D;
+  color: #172b4d;
   font-weight: 700;
   font-size: 40px;
 }
@@ -304,12 +296,11 @@ body {
 
 .getResumeButton {
   order: 4;
-  border: 1px solid purple;
   width: 50%;
   padding: 3%;
   border-radius: 5%;
-  color: #396DF2;
-  border: 1px solid #396DF2;
+  color: #396df2;
+  border: 1px solid #396df2;
   background-color: rgba(0, 0, 0, 0);
   font-size: 100%;
 }
@@ -321,7 +312,7 @@ body {
   margin-top: 50px;
 }
 
-.skill-list-container .skill-section { 
+.skill-list-container .skill-section {
   height: 24px;
   line-height: 24px;
   color: black;
@@ -330,39 +321,38 @@ body {
   align-items: center;
 }
 
- .skill-list-container ul {
+.skill-list-container ul {
   list-style: none;
- }
+}
 
- .skill-list-container li {
+.skill-list-container li {
   display: flex;
   margin-top: 2%;
   margin-bottom: 2%;
-  border-radius: 5px; /* use pixels instead of %, that get finest rounded corners */
+  border-radius: 5px;
   align-items: center;
   padding: 2%;
   padding-left: 5%;
   padding-right: 5%;
- }
+}
 
- .skill-list-container img {
+.skill-list-container .skill-icon {
   flex: 1 1 auto;
- }
+}
 
- .skill-list-container span {
+.skill-list-container span {
   padding-left: 5%;
   flex: 9 1 auto;
-  text-align:left;
- }
+  text-align: left;
+}
 
-
- /*
+/*
 contact me section
  */
 
- .contact-me-container {
-  background-color: #6070FF; 
-  background-image:url(./img/form-background-contactme.png);
+.contact-me-container {
+  background-color: #6070ff;
+  background-image: url(./img/form-background-contactme.png);
   background-position-x: right;
   background-repeat: no-repeat;
   background-size: 63%;
@@ -374,54 +364,50 @@ contact me section
   padding-right: 6%;
   padding-top: 150px;
   border-radius: 100px 0 0 0;
+}
 
- }
-
-
- .contact-me-container p,
- .contact-me-container h2 {
+.contact-me-container p,
+.contact-me-container h2 {
   color: whitesmoke;
   width: 88%;
   text-align: center;
   padding-left: auto;
   align-self: center;
   font-size: 1.5rem;
+}
 
- }
-
- .contact-me-container h2 {
+.contact-me-container h2 {
   font-size: 3.25rem;
   margin-bottom: 1%;
- }
+}
 
- .contac-form {
+.contac-form {
   margin-right: 3%;
   width: 85%;
- }
+}
 
- .contac-form input {
+.contac-form input {
   margin-top: 3%;
   margin-bottom: 3%;
   border-radius: 5px;
   padding: 2%;
   border: 0;
-  color: #6070FF;
+  color: #6070ff;
   min-width: 327px;
   width: 90%;
-  align-self:center;
- }
+  align-self: center;
+}
 
- #user-message {
+#user-message {
   min-width: 327px;
   width: 85%;
   border-radius: 5px;
   border: 0;
   padding: 2%;
- }
+}
 
- #get-in-touch {
+#get-in-touch {
   min-width: 142px;
   width: fit-content;
   margin-bottom: 150px;
- }
-
+}
