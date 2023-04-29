@@ -1,4 +1,4 @@
-g@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 * {
   font-family: 'Poppins', sans-serif;
@@ -16,7 +16,8 @@ body {
 }
 
 .introduction-wrap,
-.works-wrap {
+.works-wrap,
+.about-me-wrap {
   width: auto;
   min-width: 375px;
   background-color: rgba(0, 0, 0, 0);
@@ -25,7 +26,7 @@ body {
 
 
 /*
-  top-nav-bar
+  top-nav-bar////////
 */
 
 .nav-flex-container {
@@ -68,7 +69,7 @@ body {
 }
 
 /*
-  introduction text container
+  introduction text container///////
 */
 
 .header-text {
@@ -125,7 +126,7 @@ body {
 }
 
 /*
-    Social icon container
+    Social icon container///////
  */
 
 .social-icon-container {
@@ -159,7 +160,7 @@ body {
 }
 
 /*
-  works section
+  works section//////////
 */
 
 .works-wrap {
@@ -254,7 +255,6 @@ body {
   margin-bottom: 2%;
   justify-content: space-between;
   align-items: baseline;
-  /* border: 1px solid black; */
 }
 
 .technology-tags li {
@@ -279,3 +279,76 @@ body {
   width: 126px;
   margin-top: 8%;
 }
+
+/*
+  about myself section
+*/
+
+.about-me-wrap {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid green;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.about-me-icons {
+  width: 65%;
+}
+
+.getResumeButton {
+  order: 4;
+  border: 1px solid purple;
+  width: 50%;
+  padding: 3%;
+  border-radius: 5%;
+}
+
+.skill-list-container {
+  order: 5;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+}
+
+.skill-list-container .skill-section { 
+  height: 24px;
+  line-height: 24px;
+  color: black;
+  border: 1px solid green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ .skill-list-container ul {
+  list-style: none;
+ }
+
+ .skill-list-container li {
+  display: flex;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 5px; /* use pixels instead of %, that get finest rounded corners */
+  align-items: center;
+  padding: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border: 2px solid black;
+ }
+
+ .skill-list-container img {
+  border: 1px solid red;
+  flex: 1 1 auto;
+ }
+
+ .skill-list-container span {
+  border: 1px solid black;
+  padding-left: 5%;
+  flex: 9 1 auto;
+  text-align:left;
+ }
+
+
+
+
