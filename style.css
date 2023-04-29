@@ -17,7 +17,8 @@ body {
 
 .introduction-wrap,
 .works-wrap,
-.about-me-wrap {
+.about-me-wrap, 
+.contact-me-container {
   width: auto;
   min-width: 375px;
   background-color: rgba(0, 0, 0, 0);
@@ -350,5 +351,16 @@ body {
  }
 
 
+ /*
+contact me section
+ */
 
+ .contact-me-container {
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 100px;
+  border: 3px solid #6070FF;
+  border-radius: 100px 0 0 0;
+
+ }
 
