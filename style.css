@@ -229,18 +229,20 @@ body {
   order: 3;
   color: #344563;
   margin-top: 1%;
+  text-align: left;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   min-width: 295px;
   min-height: 76px;
+  padding-right: 10%;
 }
 
 .technology-tags {
   order: 4;
   display: flex;
   flex-direction: row;
-  width: 70%;
+  width: 60%;
   padding-left: 0;
   margin-bottom: 2%;
   justify-content: space-between;
