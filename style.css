@@ -396,13 +396,13 @@ contact me section
   border: 0;
   color: #6070ff;
   min-width: 327px;
-  width: 90%;
+  width: 100%;
   align-self: center;
 }
 
 #user-message {
   min-width: 327px;
-  width: 85%;
+  width: 100%;
   border-radius: 5px;
   border: 0;
   padding: 2%;
