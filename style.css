@@ -413,3 +413,7 @@ contact me section
   width: fit-content;
   margin-bottom: 150px;
 }
+
+.contact-me-container li {
+  list-style: none;
+}
