@@ -415,21 +415,20 @@ contact me section
   margin-bottom: 150px;
 }
 
-
 .contact-me-container li {
   list-style: none;
 }
 
-
 /*
 hover effects
 */
+
 button:hover {
   color: #fff;
   background-color: #6070ff;
 }
 
-#get-in-touch:hover  {
+#get-in-touch:hover {
   color: #fff;
   background-color: #6070ff;
 }
