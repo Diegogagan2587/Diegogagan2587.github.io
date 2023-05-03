@@ -464,6 +464,9 @@ media queries
 */
 
 @media (min-width: 768px) {
+  /*
+  navigation bar
+  */
   .nav-icon-menu {
     display: none;
   }
@@ -478,6 +481,19 @@ media queries
     flex: 1 1 auto;
     width: 100%;
     box-sizing: border-box;
+  }
+
+  /*
+  header and welcom text
+  */
+
+  .header-text {
+    background-image: url('./img/desktop/Header\ bgdesktop-header-background.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-left: 18%;
+    padding-right: 18%;
+    padding-bottom: 10%;
   }
 
 }
