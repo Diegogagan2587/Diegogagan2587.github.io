@@ -506,4 +506,14 @@ media queries
     padding-right: 10%;
   }
 
+  .card-element {
+    flex-direction: row;
+  }
+  .card-element img {
+    flex: 1fr;
+  }
+  .text-box {
+    flex: 1fr;
+  }
+
 }
