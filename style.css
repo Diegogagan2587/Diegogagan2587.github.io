@@ -388,7 +388,8 @@ contact me section
   width: 85%;
 }
 
-.contac-form input {
+.contac-form input,
+#get-in-touch {
   margin-top: 3%;
   margin-bottom: 3%;
   border-radius: 5px;
