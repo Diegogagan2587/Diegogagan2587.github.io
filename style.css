@@ -571,7 +571,6 @@ media queries
 
   .about-me-wrap div {
     flex: 1;
-    border: 1px solid green;
     padding-right: 3%;
   }
 
@@ -598,4 +597,25 @@ media queries
   .getResumeButton {
     font-size: 1.75rem;
   }
+
+  /*
+  Desktop Contact me version
+  */
+
+  .contact-me-container {
+    padding-left: 29%;
+    padding-right: 29%;
+    padding-top: 16%;
+    padding-bottom: 15%;
+  }
+
+  #contac-form {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #get-in-touch {
+    margin-left: 35%;
+  }
+
 }
