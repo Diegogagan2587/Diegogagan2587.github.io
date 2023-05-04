@@ -33,7 +33,6 @@ body {
   padding-left: 6%;
   padding-right: 6%;
   width: auto;
-  height: 72px;
   box-sizing: border-box;
 }
 
@@ -490,6 +489,10 @@ media queries
   header and welcom text
   */
 
+  .nav-flex-container {
+    height: 72px;
+  }
+
   .header-text {
     background-image: url('./img/desktop/Header\ bgdesktop-header-background.svg');
     background-size: 100%;
@@ -523,6 +526,10 @@ media queries
     padding-left: 2%;
     padding-right: 2%;
     box-sizing: border-box;
+  }
+
+  .technology-tags {
+    width: 40%;
   }
 
   .project-frame {
