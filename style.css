@@ -603,9 +603,11 @@ media queries
   */
 
   .contact-me-container {
+    background-image: url(./img/desktop/desktop-footer-bakcground/contact\ form\ background\ shapes.svg);
+    background-size: 100%;
     padding-left: 29%;
     padding-right: 29%;
-    padding-top: 16%;
+    padding-top: 10%;
     padding-bottom: 15%;
   }
 
