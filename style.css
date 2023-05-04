@@ -284,7 +284,6 @@ body {
 */
 
 .about-me-wrap {
-  border: 1px solid green;
   display: flex;
   flex-direction: column;
   background: #fff;
