@@ -551,10 +551,17 @@ media queries
     box-sizing: border-box;
   }
 
-  /*footer section*/
+  /*About Myself section*/
 
   .about-me-wrap {
     border-radius: 0 100px 0 0;
+    flex-direction: row;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
+  .about-me-wrap div {
+    border: 1px solid green;
+    flex: 1;
+  }
 }
