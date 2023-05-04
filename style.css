@@ -11,7 +11,6 @@ body {
   font-style: 'normal';
   color: #344563;
   background: #f4f5f7;
-  
 }
 
 .introduction-wrap,
@@ -27,7 +26,7 @@ body {
 */
 
 .nav-flex-container {
-  background: #fff;;
+  background: #fff;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -55,18 +54,10 @@ body {
   padding: auto;
 }
 
-
 .nav-menu-button .nav-icon-menu {
   width: 40%;
   height: 40%;
   padding-top: 5%;
-}
-
-.nav-menu-button img:hover,
-.nav-menu-button li:hover {
-  filter: drop-shadow(8px 8px 10px #6070ff);
-  transition: 50ms;
-  transform: scale(1.1);
 }
 
 /*
@@ -155,12 +146,6 @@ body {
 .social-icon-container .social-icon {
   height: auto;
   width: 60%;
-}
-
-.social-icon-container a img:hover {
-  filter: drop-shadow(8px 8px 10px #6070ff);
-  transition: 50ms;
-  transform: scale(1.5);
 }
 
 /*
@@ -324,7 +309,7 @@ body {
   margin-top: 50px;
 }
 
- .skill-section {
+.skill-section {
   line-height: 24px;
   color: black;
   display: flex;
@@ -449,20 +434,6 @@ contact me section
 }
 
 /*
-hover effects
-*/
-
-button:hover {
-  color: #fff;
-  background-color: #4053fc; 
-}
-
-#get-in-touch:hover {
-  color: #fff;
-  background-color: #4053fc;
-}
-
-/*
 desktop version
 */
 
@@ -475,7 +446,7 @@ desktop version
 
 .nav-desktop-list a {
   text-decoration: none;
-  color:currentColor;
+  color: currentColor;
 }
 
 /*
@@ -483,7 +454,6 @@ media queries
 */
 
 @media (min-width: 768px) {
-  /*#e5e5e5*/
   /*
   navigation bar
   */
@@ -504,15 +474,13 @@ media queries
     box-sizing: border-box;
   }
 
-    .nav-flex-container {
+  .nav-flex-container {
     height: 72px;
   }
-
 
   /*
   header and welcom text
   */
-
 
   .header-text {
     border-radius: 0 0 0 100px;
@@ -538,11 +506,14 @@ media queries
     padding: 2%;
   }
 
-  .card-reverse { flex-direction: row-reverse;}
+  .card-reverse {
+    flex-direction: row-reverse;
+  }
 
   .card-element img {
     flex: 1;
   }
+
   .text-box {
     flex: 1;
     padding-left: 2%;
@@ -559,7 +530,7 @@ media queries
     box-sizing: border-box;
   }
 
-  /*About Myself section*/
+  /* About Myself section */
 
   .about-me-wrap {
     border-radius: 0 100px 0 0;
@@ -583,16 +554,17 @@ media queries
     gap: 2%;
     padding-right: 35%;
   }
-  
+
   .skill-section li {
     display: flex;
     flex-direction: column;
-    align-items:baseline;
+    align-items: baseline;
   }
 
   hr {
     border: 1px solid black;
   }
+
   .getResumeButton {
     font-size: 1.75rem;
   }
@@ -618,5 +590,31 @@ media queries
   #get-in-touch {
     margin-left: 35%;
   }
+}
 
+/*
+hover effets
+*/
+
+.nav-menu-button img:hover,
+.nav-menu-button li:hover {
+  filter: drop-shadow(8px 8px 10px #6070ff);
+  transition: 50ms;
+  transform: scale(1.1);
+}
+
+#get-in-touch:hover {
+  color: #fff;
+  background-color: #4053fc;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #4053fc;
+}
+
+.social-icon-container a img:hover {
+  filter: drop-shadow(8px 8px 10px #6070ff);
+  transition: 50ms;
+  transform: scale(1.5);
 }
