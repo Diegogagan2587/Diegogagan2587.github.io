@@ -10,7 +10,8 @@ body {
   font-family: 'Poppins', sans-serif;
   font-style: 'normal';
   color: #344563;
-  background: #fff;
+  background: #e5e5e5;
+  
 }
 
 .introduction-wrap,
@@ -26,6 +27,7 @@ body {
 */
 
 .nav-flex-container {
+  background: #fff;;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -72,8 +74,10 @@ body {
 */
 
 .header-text {
+  background: #fff;
   background-image: url('./img/header-shapes\ mobile@2x.svg');
   background-size: 100%;
+  border-radius: 0 0 0 50px;
   display: flex;
   flex-direction: column;
   align-items: baseline;
@@ -82,6 +86,7 @@ body {
   color: #344563;
   padding-left: 6%;
   padding-right: 6%;
+  padding-bottom: 20%;
 }
 
 .header-text h1 {
@@ -465,6 +470,7 @@ media queries
 */
 
 @media (min-width: 768px) {
+  /*#e5e5e5*/
   /*
   navigation bar
   */
@@ -485,15 +491,18 @@ media queries
     box-sizing: border-box;
   }
 
+    .nav-flex-container {
+    height: 72px;
+  }
+
+
   /*
   header and welcom text
   */
 
-  .nav-flex-container {
-    height: 72px;
-  }
 
   .header-text {
+    border-radius: 0 0 0 100px;
     background-image: url('./img/desktop/Header\ bgdesktop-header-background.svg');
     background-size: 100%;
     background-repeat: no-repeat;
