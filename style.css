@@ -471,6 +471,8 @@ media queries
     display: flex;
     flex: 1 1 auto;
     width: 100%;
+    padding-right: 10%;
+    padding-left: 45%;
     box-sizing: border-box;
   }
 
@@ -602,6 +604,10 @@ media queries
     margin-left: 35%;
   }
 }
+
+/*
+Media Queries upwards
+*/
 
 /*
 hover effets
