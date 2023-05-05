@@ -547,7 +547,15 @@ media queries Below
   }
 
   .technology-tags {
-    width: 40%;
+    width: fit-content;
+    gap: 5%;
+  }
+
+  .technology-tags li {
+    border-radius: 8px;
+    padding: 5%;
+    padding-left: 9%;
+    padding-right: 9%;
   }
 
   .project-frame {
