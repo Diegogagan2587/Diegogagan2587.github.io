@@ -544,7 +544,7 @@ media queries
     padding-right: 3%;
   }
 
-  .skill-section {
+  .skill-section + .skill-section {
     border-bottom: 2px solid #dfe1e6;
   }
 
