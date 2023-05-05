@@ -450,7 +450,7 @@ desktop version
 }
 
 /*
-media queries
+media queries Below
 */
 
 @media (min-width: 768px) {
@@ -492,6 +492,21 @@ media queries
     padding-left: 18%;
     padding-right: 18%;
     padding-bottom: 10%;
+  }
+
+  .header-text h1 {
+    margin-bottom: 2%;
+    min-height: fit-content;
+    font-size: 3.12rem;
+  }
+
+  .header-text .description {
+    font-size: 1.25rem;
+    padding-bottom: 2%;
+  }
+
+  .header-text .description {
+    margin-top: 0;
   }
 
   .social-icon-container {
