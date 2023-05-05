@@ -576,6 +576,20 @@ media queries Below
     flex: 1;
     padding-right: 3%;
   }
+
+  .about-description-container {
+    
+  }
+
+  .about-description-container h2 {
+    margin-bottom: 0;
+    font-size: 3.2rem;
+  }
+
+  .about-description-container p {
+    margin-top: 0;
+    font-size: 1.20rem;
+  }
   
   .skill-section + .skill-section {
     border-bottom: 2px solid #dfe1e6;
