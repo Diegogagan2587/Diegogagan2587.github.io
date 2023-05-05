@@ -256,10 +256,12 @@ body {
 .See-project-button {
   order: 5;
   border: 1px solid #396df2;
-  border-radius: 5%;
+  border-radius: 10px;
   background-color: #fff;
   color: #396df2;
   padding: 12px;
+  padding-left: 1%;
+  padding-right: 1%;
   width: 126px;
   margin-top: 8%;
 }
@@ -561,6 +563,13 @@ media queries Below
   .project-frame {
     padding-right: 30%;
     box-sizing: border-box;
+  }
+
+  .See-project-button {
+    width: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-weight: 500;
   }
 
   /* About Myself section */
