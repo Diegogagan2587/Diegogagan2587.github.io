@@ -543,9 +543,20 @@ media queries
     flex: 1;
     padding-right: 3%;
   }
-
+  
   .skill-section + .skill-section {
     border-bottom: 2px solid #dfe1e6;
+  }
+
+  .skill-section.no-dropped {
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .skill-section.no-dropped ul {
+    display: none;
   }
 
   .skill-section ul {
