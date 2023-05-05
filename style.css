@@ -586,10 +586,6 @@ media queries Below
     padding-right: 3%;
   }
 
-  .about-description-container {
-    
-  }
-
   .about-description-container h2 {
     margin-bottom: 0;
     font-size: 3.2rem;
@@ -598,6 +594,18 @@ media queries Below
   .about-description-container p {
     margin-top: 0;
     font-size: 1.20rem;
+  }
+
+  .about-description-container .getResumeButton {
+    margin-top: 2%;
+    font-weight: 500;
+    border-radius: 8px;
+    border: 1px solid #6070ff;
+    font-size: 1rem;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: fit-content;
   }
   
   .skill-section + .skill-section {
