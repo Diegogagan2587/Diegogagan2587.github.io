@@ -481,7 +481,7 @@ media queries
   }
 
   /*
-  header and welcom text
+  header and welcome text
   */
 
   .header-text {
@@ -492,6 +492,10 @@ media queries
     padding-left: 18%;
     padding-right: 18%;
     padding-bottom: 10%;
+  }
+
+  .social-icon-container {
+    width: auto;
   }
 
   /*
