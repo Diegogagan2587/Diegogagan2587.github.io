@@ -498,6 +498,10 @@ media queries
     width: auto;
   }
 
+.about-me-icons {
+  width: fit-content;
+}
+
   /*
   Job Cards Section
   */
