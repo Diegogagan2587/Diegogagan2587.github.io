@@ -505,9 +505,6 @@ media queries Below
   .header-text .description {
     font-size: 1.25rem;
     padding-bottom: 2%;
-  }
-
-  .header-text .description {
     margin-top: 0;
   }
 
@@ -515,9 +512,9 @@ media queries Below
     width: auto;
   }
 
-.about-me-icons {
-  width: fit-content;
-}
+  .about-me-icons {
+    width: fit-content;
+  }
 
   /*
   Job Cards Section
@@ -599,7 +596,7 @@ media queries Below
 
   .about-description-container p {
     margin-top: 0;
-    font-size: 1.20rem;
+    font-size: 1.2rem;
   }
 
   .about-description-container .getResumeButton {
@@ -613,7 +610,7 @@ media queries Below
     padding-right: 2%;
     width: fit-content;
   }
-  
+
   .skill-section + .skill-section {
     border-bottom: 2px solid #dfe1e6;
   }
@@ -625,15 +622,15 @@ media queries Below
     padding-bottom: 5%;
   }
 
-  .skill-section.no-dropped ul {
-    display: none;
-  }
-
   .skill-section ul {
     display: flex;
     flex-direction: row;
     gap: 2%;
     padding-right: 35%;
+  }
+
+  .skill-section.no-dropped ul {
+    display: none;
   }
 
   .skill-section li {
@@ -644,10 +641,6 @@ media queries Below
 
   hr {
     border: 1px solid black;
-  }
-
-  .getResumeButton {
-    font-size: 1.75rem;
   }
 
   /*
