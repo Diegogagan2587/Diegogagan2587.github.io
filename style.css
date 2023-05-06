@@ -541,6 +541,12 @@ media queries Below
     flex: 1;
   }
 
+  .preview-picture:hover {
+    filter: drop-shadow(8px 8px 10px #6070ff);
+    transition: 25ms;
+    transform: scale(1.05);
+  }
+
   .text-box {
     flex: 1;
     padding-left: 2%;
