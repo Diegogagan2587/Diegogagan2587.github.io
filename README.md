@@ -120,7 +120,7 @@ Feel Free to make suggestions!
 
 ### Deployment
 
-If you wante to take a look for the project running on your browser,
+If you want to take a look at the project running on your browser,
 you can check it out on the next link:
 https://diegogagan2587.github.io/Diego-Vidal/#
 
