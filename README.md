@@ -69,10 +69,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> would you like to see a demo? No worries, the link would be available soon.
-on the mean time, take a look to my github acount!
+> would you like to see a demo? No worries, the link is just below:
 
-- [Github](https://github.com/Diegogagan2587)
+- [Click for live demo](https://diegogagan2587.github.io/Diego-Vidal/#)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
