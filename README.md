@@ -38,6 +38,8 @@
 > Why is this?
 
 **My portfolio** Is intended to be my portfolio web. You are going to be able to see all my projects so far.
+do you want to see and introduction? 
+take a look on this: https://www.loom.com/share/ba97041d80e146f88306be60cfc43c27
 
 ## 🛠 Built With <a name="built-with"></a>
 
