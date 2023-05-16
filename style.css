@@ -67,6 +67,9 @@ body {
 .nav-list-top-dropMobile {
   position: fixed;
   /*delete below after debuggin*/
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   border: 2px solid red;
   background: rgba(32, 29, 206, 0.6);
   backdrop-filter: blur(5px);
@@ -74,14 +77,26 @@ body {
   height: 100vh;
   top: 0;
   left: 0;
+  padding-left: 8%;
+  padding-right: 10%;
   margin-top: 0;
+  padding-top: 30px;
   box-sizing: border-box;
   list-style: none;
+}
+
+#exit {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  margin-left: 92%;
+  margin-right: 0;
 }
 
 .nav-list__options {
   text-decoration: none;
   color: white;
+  font-weight: 600;
+  font-size: 1.75rem;
 }
 
 
@@ -498,6 +513,8 @@ media queries Below
 
   .nav-list__options {
     color: #344563;
+    font-weight: 500;
+    font-size: 1rem;
   }
   
 
