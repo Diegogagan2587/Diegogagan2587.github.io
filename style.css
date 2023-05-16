@@ -70,7 +70,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  border: 2px solid red;
   background: rgba(32, 29, 206, 0.6);
   backdrop-filter: blur(5px);
   width: 100vw;

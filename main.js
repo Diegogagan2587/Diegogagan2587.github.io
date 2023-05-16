@@ -11,7 +11,6 @@ const exit = document.getElementById('exit');
 const navListAnchors = document.getElementById('nav-list-top').querySelectorAll('a');
 const hamburgerBtn = document.getElementById('hamburgerBtn');
 
-
 //add event listeners;
 hamburgerBtn.addEventListener('click', displayMobileMenu);
 exit.addEventListener('click', exitMobileMenu);
