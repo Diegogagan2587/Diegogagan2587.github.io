@@ -1,6 +1,5 @@
 * {
   font-family: 'Poppins', sans-serif;
-  font-style: 'normal';
 }
 
 body {
@@ -8,7 +7,6 @@ body {
   min-width: 375px;
   margin: 0 0 0 0;
   font-family: 'Poppins', sans-serif;
-  font-style: 'normal';
   color: #344563;
   background: #f4f5f7;
 }
@@ -51,7 +49,6 @@ body {
 .nav-menu-button {
   flex: 1 1 10%;
   background-color: rgba(0, 0, 0, 0);
-  padding: auto;
 }
 
 .nav-menu-button .nav-icon-menu {
@@ -66,7 +63,6 @@ body {
 
 .nav-list-top-dropMobile {
   position: fixed;
-  /*delete below after debuggin*/
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -97,7 +93,6 @@ body {
   font-weight: 600;
   font-size: 1.75rem;
 }
-
 
 /*
   Ends top navigation bar
@@ -178,7 +173,6 @@ body {
 }
 
 .social-icon-container a {
-  flex: 1 1 1fr;
   border: 0;
   background-color: rgba(0, 0, 0, 0);
   width: fit-content;
@@ -421,7 +415,6 @@ contact me section
 .contact-me-container h2 {
   color: whitesmoke;
   text-align: center;
-  padding-left: auto;
   align-self: center;
   font-size: 1.25rem;
 }
@@ -515,7 +508,6 @@ media queries Below
     font-weight: 500;
     font-size: 1rem;
   }
-  
 
   .nav-flex-container {
     height: 72px;
@@ -537,7 +529,6 @@ media queries Below
 
   .header-text h1 {
     margin-bottom: 2%;
-    min-height: fit-content;
     font-size: 3.12rem;
   }
 
