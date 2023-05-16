@@ -439,8 +439,8 @@ contact me section
 desktop version
 */
 
-.nav-desktop-list {
-  display: none;
+.nav-list-top {
+  display: block;
   width: 100%;
   list-style: none;
   justify-content: space-between;
@@ -448,7 +448,7 @@ desktop version
 
 
 
-.nav-desktop-list a {
+.nav-list-top a {
   text-decoration: none;
   color: currentColor;
 }
@@ -472,7 +472,7 @@ media queries Below
     font-size: 1.5rem;
   }
 
-  .nav-desktop-list {
+  .nav-list-top {
     display: flex;
     flex: 1 1 auto;
     width: 100%;

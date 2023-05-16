@@ -1,6 +1,6 @@
 function displayMobileMenu(){
     console.log('runing displayMobileMenu');
-    const navMobileList = document.getElementById('nav-desktop-list');
+    const navMobileList = document.getElementById('nav-list-top');
     var menuDisplay = window.getComputedStyle(navMobileList).display;
     if(menuDisplay === 'none') {
         navMobileList.style.display = 'block';
@@ -11,7 +11,7 @@ function displayMobileMenu(){
 
 function exitMobileMenu(){
     console.log('runing exitMobileMenu');
-    const navMobileList = document.getElementById('nav-desktop-list');
+    const navMobileList = document.getElementById('nav-list-top');
     var menuDisplay = window.getComputedStyle(navMobileList).display;
     if(menuDisplay === 'block') {
         navMobileList.style.display = 'none';
@@ -22,7 +22,7 @@ function exitMobileMenu(){
 
 //atach event listener and add the fuction
 const exit = document.getElementById('exit');
-const navListAnchors = document.getElementById('nav-desktop-list').querySelectorAll('a');
+const navListAnchors = document.getElementById('nav-list-top').querySelectorAll('a');
 console.log(navListAnchors)
 const hamburgerBtn = document.getElementById('hamburgerBtn');//sintax is correct;
 console.log('navIconMenu ===',hamburgerBtn);
