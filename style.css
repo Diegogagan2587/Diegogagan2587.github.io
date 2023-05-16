@@ -446,6 +446,8 @@ desktop version
   justify-content: space-between;
 }
 
+
+
 .nav-desktop-list a {
   text-decoration: none;
   color: currentColor;
@@ -459,7 +461,8 @@ media queries Below
   /*
   navigation bar
   */
-  .nav-icon-menu {
+  .nav-icon-menu,
+  #exit {
     display: none;
   }
 
