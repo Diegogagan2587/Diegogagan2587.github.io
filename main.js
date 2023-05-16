@@ -1,11 +1,8 @@
 function displayMobileMenu(){
-    console.log('runing displayMobileMenu');
     document.getElementById('nav-list-top').className = "nav-list-top-dropMobile";
 }
 
 function exitMobileMenu(){
-    console.log('runing exitMobileMenu');
-    const navMobileList = document.getElementById('nav-list-top');
     document.getElementById('nav-list-top').className = "nav-list-top";
 }
 
