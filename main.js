@@ -17,3 +17,5 @@ exit.addEventListener('click', exitMobileMenu);
 for (let i = 0; i < navListAnchors.length; i += 1) {
   navListAnchors[i].addEventListener('click', exitMobileMenu);
 }
+
+ //------------------Work Section and cards ------------------//
