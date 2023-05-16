@@ -1,21 +1,12 @@
 function displayMobileMenu(){
     console.log('runing displayMobileMenu');
-    const navMobileList = document.getElementById('nav-list-top');
-    var menuDisplay = window.getComputedStyle(navMobileList).display;
-    if(menuDisplay === 'none') {
-        navMobileList.style.display = 'block';
-    } else {
-        navMobileList.style.display = 'none';
-    }
+    document.getElementById('nav-list-top').className = "nav-list-top-dropMobile";
 }
 
 function exitMobileMenu(){
     console.log('runing exitMobileMenu');
     const navMobileList = document.getElementById('nav-list-top');
-    var menuDisplay = window.getComputedStyle(navMobileList).display;
-    if(menuDisplay === 'block') {
-        navMobileList.style.display = 'none';
-    }
+    document.getElementById('nav-list-top').className = "nav-list-top";
 }
 
 //heper functiosn upwards;
