@@ -198,6 +198,9 @@ body {
   display: none;
 }
 
+#portfolioPopUpCloseBtn {
+  
+}
 
 .cards-container {
   display: grid;
