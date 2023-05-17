@@ -96,15 +96,6 @@ function getNewCardFrom(obj) {
       tagsContainer.appendChild(newList);
     }
 
-    // obj['technologies'].forEach(element => {
-    //   console.log('element =',element)
-    //   const newList = document.createElement('li');
-    //   newList.innerText = `${element}`;
-    //   tagsContainer.appendChild(newList);
-      
-    // });
-    console.log(tagsContainer)
-
     return newCardFromTemplate;
 }
 
@@ -140,13 +131,17 @@ function setPopUpData(e){
   popUpContainer.querySelector('.preview').src = `${jobCards[dataIndex]['img']}`;
   //tech
   const tagsData = jobCards[dataIndex]['technologies'];
-  const tagsElements = popUpContainer.querySelector('.technology-tags').querySelectorAll('li');
-  console.log('tags data=', tagsData)
+  const tagsContainer = popUpContainer.querySelector('.technology-tags');
+  //const tagsElements = popUpContainer.querySelector('.technology-tags').querySelectorAll('li');
+  //console.log('tags data=', tagsData)
   
-  for (let i = 0; i<tagsElements.length; i += 1 ) { 
-    tagsElements[i].innerText = `${jobCards[dataIndex]['technologies'][i]}`;
+  for (let i = 0; i<jobCards[dataIndex]['technologies'].length; i += 1 ) { 
+    let newListElement = document.createElement('li');
+    newListElement.innerText = `${jobCards[dataIndex]['technologies'][i]}`;
+    tagsContainer.appendChild(newListElement);
   }
   console.log('lis to put tags=',tagsElements)
+
   //live version
   document.querySelector('#see-live').querySelector('a').href=`${jobCards[dataIndex]['liveVersion']}`;
   console.log(jobCards[dataIndex]['liveVersion'])
