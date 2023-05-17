@@ -30,6 +30,11 @@ body {
   margin-top: 8%;
 }
 
+.button a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /*
   Start top-nav-bar Mobile////////
 */
