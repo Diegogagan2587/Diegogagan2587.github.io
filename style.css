@@ -841,3 +841,8 @@ button:hover {
   transition: 50ms;
   transform: scale(1.5);
 }
+
+
+.hide-template {
+  display: none;
+}
