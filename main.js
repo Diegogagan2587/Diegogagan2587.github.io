@@ -42,7 +42,7 @@ function JobCardData (name, description, img, technologies, liveVersion, source)
 const jobCards = [
    new JobCardData (
     'nickson',
-    'loremimpus asljdfasdfasdfasdfasdf',
+    '2----loremimpus asljdfasdfasdfasdfasdf',
     './img/desktop/01Snapshoot Portfolio.svg',
     ['javat', 'htmlt', 'csst'],
     'https://diegogagan2587.github.io/Diego-Vidal/#',
@@ -50,7 +50,7 @@ const jobCards = [
   ),
   new JobCardData (
     'nickson',
-    'loremimpus asljdfasdfasdfasdfasdf',
+    '3----loremimpus asljdfasdfasdfasdfasdf',
     './img/desktop/01Snapshoot Portfolio.svg',
     ['javat', 'htmlt', 'csst'],
     'https://diegogagan2587.github.io/Diego-Vidal/#',
@@ -58,7 +58,7 @@ const jobCards = [
   ),
   new JobCardData (
     'nickson',
-    'loremimpus asljdfasdfasdfasdfasdf',
+    '4----loremimpus asljdfasdfasdfasdfasdf',
     './img/desktop/01Snapshoot Portfolio.svg',
     ['javat', 'htmlt', 'csst'],
     'https://diegogagan2587.github.io/Diego-Vidal/#',
@@ -92,7 +92,6 @@ function getNewCardFrom(obj) {
 const cardsContainer = document.querySelector('.cards-container');
 for(let i = 0; i < jobCards.length; i += 1) {
   const tempCard = getNewCardFrom(jobCards[i])
-  console.log(i,i%2)
   if(i%2 == 0) {
     //add class reverse
     tempCard.setAttribute('class','card-element card-reverse')
@@ -105,4 +104,3 @@ const seeProjectButton = document.querySelectorAll('.See-project-button');
 seeProjectButton.forEach(element => {
   element.addEventListener('click', openPopUp );
 });
-console.log(seeProjectButton)
