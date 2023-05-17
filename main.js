@@ -45,7 +45,15 @@ const jobCards = [
     '2----loremimpus asljdfasdfasdfasdfasdf',
     './img/desktop/01Snapshoot Portfolio.svg',
     ['javat', 'htmlt', 'csst'],
-    'https://diegogagan2587.github.io/Diego-Vidal/#',
+    'https://diegogagan2587.github.io/Diego-Vidal',
+    'https://github.com/Diegogagan2587/Diego-Vidal',
+  ),
+  new JobCardData (
+    'nickson',
+    '2----loremimpus asljdfasdfasdfasdfasdf',
+    './img/desktop/01Snapshoot Portfolio.svg',
+    ['javat', 'htmlt', 'csst'],
+    'https://diegogagan2587.github.io/Diego-Vidal',
     'https://github.com/Diegogagan2587/Diego-Vidal',
   ),
   new JobCardData (
@@ -53,7 +61,7 @@ const jobCards = [
     '3----loremimpus asljdfasdfasdfasdfasdf',
     './img/desktop/01Snapshoot Portfolio.svg',
     ['javat', 'htmlt', 'csst'],
-    'https://diegogagan2587.github.io/Diego-Vidal/#',
+    'https://diegogagan2587.github.io/Diego-Vidal',
     'https://github.com/Diegogagan2587/Diego-Vidal',
   ),
   new JobCardData (
@@ -61,13 +69,13 @@ const jobCards = [
     '4----loremimpus asljdfasdfasdfasdfasdf',
     './img/desktop/01Snapshoot Portfolio.svg',
     ['javat', 'htmlt', 'csst'],
-    'https://diegogagan2587.github.io/Diego-Vidal/#',
+    'https://diegogagan2587.github.io/Diego-Vidal',
     'https://github.com/Diegogagan2587/Diego-Vidal',
   ),
 ]
 
 
-//first get a template
+//first get a template for cards
 const jobCardTemplate = document.getElementById('card-element')
 function getNewCardFrom(obj) {
    //first we copy the template
@@ -82,7 +90,7 @@ function getNewCardFrom(obj) {
     //tech
     const techTagsContainer = newCardFromTemplate.querySelector('.technology-tags');
     const techTags = techTagsContainer.querySelectorAll('li');
-    for (let i = 0; i<techTags.length; i += 1 ) {
+    for (let i = 0; i<techTags.length; i += 1 ) { 
       techTags[i].innerText = `${obj['technologies'][i]}`;
     }
     return newCardFromTemplate;
@@ -90,17 +98,48 @@ function getNewCardFrom(obj) {
 
 //then we append a card for each obj within the arr;
 const cardsContainer = document.querySelector('.cards-container');
-for(let i = 0; i < jobCards.length; i += 1) {
+for(let i = 1; i < jobCards.length; i += 1) { //index is 1 because the element 0 is the template
   const tempCard = getNewCardFrom(jobCards[i])
   if(i%2 == 0) {
     //add class reverse
     tempCard.setAttribute('class','card-element card-reverse')
   }
+  tempCard.querySelector('button').setAttribute('value',`${i}`);
   cardsContainer.appendChild(tempCard);
 }
 
 //now we add event listeners to see project
 const seeProjectButton = document.querySelectorAll('.See-project-button');
 seeProjectButton.forEach(element => {
+  element.addEventListener('click', setPopUpData );
   element.addEventListener('click', openPopUp );
 });
+
+//------------------Start Pop-up fuction --------------------------------------------//
+function setPopUpData(e){
+  const popUpContainer = document.querySelector('.porfolio_pop-up_main-container');
+  let dataIndex = e.srcElement.value; 
+  //name
+  console.log(jobCards)
+  popUpContainer.querySelector('h2').innerText=`${jobCards[dataIndex]['name']}`;
+  //description
+  popUpContainer.querySelector('p').innerText=`${jobCards[dataIndex]['description']}`;
+  //img
+  popUpContainer.querySelector('.preview').src = `${jobCards[dataIndex]['img']}`;
+  //tech
+  const tagsData = jobCards[dataIndex]['technologies'];
+  const tagsElements = popUpContainer.querySelector('.technology-tags').querySelectorAll('li');
+  console.log('tags data=', tagsData)
+  
+  for (let i = 0; i<tagsElements.length; i += 1 ) { 
+    tagsElements[i].innerText = `${jobCards[dataIndex]['technologies'][i]}`;
+  }
+  console.log('lis to put tags=',tagsElements)
+  //live version
+  document.querySelector('#see-live').querySelector('a').href=`${jobCards[dataIndex]['liveVersion']}`;
+  console.log(jobCards[dataIndex]['liveVersion'])
+  //link source
+  document.querySelector('#see-source').querySelector('a').href=`${jobCards[dataIndex]['source']}`;
+}
+//------------------end Pop-up fuction --------------------------------------------//
+
