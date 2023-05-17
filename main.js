@@ -76,8 +76,9 @@ const jobCards = [
 
 
 //first get a template for cards
-const jobCardTemplate = document.getElementById('card-element')
-function getNewCardFrom(obj) {
+const jobCardTemplate = document.getElementById('card-element');
+
+function getNewCardFrom(obj) { 
    //first we copy the template
    let newCardFromTemplate = jobCardTemplate.cloneNode(true);
    //then we modife the content;
@@ -140,7 +141,6 @@ function setPopUpData(e){
     newListElement.innerText = `${jobCards[dataIndex]['technologies'][i]}`;
     tagsContainer.appendChild(newListElement);
   }
-  console.log('lis to put tags=',tagsElements)
 
   //live version
   document.querySelector('#see-live').querySelector('a').href=`${jobCards[dataIndex]['liveVersion']}`;

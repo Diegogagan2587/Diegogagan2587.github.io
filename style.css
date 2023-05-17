@@ -334,6 +334,8 @@ body {
   padding-bottom: 10%;
   padding-left: 5%;
   padding-right: 5%;
+  background-color: rgba(193, 199, 208, 0.6);
+  backdrop-filter: blur(8px);
 }
 
 .portfolio-pupUp-backgroundClose {
@@ -402,6 +404,18 @@ body {
 }
 
 @media (min-width: 768px) {
+  .portfolio-pupUp-background {
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+  }
+
+  .porfolio_pop-up_main-container {
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
   .portfolio_pop-up_container2 {
     display: flex;
     box-sizing: border-box;
