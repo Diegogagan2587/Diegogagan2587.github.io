@@ -14,7 +14,7 @@ function exitPopUp() {
   console.log('we are exit from popup')
   document.getElementById('portfolio-pupUp-background').className = 'portfolio-pupUp-backgroundClose';
   document.getElementById('portfolio-pupUp-background').querySelector('.technology-tags').innerHTML = null;
-  console.log( document.getElementById('portfolio-pupUp-background').querySelector('.technology-tags'));
+  console.log(document.getElementById('portfolio-pupUp-background').querySelector('.technology-tags'));
 }
 
 // heper functiosn upwards;
@@ -33,7 +33,7 @@ for (let i = 0; i < navListAnchors.length; i += 1) {
 }
 
 //------------------Start Work Section and cards --------------------------------------------//
-function JobCardData (name, description, img, technologies, liveVersion, source) {
+function JobCardData(name, description, img, technologies, liveVersion, source) {
   this.name = name;
   this.description = description;
   this.img = img;
@@ -43,15 +43,15 @@ function JobCardData (name, description, img, technologies, liveVersion, source)
 }
 
 const jobCards = [
-   new JobCardData (
-    'nickson',
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    './img/desktop/01Snapshoot Portfolio.svg',
+  new JobCardData(
+    'Tonic',
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. \n \n Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.",
+    './img/poup-preview.png',
     ['javat1', 'htmlt1', 'csst'],
     'https://diegogagan2587.github.io/Diego-Vidal',
     'https://github.com/Diegogagan2587/Diego-Vidal',
   ),
-  new JobCardData (
+  new JobCardData(
     'nickson',
     '2----loremimpus asljdfasdfasdfasdfasdf',
     './img/desktop/01Snapshoot Portfolio.svg',
@@ -59,7 +59,7 @@ const jobCards = [
     'https://diegogagan2587.github.io/Diego-Vidal',
     'https://github.com/Diegogagan2587/Diego-Vidal',
   ),
-  new JobCardData (
+  new JobCardData(
     'nickson',
     '3----loremimpus asljdfasdfasdfasdfasdf',
     './img/desktop/01Snapshoot Portfolio.svg',
@@ -67,11 +67,11 @@ const jobCards = [
     'https://diegogagan2587.github.io/Diego-Vidal',
     'https://github.com/Diegogagan2587/Diego-Vidal',
   ),
-  new JobCardData (
+  new JobCardData(
     'nickson',
     '4----loremimpus asljdfasdfasdfasdfasdf',
     './img/desktop/01Snapshoot Portfolio.svg',
-    ['javat4', 'htmlt4', 'csst4', 'rubi','git'],
+    ['javat4', 'htmlt4', 'csst4', 'rubi', 'git'],
     'https://diegogagan2587.github.io/Diego-Vidal',
     'https://github.com/Diegogagan2587/Diego-Vidal',
   ),
@@ -81,73 +81,73 @@ const jobCards = [
 //first get a template for cards
 const jobCardTemplate = document.getElementById('card-element');
 
-function getNewCardFrom(obj) { 
-   //first we copy the template
-   let newCardFromTemplate = jobCardTemplate.cloneNode(true);
-   //then we modife the content;
-    //name
-    newCardFromTemplate.querySelector('.project-name').innerText = `${obj['name']}`;
-    //description
-    newCardFromTemplate.querySelector('.card-main-text').innerText = `${obj['description']}`;
-    //img
-    newCardFromTemplate.querySelector('img').src = `${obj['img']}`;
-    //tech
-    const tagsContainer = newCardFromTemplate.querySelector('.technology-tags');
-    for(let ind = 0; ind < obj['technologies'].length; ind += 1 ) {
-      console.log('element =',ind, obj['technologies'][ind]);
-      let newList = document.createElement('li');
-      newList.innerText = `${obj['technologies'][ind]}`;
-      tagsContainer.appendChild(newList);
-    }
+function getNewCardFrom(obj) {
+  //first we copy the template
+  let newCardFromTemplate = jobCardTemplate.cloneNode(true);
+  //then we modife the content;
+  //name
+  newCardFromTemplate.querySelector('.project-name').innerText = `${obj['name']}`;
+  //description
+  newCardFromTemplate.querySelector('.card-main-text').innerText = `${obj['description']}`;
+  //img
+  newCardFromTemplate.querySelector('img').src = `${obj['img']}`;
+  //tech
+  const tagsContainer = newCardFromTemplate.querySelector('.technology-tags');
+  for (let ind = 0; ind < obj['technologies'].length; ind += 1) {
+    console.log('element =', ind, obj['technologies'][ind]);
+    let newList = document.createElement('li');
+    newList.innerText = `${obj['technologies'][ind]}`;
+    tagsContainer.appendChild(newList);
+  }
 
-    return newCardFromTemplate;
+  return newCardFromTemplate;
 }
 
 //then we append a card for each obj within the arr;
 const cardsContainer = document.querySelector('.cards-container');
-for(let i = 0; i < jobCards.length; i += 1) { //index is 1 because the element 0 is the template
+for (let i = 0; i < jobCards.length; i += 1) { //index is 1 because the element 0 is the template
   const tempCard = getNewCardFrom(jobCards[i])
-  if(i%2 !== 0 ) {
+  if (i % 2 !== 0) {
     //add class reverse
-    tempCard.setAttribute('class','card-element card-reverse')
+    tempCard.setAttribute('class', 'card-element card-reverse')
   }
-  tempCard.querySelector('button').setAttribute('value',`${i}`);
+  tempCard.querySelector('button').setAttribute('value', `${i}`);
   cardsContainer.appendChild(tempCard);
 }
 
 //now we add event listeners to see project
 const seeProjectButton = document.querySelectorAll('.See-project-button');
 seeProjectButton.forEach(element => {
-  element.addEventListener('click', setPopUpData );
-  element.addEventListener('click', openPopUp );
+  element.addEventListener('click', setPopUpData);
+  element.addEventListener('click', openPopUp);
 });
 
 //------------------Start Pop-up fuction --------------------------------------------//
-function setPopUpData(e){
+function setPopUpData(e) {
   const popUpContainer = document.querySelector('.porfolio_pop-up_main-container');
-  let dataIndex = e.srcElement.value; 
+  let dataIndex = e.srcElement.value;
   //name
   console.log(jobCards)
-  popUpContainer.querySelector('h2').innerText=`${jobCards[dataIndex]['name']}`;
+  popUpContainer.querySelector('h2').innerText = `${jobCards[dataIndex]['name']}`;
   //description
-  popUpContainer.querySelector('p').innerText=`${jobCards[dataIndex]['description']}`;
+  popUpContainer.querySelector('p').innerText = `${jobCards[dataIndex]['description']}`;
   //img
   popUpContainer.querySelector('.preview').src = `${jobCards[dataIndex]['img']}`;
   //tech
   const tagsData = jobCards[dataIndex]['technologies'];
   const tagsContainer = popUpContainer.querySelector('.technology-tags');
-  
-  for (let i = 0; i<jobCards[dataIndex]['technologies'].length; i += 1 ) { 
+
+  for (let i = 0; i < jobCards[dataIndex]['technologies'].length; i += 1) {
     let newListElement = document.createElement('li');
     newListElement.innerText = `${jobCards[dataIndex]['technologies'][i]}`;
     tagsContainer.appendChild(newListElement);
   }
 
   //live version
-  document.querySelector('#see-live').querySelector('a').href=`${jobCards[dataIndex]['liveVersion']}`;
+  document.querySelector('#see-live').querySelector('a').href = `${jobCards[dataIndex]['liveVersion']}`;
   console.log(jobCards[dataIndex]['liveVersion'])
   //link source
-  document.querySelector('#see-source').querySelector('a').href=`${jobCards[dataIndex]['source']}`;
+  document.querySelector('#see-source').querySelector('a').href = `${jobCards[dataIndex]['source']}`;
 }
 //------------------end Pop-up fuction --------------------------------------------//
 

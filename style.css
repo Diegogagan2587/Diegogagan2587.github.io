@@ -391,8 +391,8 @@ body {
 }
 
 .preview {
-  width: 95%;
-  min-height: 28vh;
+  max-height: 30vh;
+  width: auto;
 }
 
 .buttons-container {
@@ -415,37 +415,7 @@ body {
   background-color: rgba(0, 0, 0, 0);
 }
 
-@media (min-width: 768px) {
-  .portfolio-pupUp-background {
-    padding-left: 10%;
-    padding-right: 10%;
-    box-sizing: border-box;
-  }
 
-  .porfolio_pop-up_main-container {
-    padding-top: 5%;
-    padding-left: 2%;
-    padding-right: 2%;
-  }
-
-  .portfolio_pop-up_container2 {
-    display: flex;
-    box-sizing: border-box;
-  }
-
-  .portfolio_pop-up_container2 div {
-    width: 50%;
-  }
-
-  .portfolio_pop-up_container2 .technology-tags {
-    width: 80%;
-    margin-right: 0;
-    display: flex;
-    flex-wrap: wrap;
-    
-  }
-
-}
 
 /*
   Works Section------PopUp-ends;
@@ -855,6 +825,62 @@ media queries Below
     font-weight: 500;
     border-radius: 8px;
   }
+
+  /*
+  Desktop PopUP start----------------
+  */
+  .portfolio-pupUp-background {
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+  }
+
+  .porfolio_pop-up_main-container {
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .porfolio_pop-up_header .pop-up-top h2 {
+    font-size: 3rem;
+  }
+
+  .pop-up_project-frame {
+    width: 20%;
+  }
+
+  .portfolio_pop-up_container2 {
+    display: flex;
+    box-sizing: border-box;
+  }
+
+  .preview {
+    width: 100%;
+  }
+
+  .portfolio_pop-up_text-container {
+    font-size: 1.5rem;
+    width: 65%;
+    box-sizing: border-box;
+  }
+
+  .pop-up-skills-container {
+    width: 35%;
+    padding: 2%;
+    box-sizing: border-box;
+  }
+
+  .portfolio_pop-up_container2 .technology-tags {
+    width: 80%;
+    margin-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+    /*
+  Desktop PopUP start----------------
+  */
 }
 
 /*
