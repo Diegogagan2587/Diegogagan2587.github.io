@@ -42,7 +42,7 @@ function JobCardData (name, description, img, technologies, liveVersion, source)
 const jobCards = [
    new JobCardData (
     'nickson',
-    '2----loremimpus asljdfasdfasdfasdfasdf',
+    '1----loremimpus asljdfasdfasdfasdfasdf',
     './img/desktop/01Snapshoot Portfolio.svg',
     ['javat', 'htmlt', 'csst'],
     'https://diegogagan2587.github.io/Diego-Vidal',
@@ -98,9 +98,9 @@ function getNewCardFrom(obj) {
 
 //then we append a card for each obj within the arr;
 const cardsContainer = document.querySelector('.cards-container');
-for(let i = 1; i < jobCards.length; i += 1) { //index is 1 because the element 0 is the template
+for(let i = 0; i < jobCards.length; i += 1) { //index is 1 because the element 0 is the template
   const tempCard = getNewCardFrom(jobCards[i])
-  if(i%2 == 0) {
+  if(i%2 !== 0 ) {
     //add class reverse
     tempCard.setAttribute('class','card-element card-reverse')
   }
