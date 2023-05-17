@@ -353,6 +353,8 @@ body {
   background: #fff;
   border: 2px solid #dfe1e6;
   border-radius: 12px;
+  height: 94vh;
+  box-sizing: border-box;
 }
 
 .porfolio_pop-up_header {
@@ -376,11 +378,21 @@ body {
   justify-content: space-between;
   align-items: baseline;
   font-size: 75%;
-  width: 80%;
+  width: 75%;
+}
+
+.pop-up_project-frame li {
+  color: #7A869A;
+  font-weight: 600;
 }
 
 .pop-up-top h2 {
   margin: 0;
+}
+
+.preview {
+  width: 95%;
+  min-height: 28vh;
 }
 
 .buttons-container {
@@ -424,6 +436,15 @@ body {
   .portfolio_pop-up_container2 div {
     width: 50%;
   }
+
+  .portfolio_pop-up_container2 .technology-tags {
+    width: 80%;
+    margin-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
 }
 
 /*
