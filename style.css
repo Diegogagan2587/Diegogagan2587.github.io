@@ -19,6 +19,17 @@ body {
   background-color: rgba(0, 0, 0, 0);
 }
 
+.button {
+  border: 1px solid #396df2;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #396df2;
+  padding: 12px;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin-top: 8%;
+}
+
 /*
   Start top-nav-bar Mobile////////
 */
@@ -187,21 +198,6 @@ body {
   works section//////////
 */
 
-.portfolio-pupUp-backgroundOpen {
-  display: block;
-  width: 100vw;
-  height: 100vh;
-  backdrop-filter: blur(5px);
-}
-
-.portfolio-pupUp-backgroundClose {
-  display: none;
-}
-
-#portfolioPopUpCloseBtn {
-  border: 0;
-}
-
 .cards-container {
   display: grid;
   grid-template-rows: repeat(4, 1fr);
@@ -316,6 +312,97 @@ body {
   margin-top: 8%;
 }
 
+/*
+  Works Section------Popup-Starts;
+*/
+
+.portfolio-pupUp-backgroundOpen {
+  display: block;
+  position:fixed;
+  top: 0;
+  left: 0;
+  border: 2px solid green;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(5px);
+  box-sizing: border-box;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.portfolio-pupUp-backgroundClose {
+  display: none;
+}
+
+.porfolio_pop-up_main-container{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 18px;
+  padding-bottom: 20px;
+  padding-left: 4%;
+  padding-right: 4%;
+  background: #fff;
+  border: 2px solid #dfe1e6;
+  border-radius: 12px;
+}
+
+.porfolio_pop-up_header {
+  display: flex;
+  order: 0;
+  flex-direction: column;
+  height: fit-content;
+}
+
+.porfolio_pop-up_header .pop-up-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pop-up_project-frame {
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 75%;
+  width: 80%;
+}
+
+.pop-up-top h2 {
+  margin: 0;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.buttons-container button {
+  width: 48%;
+  display: flex;
+  gap: 10%;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+}
+
+#portfolioPopUpCloseBtn {
+  border: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/*
+  Works Section------PopUp-ends;
+*/
+
+/*
+Work Section Ends---------------------------
 /*
   about myself section
 */
