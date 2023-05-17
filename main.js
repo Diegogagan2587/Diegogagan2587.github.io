@@ -18,12 +18,10 @@ function exitPopUp() {
 const exit = document.getElementById('exit');
 const navListAnchors = document.getElementById('nav-list-top').querySelectorAll('a');
 const hamburgerBtn = document.getElementById('hamburgerBtn');
-const seeProjectButton = document.querySelector('.See-project-button')
 const portfolioPopUpCloseBtn = document.getElementById('portfolioPopUpCloseBtn')
 
 // add event listeners;
 hamburgerBtn.addEventListener('click', displayMobileMenu);
-seeProjectButton.addEventListener('click', openPopUp)
 portfolioPopUpCloseBtn.addEventListener('click', exitPopUp)
 
 exit.addEventListener('click', exitMobileMenu);
@@ -31,4 +29,80 @@ for (let i = 0; i < navListAnchors.length; i += 1) {
   navListAnchors[i].addEventListener('click', exitMobileMenu);
 }
 
- //------------------Work Section and cards ------------------//
+//------------------Start Work Section and cards --------------------------------------------//
+function JobCardData (name, description, img, technologies, liveVersion, source) {
+  this.name = name;
+  this.description = description;
+  this.img = img;
+  this.technologies = technologies;
+  this.liveVersion = liveVersion;
+  this.source = source;
+}
+
+const jobCards = [
+   new JobCardData (
+    'nickson',
+    'loremimpus asljdfasdfasdfasdfasdf',
+    './img/desktop/01Snapshoot Portfolio.svg',
+    ['javat', 'htmlt', 'csst'],
+    'https://diegogagan2587.github.io/Diego-Vidal/#',
+    'https://github.com/Diegogagan2587/Diego-Vidal',
+  ),
+  new JobCardData (
+    'nickson',
+    'loremimpus asljdfasdfasdfasdfasdf',
+    './img/desktop/01Snapshoot Portfolio.svg',
+    ['javat', 'htmlt', 'csst'],
+    'https://diegogagan2587.github.io/Diego-Vidal/#',
+    'https://github.com/Diegogagan2587/Diego-Vidal',
+  ),
+  new JobCardData (
+    'nickson',
+    'loremimpus asljdfasdfasdfasdfasdf',
+    './img/desktop/01Snapshoot Portfolio.svg',
+    ['javat', 'htmlt', 'csst'],
+    'https://diegogagan2587.github.io/Diego-Vidal/#',
+    'https://github.com/Diegogagan2587/Diego-Vidal',
+  ),
+]
+
+
+//first get a template
+const jobCardTemplate = document.getElementById('card-element')
+function getNewCardFrom(obj) {
+   //first we copy the template
+   let newCardFromTemplate = jobCardTemplate.cloneNode(true);
+   //then we modife the content;
+    //name
+    newCardFromTemplate.querySelector('.project-name').innerText = `${obj['name']}`;
+    //description
+    newCardFromTemplate.querySelector('.card-main-text').innerText = `${obj['description']}`;
+    //img
+    newCardFromTemplate.querySelector('img').src = `${obj['img']}`;
+    //tech
+    const techTagsContainer = newCardFromTemplate.querySelector('.technology-tags');
+    const techTags = techTagsContainer.querySelectorAll('li');
+    for (let i = 0; i<techTags.length; i += 1 ) {
+      techTags[i].innerText = `${obj['technologies'][i]}`;
+    }
+    return newCardFromTemplate;
+}
+
+//then we append a card for each obj within the arr;
+const cardsContainer = document.querySelector('.cards-container');
+for(let i = 0; i < jobCards.length; i += 1) {
+  const tempCard = getNewCardFrom(jobCards[i])
+  console.log(i,i%2)
+  if(i%2 == 0) {
+    //add class reverse
+    tempCard.setAttribute('class','card-element card-reverse')
+  }
+  cardsContainer.appendChild(tempCard);
+}
+
+//now we add event listeners to see project
+const seeProjectButton = document.querySelectorAll('.See-project-button');
+seeProjectButton.forEach(element => {
+  element.addEventListener('click', openPopUp );
+});
+console.log(seeProjectButton)
