@@ -323,12 +323,11 @@ body {
 
 .portfolio-pupUp-backgroundOpen {
   display: block;
-  position:fixed;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  backdrop-filter: blur(5px);
   box-sizing: border-box;
   padding-top: 18px;
   padding-bottom: 10%;
@@ -342,7 +341,7 @@ body {
   display: none;
 }
 
-.porfolio_pop-up_main-container{
+.porfolio_pop-up_main-container {
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -361,7 +360,6 @@ body {
   display: flex;
   order: 0;
   flex-direction: column;
-  height: fit-content;
 }
 
 .porfolio_pop-up_header .pop-up-top {
@@ -382,7 +380,7 @@ body {
 }
 
 .pop-up_project-frame li {
-  color: #7A869A;
+  color: #7a869a;
   font-weight: 600;
 }
 
@@ -407,15 +405,13 @@ body {
   gap: 10%;
   flex-direction: row;
   justify-content: center;
-  align-items:center;
+  align-items: center;
 }
 
 #portfolioPopUpCloseBtn {
   border: 0;
   background-color: rgba(0, 0, 0, 0);
 }
-
-
 
 /*
   Works Section------PopUp-ends;
@@ -603,6 +599,7 @@ media queries Below
   /*
   navigation bar
   */
+
   .nav-icon-menu,
   #exit {
     display: none;
@@ -875,10 +872,9 @@ media queries Below
     margin-right: 0;
     display: flex;
     flex-wrap: wrap;
-    
   }
 
-    /*
+  /*
   Desktop PopUP start----------------
   */
 }
@@ -913,7 +909,6 @@ button:hover {
   transition: 50ms;
   transform: scale(1.5);
 }
-
 
 .hide-template {
   display: none;
