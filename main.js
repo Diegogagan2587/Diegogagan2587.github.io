@@ -11,28 +11,26 @@ function openPopUp() {
 }
 
 function exitPopUp() {
-  console.log('we are exit from popup')
   document.getElementById('portfolio-pupUp-background').className = 'portfolio-pupUp-backgroundClose';
   document.getElementById('portfolio-pupUp-background').querySelector('.technology-tags').innerHTML = null;
-  console.log(document.getElementById('portfolio-pupUp-background').querySelector('.technology-tags'));
 }
 
 // heper functiosn upwards;
 const exit = document.getElementById('exit');
 const navListAnchors = document.getElementById('nav-list-top').querySelectorAll('a');
 const hamburgerBtn = document.getElementById('hamburgerBtn');
-const portfolioPopUpCloseBtn = document.getElementById('portfolioPopUpCloseBtn')
+const portfolioPopUpCloseBtn = document.getElementById('portfolioPopUpCloseBtn');
 
 // add event listeners;
 hamburgerBtn.addEventListener('click', displayMobileMenu);
-portfolioPopUpCloseBtn.addEventListener('click', exitPopUp)
+portfolioPopUpCloseBtn.addEventListener('click', exitPopUp);
 
 exit.addEventListener('click', exitMobileMenu);
 for (let i = 0; i < navListAnchors.length; i += 1) {
   navListAnchors[i].addEventListener('click', exitMobileMenu);
 }
 
-//------------------Start Work Section and cards --------------------------------------------//
+// ------------------Start Work Section and cards --------------------------------------------//
 function JobCardData(name, description, img, technologies, liveVersion, source) {
   this.name = name;
   this.description = description;
@@ -75,79 +73,73 @@ const jobCards = [
     'https://diegogagan2587.github.io/Diego-Vidal',
     'https://github.com/Diegogagan2587/Diego-Vidal',
   ),
-]
+];
 
-
-//first get a template for cards
+// first get a template for cards
 const jobCardTemplate = document.getElementById('card-element');
 
 function getNewCardFrom(obj) {
-  //first we copy the template
-  let newCardFromTemplate = jobCardTemplate.cloneNode(true);
-  //then we modife the content;
-  //name
-  newCardFromTemplate.querySelector('.project-name').innerText = `${obj['name']}`;
-  //description
-  newCardFromTemplate.querySelector('.card-main-text').innerText = `${obj['description']}`;
-  //img
-  newCardFromTemplate.querySelector('img').src = `${obj['img']}`;
-  //tech
+  // first we copy the template
+  const newCardFromTemplate = jobCardTemplate.cloneNode(true);
+  // then we modife the content;
+  // name
+  newCardFromTemplate.querySelector('.project-name').innerText = `${obj.name}`;
+  // description
+  newCardFromTemplate.querySelector('.card-main-text').innerText = `${obj.description}`;
+  // img
+  newCardFromTemplate.querySelector('img').src = `${obj.img}`;
+  // tech
   const tagsContainer = newCardFromTemplate.querySelector('.technology-tags');
-  for (let ind = 0; ind < obj['technologies'].length; ind += 1) {
-    console.log('element =', ind, obj['technologies'][ind]);
-    let newList = document.createElement('li');
-    newList.innerText = `${obj['technologies'][ind]}`;
+  for (let ind = 0; ind < obj.technologies.length; ind += 1) {
+    const newList = document.createElement('li');
+    newList.innerText = `${obj.technologies[ind]}`;
     tagsContainer.appendChild(newList);
   }
 
   return newCardFromTemplate;
 }
 
-//then we append a card for each obj within the arr;
+// then we append a card for each obj within the arr;
 const cardsContainer = document.querySelector('.cards-container');
-for (let i = 0; i < jobCards.length; i += 1) { //index is 1 because the element 0 is the template
-  const tempCard = getNewCardFrom(jobCards[i])
+for (let i = 0; i < jobCards.length; i += 1) { // index is 1 because the element 0 is the template
+  const tempCard = getNewCardFrom(jobCards[i]);
   if (i % 2 !== 0) {
-    //add class reverse
-    tempCard.setAttribute('class', 'card-element card-reverse')
+    // add class reverse
+    tempCard.setAttribute('class', 'card-element card-reverse');
   }
   tempCard.querySelector('button').setAttribute('value', `${i}`);
   cardsContainer.appendChild(tempCard);
 }
 
-//now we add event listeners to see project
-const seeProjectButton = document.querySelectorAll('.See-project-button');
-seeProjectButton.forEach(element => {
-  element.addEventListener('click', setPopUpData);
-  element.addEventListener('click', openPopUp);
-});
-
-//------------------Start Pop-up fuction --------------------------------------------//
+// ------------------Start Pop-up fuction --------------------------------------------//
 function setPopUpData(e) {
   const popUpContainer = document.querySelector('.porfolio_pop-up_main-container');
-  let dataIndex = e.srcElement.value;
-  //name
-  console.log(jobCards)
-  popUpContainer.querySelector('h2').innerText = `${jobCards[dataIndex]['name']}`;
-  //description
-  popUpContainer.querySelector('p').innerText = `${jobCards[dataIndex]['description']}`;
-  //img
-  popUpContainer.querySelector('.preview').src = `${jobCards[dataIndex]['img']}`;
-  //tech
-  const tagsData = jobCards[dataIndex]['technologies'];
+  const dataIndex = e.srcElement.value;
+  // name
+  popUpContainer.querySelector('h2').innerText = `${jobCards[dataIndex].name}`;
+  // description
+  popUpContainer.querySelector('p').innerText = `${jobCards[dataIndex].description}`;
+  // img
+  popUpContainer.querySelector('.preview').src = `${jobCards[dataIndex].img}`;
+  // tech
   const tagsContainer = popUpContainer.querySelector('.technology-tags');
 
-  for (let i = 0; i < jobCards[dataIndex]['technologies'].length; i += 1) {
-    let newListElement = document.createElement('li');
-    newListElement.innerText = `${jobCards[dataIndex]['technologies'][i]}`;
+  for (let i = 0; i < jobCards[dataIndex].technologies.length; i += 1) {
+    const newListElement = document.createElement('li');
+    newListElement.innerText = `${jobCards[dataIndex].technologies[i]}`;
     tagsContainer.appendChild(newListElement);
   }
 
-  //live version
-  document.querySelector('#see-live').querySelector('a').href = `${jobCards[dataIndex]['liveVersion']}`;
-  console.log(jobCards[dataIndex]['liveVersion'])
-  //link source
-  document.querySelector('#see-source').querySelector('a').href = `${jobCards[dataIndex]['source']}`;
+  // live version
+  document.querySelector('#see-live').querySelector('a').href = `${jobCards[dataIndex].liveVersion}`;
+  // link source
+  document.querySelector('#see-source').querySelector('a').href = `${jobCards[dataIndex].source}`;
 }
-//------------------end Pop-up fuction --------------------------------------------//
+// ------------------end Pop-up fuction --------------------------------------------//
 
+// now we add event listeners to see project
+const seeProjectButton = document.querySelectorAll('.See-project-button');
+seeProjectButton.forEach((element) => {
+  element.addEventListener('click', setPopUpData);
+  element.addEventListener('click', openPopUp);
+});
