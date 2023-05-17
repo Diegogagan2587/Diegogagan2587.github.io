@@ -44,7 +44,7 @@ const jobCards = [
     'nickson',
     '1----loremimpus asljdfasdfasdfasdfasdf',
     './img/desktop/01Snapshoot Portfolio.svg',
-    ['javat', 'htmlt', 'csst'],
+    ['javat1', 'htmlt1', 'csst'],
     'https://diegogagan2587.github.io/Diego-Vidal',
     'https://github.com/Diegogagan2587/Diego-Vidal',
   ),
@@ -52,7 +52,7 @@ const jobCards = [
     'nickson',
     '2----loremimpus asljdfasdfasdfasdfasdf',
     './img/desktop/01Snapshoot Portfolio.svg',
-    ['javat', 'htmlt', 'csst'],
+    ['javat2', 'htmlt2', 'csst'],
     'https://diegogagan2587.github.io/Diego-Vidal',
     'https://github.com/Diegogagan2587/Diego-Vidal',
   ),
@@ -60,7 +60,7 @@ const jobCards = [
     'nickson',
     '3----loremimpus asljdfasdfasdfasdfasdf',
     './img/desktop/01Snapshoot Portfolio.svg',
-    ['javat', 'htmlt', 'csst'],
+    ['javat3', 'htmlt3', 'csst'],
     'https://diegogagan2587.github.io/Diego-Vidal',
     'https://github.com/Diegogagan2587/Diego-Vidal',
   ),
@@ -68,7 +68,7 @@ const jobCards = [
     'nickson',
     '4----loremimpus asljdfasdfasdfasdfasdf',
     './img/desktop/01Snapshoot Portfolio.svg',
-    ['javat', 'htmlt', 'csst'],
+    ['javat4', 'htmlt4', 'csst4', 'rubi','git'],
     'https://diegogagan2587.github.io/Diego-Vidal',
     'https://github.com/Diegogagan2587/Diego-Vidal',
   ),
@@ -88,11 +88,23 @@ function getNewCardFrom(obj) {
     //img
     newCardFromTemplate.querySelector('img').src = `${obj['img']}`;
     //tech
-    const techTagsContainer = newCardFromTemplate.querySelector('.technology-tags');
-    const techTags = techTagsContainer.querySelectorAll('li');
-    for (let i = 0; i<techTags.length; i += 1 ) { 
-      techTags[i].innerText = `${obj['technologies'][i]}`;
+    const tagsContainer = newCardFromTemplate.querySelector('.technology-tags');
+    for(let ind = 0; ind < obj['technologies'].length; ind += 1 ) {
+      console.log('element =',ind, obj['technologies'][ind]);
+      let newList = document.createElement('li');
+      newList.innerText = `${obj['technologies'][ind]}`;
+      tagsContainer.appendChild(newList);
     }
+
+    // obj['technologies'].forEach(element => {
+    //   console.log('element =',element)
+    //   const newList = document.createElement('li');
+    //   newList.innerText = `${element}`;
+    //   tagsContainer.appendChild(newList);
+      
+    // });
+    console.log(tagsContainer)
+
     return newCardFromTemplate;
 }
 
