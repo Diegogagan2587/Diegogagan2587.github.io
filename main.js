@@ -192,19 +192,36 @@ const formData = {
 
 //we have to add on change on varialbes that we wan to track, and set a function to update the values if any change; myElement.onchange = myFunction;
 function saveInLocalStorage(){
-  console.log('runing saveInLocalStorge');
-  console.log( JSON.stringify(formData) );
+ // console.log('runing saveInLocalStorge');
+ // console.log( JSON.stringify(formData) );
   localStorage.setItem( 'formData' , JSON.stringify(formData) );
 }
 
 function saveFormData(){
-  console.log('Runing saveFormData');
+ // console.log('Runing saveFormData');
   formData['name'] = formName.value;
   formData['email'] = formEmail.value;
   formData['message'] = formMsg.value;
-  console.log(formData);
+//  console.log(formData);
   saveInLocalStorage();
 }
+
+function getLocalStorage() {
+  const currentData = localStorage.getItem('formData');
+  const getFormData = JSON.parse(currentData);
+  formData.name = getFormData.name;
+  formData.email = getFormData.email;
+  formData.message = getFormData.message;
+  console.log(formData);
+  
+  displayFromLocalStorage();
+//  return getFormData
+}
+
+function displayFromLocalStorage() {
+}
+
+getLocalStorage();
 
 //saveFormData();
 
