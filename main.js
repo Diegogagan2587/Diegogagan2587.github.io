@@ -152,8 +152,6 @@ function validationForm(){
 //contactForm['name'].value
 let result;
 const value = "diegoVidal@gmail.com";
-console.log('value =', value);
-console.log('tolowerCase=',value.toLocaleLowerCase() );
 if(value === value.toLowerCase() ) {
   result = true;
 } else {
