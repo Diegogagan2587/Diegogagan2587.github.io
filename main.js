@@ -173,6 +173,15 @@ submitBtn.addEventListener('click', validationForm);
 
 // -------Start Local Storage Section ------------------//
 //Const
+
+const formName = contactForm.querySelector('#name');
+const formEmail = contactForm.querySelector('#email-input');
+const formMsg = contactForm.querySelector('#user-message');
+
+formName.onchange= saveFormData;
+formEmail.onchange= saveFormData;
+formMsg.onchange= saveFormData;
+
 //create an object to save data from form;
 const formData = {
   name: '',
@@ -186,8 +195,8 @@ function saveFormData(){
   console.log('Runing saveFormData');
   console.log(contactForm);
 }
-saveFormData();
 
+//saveFormData();
 
 // -------End Local Storage Section ------------------//
 
