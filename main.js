@@ -144,31 +144,29 @@ seeProjectButton.forEach((element) => {
   element.addEventListener('click', openPopUp);
 });
 
-//-------Start Section Form Validations-----------------//
-//variables
+// -------Start Section Form Validations-----------------//
+// variables
 const contactForm = document.getElementById('contac-form');
 const submitBtn = contactForm.querySelector('#get-in-touch');
 const spanError = document.querySelector('.error');
-//functions
+// functions
 
-function validationForm(event){
-let result;
-const value = contactForm['email'].value;
-if(value === value.toLowerCase() ) {
-  spanError.textContent = null;
-  result = true;
-} else {
-  spanError.textContent = 'Email must to be in lowe case';
-  result = false;
-  event.preventDefault()
+function validationForm(event) {
+  let result;
+  const text = contactForm.email.value;
+  if (text === text.toLowerCase()) {
+    spanError.textContent = null;
+    result = true;
+  } else {
+    spanError.textContent = 'Email must to be in lower case';
+    result = false;
+    event.preventDefault();
+  }
+  return result;
 }
-return result;
-}
 
-//validationForm();
+// events listeners
 
-//events listeners
+submitBtn.addEventListener('click', validationForm);
 
-submitBtn.addEventListener('click', validationForm)
-
-//-------Start Section Form Validations-----------------//
+// -------Start Section Form Validations-----------------//
