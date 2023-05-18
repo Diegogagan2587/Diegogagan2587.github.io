@@ -172,17 +172,14 @@ submitBtn.addEventListener('click', validationForm);
 // -------Start Section Form Validations-----------------//
 
 // -------Start Local Storage Section ------------------//
-//Const
+
+// Const
 
 const formName = contactForm.querySelector('#name');
 const formEmail = contactForm.querySelector('#email-input');
 const formMsg = contactForm.querySelector('#user-message');
 
-formName.onchange= saveFormData;
-formEmail.onchange= saveFormData;
-formMsg.onchange= saveFormData;
-
-//create an object to save data from form;
+// create an object to save data from form;
 const formData = {
   name: '',
   email: '',
@@ -190,19 +187,10 @@ const formData = {
 };
 // first we check if available localStorage, need to create a function to do so
 
-//we have to add on change on varialbes that we wan to track, and set a function to update the values if any change; myElement.onchange = myFunction;
-function saveFormData(){
- // console.log('Runing saveFormData');
-  formData['name'] = formName.value;
-  formData['email'] = formEmail.value;
-  formData['message'] = formMsg.value;
-//  console.log(formData);
-  saveInLocalStorage();
-}
-
-function saveInLocalStorage(){
-  localStorage.setItem( 'formData' , JSON.stringify(formData) );
-  getLocalStorage();
+function displayFromLocalStorage() {
+  document.querySelector('#name').value = formData.name;
+  document.querySelector('#email-input').value = formData.email;
+  document.querySelector('#user-message').value = formData.message;
 }
 
 function getLocalStorage() {
@@ -211,18 +199,23 @@ function getLocalStorage() {
   formData.name = getFormData.name;
   formData.email = getFormData.email;
   formData.message = getFormData.message;
-  console.log(formData);
   displayFromLocalStorage();
 }
 
-function displayFromLocalStorage() {
-  console.log('runing displayFromLocalStorage');
-  document.querySelector('#name').value = formData.name;
-  document.querySelector('#email-input').value = formData.email;
-  document.querySelector('#user-message').value = formData.message;
+function saveInLocalStorage() {
+  localStorage.setItem('formData', JSON.stringify(formData));
+  getLocalStorage();
 }
 
-//saveFormData();
+function saveFormData() {
+  formData.name = formName.value;
+  formData.email = formEmail.value;
+  formData.message = formMsg.value;
+  saveInLocalStorage();
+}
+
+formName.onchange = saveFormData;
+formEmail.onchange = saveFormData;
+formMsg.onchange = saveFormData;
 
 // -------End Local Storage Section ------------------//
-
