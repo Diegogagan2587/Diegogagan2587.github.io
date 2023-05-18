@@ -143,3 +143,30 @@ seeProjectButton.forEach((element) => {
   element.addEventListener('click', setPopUpData);
   element.addEventListener('click', openPopUp);
 });
+
+//-------Start Section Form Validations-----------------//
+//variables
+const contactForm = document.getElementById('contac-form');
+//functions
+function validationForm(){
+//contactForm['name'].value
+let result;
+const value = "diegoVidal@gmail.com";
+console.log('value =', value);
+console.log('tolowerCase=',value.toLocaleLowerCase() );
+if(value === value.toLowerCase() ) {
+  result = true;
+} else {
+  result = false;
+}
+console.log(result);
+return result;
+}
+
+
+validationForm();
+//events listeners
+
+
+
+//-------Start Section Form Validations-----------------//
