@@ -172,6 +172,7 @@ submitBtn.addEventListener('click', validationForm);
 // -------Start Section Form Validations-----------------//
 
 // -------Start Local Storage Section ------------------//
+//Const
 //create an object to save data from form;
 const formData = {
   name: '',
@@ -181,6 +182,11 @@ const formData = {
 // first we check if available localStorage, need to create a function to do so
 
 //we have to add on change on varialbes that we wan to track, and set a function to update the values if any change; myElement.onchange = myFunction;
+function saveFormData(){
+  console.log('Runing saveFormData');
+  console.log(contactForm);
+}
+saveFormData();
 
 
 // -------End Local Storage Section ------------------//
