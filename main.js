@@ -147,8 +147,10 @@ seeProjectButton.forEach((element) => {
 //-------Start Section Form Validations-----------------//
 //variables
 const contactForm = document.getElementById('contac-form');
+const submitBtn = contactForm.querySelector('#get-in-touch')
 //functions
 function validationForm(){
+console.log("i´m in the function")
 //contactForm['name'].value
 let result;
 const value = "diegoVidal@gmail.com";
@@ -157,14 +159,15 @@ if(value === value.toLowerCase() ) {
 } else {
   result = false;
 }
+event.preventDefault()
 console.log(result);
 return result;
 }
 
+//validationForm();
 
-validationForm();
 //events listeners
 
-
+submitBtn.addEventListener('click', validationForm)
 
 //-------Start Section Form Validations-----------------//
