@@ -149,18 +149,16 @@ seeProjectButton.forEach((element) => {
 const contactForm = document.getElementById('contac-form');
 const submitBtn = contactForm.querySelector('#get-in-touch')
 //functions
-function validationForm(){
-console.log("i´m in the function")
-//contactForm['name'].value
+
+function validationForm(event){
 let result;
-const value = "diegoVidal@gmail.com";
+const value = contactForm['email'].value;
 if(value === value.toLowerCase() ) {
   result = true;
 } else {
   result = false;
+  event.preventDefault()
 }
-event.preventDefault()
-console.log(result);
 return result;
 }
 
