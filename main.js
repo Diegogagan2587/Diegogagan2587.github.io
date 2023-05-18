@@ -193,7 +193,7 @@ function displayFromLocalStorage() {
   document.querySelector('#user-message').value = formData.message;
 }
 
-function getLocalStorage() {
+function getFromLocalStorage() {
   const currentData = localStorage.getItem('formData');
   const getFormData = JSON.parse(currentData);
   formData.name = getFormData.name;
@@ -204,18 +204,28 @@ function getLocalStorage() {
 
 function saveInLocalStorage() {
   localStorage.setItem('formData', JSON.stringify(formData));
-  getLocalStorage();
+  getFromLocalStorage();
 }
 
-function saveFormData() {
+function saveFromInput() {
   formData.name = formName.value;
   formData.email = formEmail.value;
   formData.message = formMsg.value;
   saveInLocalStorage();
 }
 
-formName.onchange = saveFormData;
-formEmail.onchange = saveFormData;
-formMsg.onchange = saveFormData;
+function validateLocalStorage() {
+  if (!localStorage.getItem('formData')) {
+    saveFromInput();
+  } else {
+    getFromLocalStorage();
+  }
+}
+
+validateLocalStorage();
+
+formName.onchange = saveFromInput;
+formEmail.onchange = saveFromInput;
+formMsg.onchange = saveFromInput;
 
 // -------End Local Storage Section ------------------//
