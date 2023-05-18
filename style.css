@@ -587,6 +587,10 @@ contact me section
   list-style: none;
 }
 
+.error {
+  color: red;
+}
+
 /*
 desktop version start here;
 */

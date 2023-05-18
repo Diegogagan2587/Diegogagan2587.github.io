@@ -147,15 +147,18 @@ seeProjectButton.forEach((element) => {
 //-------Start Section Form Validations-----------------//
 //variables
 const contactForm = document.getElementById('contac-form');
-const submitBtn = contactForm.querySelector('#get-in-touch')
+const submitBtn = contactForm.querySelector('#get-in-touch');
+const spanError = document.querySelector('.error');
 //functions
 
 function validationForm(event){
 let result;
 const value = contactForm['email'].value;
 if(value === value.toLowerCase() ) {
+  spanError.textContent = null;
   result = true;
 } else {
+  spanError.textContent = 'Email must to be in lowe case';
   result = false;
   event.preventDefault()
 }
