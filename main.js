@@ -193,7 +193,10 @@ const formData = {
 //we have to add on change on varialbes that we wan to track, and set a function to update the values if any change; myElement.onchange = myFunction;
 function saveFormData(){
   console.log('Runing saveFormData');
-  console.log(contactForm);
+  formData['name'] = formName.value;
+  formData['email'] = formEmail.value;
+  formData['message'] = formMsg.value;
+  console.log(formData);
 }
 
 //saveFormData();
