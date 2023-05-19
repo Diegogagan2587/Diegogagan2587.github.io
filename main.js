@@ -77,7 +77,7 @@ const jobCards = [
     'Uber Navigation',
     ' A daily selection of privately personalized reads; no accounts or sign-ups required.',
     './img/Snapshoot Portfolio2.svg',
-    ['javat4', 'htmlt4', 'csst4', 'rubi', 'git'],
+    ['HTML', 'CSS', 'JavaScript', 'Ruby', 'Bootstrap'],
     'https://diegogagan2587.github.io/Diego-Vidal',
     'https://github.com/Diegogagan2587/Diego-Vidal',
     'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. \n \n Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
