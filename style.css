@@ -840,31 +840,31 @@ media queries Below
     padding-left: 2%;
     padding-right: 2%;
     width: 79.9vmin;
-    height: 88vmin; 
+    height: 88vmin;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .porfolio_pop-up_header .pop-up-top h2 {
-    font-size: 2.5vmin;
-  }
-
-  #portfolioPopUpCloseBtn{
-    width: fit-content;
-  }
-
-  #portfolioPopUpCloseBtn img {
-    width: 1.75vmin%;/*new*/
-  }
-
-  .pop-up_project-frame {
-    width: 25%;
   }
 
   .pop-up_project-frame h2 {
     font-size: 1.5vmin;
     margin-top: 0;
     margin-bottom: 0;
+  }
+
+  .porfolio_pop-up_header .pop-up-top h2 {
+    font-size: 2.5vmin;
+  }
+
+  #portfolioPopUpCloseBtn {
+    width: fit-content;
+  }
+
+  #portfolioPopUpCloseBtn img {
+    width: 1.75vmin;
+  }
+
+  .pop-up_project-frame {
+    width: 25%;
   }
 
   .pop-up_project-frame li {
@@ -877,7 +877,6 @@ media queries Below
   }
 
   .preview {
-
     max-width: 100%;
     width: fit-content;
     max-height: 44.39vh;
@@ -886,14 +885,13 @@ media queries Below
   }
 
   .portfolio_pop-up_text-container {
-
     font-size: 1.4vmin;
     width: 67.3%;
     box-sizing: border-box;
   }
 
   .pop-up-skills-container {
-    width:32.7%;
+    width: 32.7%;
     padding: 2%;
     box-sizing: border-box;
   }

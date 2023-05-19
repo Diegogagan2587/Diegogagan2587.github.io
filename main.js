@@ -31,7 +31,17 @@ for (let i = 0; i < navListAnchors.length; i += 1) {
 }
 
 // ------------------Start Work Section and cards --------------------------------------------//
-function JobCardData(name, description, img, technologies, liveVersion, source,descriptionDesk,imgDesk,imgPopMobile) {
+function JobCardData(
+  name,
+  description,
+  img,
+  technologies,
+  liveVersion,
+  source,
+  descriptionDesk,
+  imgDesk,
+  imgPopMobile,
+) {
   this.name = name;
   this.description = description;
   this.img = img;
@@ -46,7 +56,7 @@ function JobCardData(name, description, img, technologies, liveVersion, source,d
 const jobCards = [
   new JobCardData(
     'Tonic',
-    " A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    ' A daily selection of privately personalized reads; no accounts or sign-ups required.',
     './img/desktop/01Snapshoot Portfolio.svg',
     ['HTML', 'CSS', 'Javascript'],
     'https://diegogagan2587.github.io/Diego-Vidal',
@@ -134,7 +144,7 @@ function setPopUpData(e) {
   // name
   popUpContainer.querySelector('h2').innerText = `${jobCards[dataIndex].name}`;
   // img and description
-  if (screen.width >= 768) {
+  if (window.innerWidth >= 768) {
     popUpContainer.querySelector('p').innerText = `${jobCards[dataIndex].descriptionDesk}`;
     popUpContainer.querySelector('.preview').src = `${jobCards[dataIndex].imgDesk}`;
   } else {
@@ -249,4 +259,3 @@ formEmail.onkeydown = saveFromInput;
 formMsg.onkeydown = saveFromInput;
 
 // -------End Local Storage Section ------------------//
- 
