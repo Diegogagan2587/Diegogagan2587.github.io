@@ -31,47 +31,57 @@ for (let i = 0; i < navListAnchors.length; i += 1) {
 }
 
 // ------------------Start Work Section and cards --------------------------------------------//
-function JobCardData(name, description, img, technologies, liveVersion, source) {
+function JobCardData(name, description, img, technologies, liveVersion, source,descriptionDesk,imgDesk,) {
   this.name = name;
   this.description = description;
   this.img = img;
   this.technologies = technologies;
   this.liveVersion = liveVersion;
   this.source = source;
+  this.descriptionDesk = descriptionDesk;
+  this.imgDesk = imgDesk;
 }
 
 const jobCards = [
   new JobCardData(
     'Tonic',
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. \n \n Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.",
-    './img/poup-preview.png',
-    ['javat1', 'htmlt1', 'csst'],
+    " A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    './img/desktop/01Snapshoot Portfolio.svg',
+    ['HTML', 'CSS', 'Javascript'],
     'https://diegogagan2587.github.io/Diego-Vidal',
     'https://github.com/Diegogagan2587/Diego-Vidal',
+    '',
+    './img/desktop/Preview-desktopxx.png',
   ),
   new JobCardData(
-    'nickson',
-    '2----loremimpus asljdfasdfasdfasdfasdf',
-    './img/desktop/01Snapshoot Portfolio.svg',
-    ['javat2', 'htmlt2', 'csst'],
+    'Multi-Post Stories',
+    ' A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    './img/Portfolio4.svg',
+    ['HTML', 'CSS', 'Javascript'],
     'https://diegogagan2587.github.io/Diego-Vidal',
     'https://github.com/Diegogagan2587/Diego-Vidal',
+    '',
+    './img/desktop/Preview-desktopxx.png',
   ),
   new JobCardData(
-    'nickson',
-    '3----loremimpus asljdfasdfasdfasdfasdf',
-    './img/desktop/01Snapshoot Portfolio.svg',
-    ['javat3', 'htmlt3', 'csst'],
+    'Facebook 360',
+    'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    './img/Snapshoot Portfolioproject-screenshot.svg',
+    ['HTML', 'CSS', 'JavaScript'],
     'https://diegogagan2587.github.io/Diego-Vidal',
     'https://github.com/Diegogagan2587/Diego-Vidal',
+    '',
+    './img/desktop/Preview-desktopxx.png',
   ),
   new JobCardData(
-    'nickson',
-    '4----loremimpus asljdfasdfasdfasdfasdf',
-    './img/desktop/01Snapshoot Portfolio.svg',
+    'Uber Navigation',
+    ' A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    './img/Snapshoot Portfolio2.svg',
     ['javat4', 'htmlt4', 'csst4', 'rubi', 'git'],
     'https://diegogagan2587.github.io/Diego-Vidal',
     'https://github.com/Diegogagan2587/Diego-Vidal',
+    '',
+    './img/desktop/Preview-desktopxx.png',
   ),
 ];
 
@@ -120,7 +130,7 @@ function setPopUpData(e) {
   // description
   popUpContainer.querySelector('p').innerText = `${jobCards[dataIndex].description}`;
   // img
-  popUpContainer.querySelector('.preview').src = `${jobCards[dataIndex].img}`;
+  popUpContainer.querySelector('.preview').src = `${jobCards[dataIndex].imgDesk}`;
   // tech
   const tagsContainer = popUpContainer.querySelector('.technology-tags');
 
