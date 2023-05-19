@@ -224,8 +224,8 @@ function validateLocalStorage() {
 
 validateLocalStorage();
 
-formName.onchange = saveFromInput;
-formEmail.onchange = saveFromInput;
-formMsg.onchange = saveFromInput;
+formName.onkeydown = saveFromInput;
+formEmail.onkeydown = saveFromInput;
+formMsg.onkeydown = saveFromInput;
 
 // -------End Local Storage Section ------------------//
