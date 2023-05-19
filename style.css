@@ -839,6 +839,10 @@ media queries Below
     padding-top: 5%;
     padding-left: 2%;
     padding-right: 2%;
+    width: 79.9vh; /*new*/
+    height: 88vh; /*new*/
+    margin-left: auto;/*new*/
+    margin-right: auto;/*new*/
   }
 
   .porfolio_pop-up_header .pop-up-top h2 {

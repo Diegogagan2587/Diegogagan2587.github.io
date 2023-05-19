@@ -50,7 +50,7 @@ const jobCards = [
     ['HTML', 'CSS', 'Javascript'],
     'https://diegogagan2587.github.io/Diego-Vidal',
     'https://github.com/Diegogagan2587/Diego-Vidal',
-    '',
+    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. \n \n Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
     './img/desktop/Preview-desktopxx.png',
   ),
   new JobCardData(
@@ -60,7 +60,7 @@ const jobCards = [
     ['HTML', 'CSS', 'Javascript'],
     'https://diegogagan2587.github.io/Diego-Vidal',
     'https://github.com/Diegogagan2587/Diego-Vidal',
-    '',
+    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. \n \n Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
     './img/desktop/Preview-desktopxx.png',
   ),
   new JobCardData(
@@ -70,7 +70,7 @@ const jobCards = [
     ['HTML', 'CSS', 'JavaScript'],
     'https://diegogagan2587.github.io/Diego-Vidal',
     'https://github.com/Diegogagan2587/Diego-Vidal',
-    '',
+    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. \n \n Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
     './img/desktop/Preview-desktopxx.png',
   ),
   new JobCardData(
@@ -80,7 +80,7 @@ const jobCards = [
     ['javat4', 'htmlt4', 'csst4', 'rubi', 'git'],
     'https://diegogagan2587.github.io/Diego-Vidal',
     'https://github.com/Diegogagan2587/Diego-Vidal',
-    '',
+    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. \n \n Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
     './img/desktop/Preview-desktopxx.png',
   ),
 ];
@@ -128,7 +128,7 @@ function setPopUpData(e) {
   // name
   popUpContainer.querySelector('h2').innerText = `${jobCards[dataIndex].name}`;
   // description
-  popUpContainer.querySelector('p').innerText = `${jobCards[dataIndex].description}`;
+  popUpContainer.querySelector('p').innerText = `${jobCards[dataIndex].descriptionDesk}`;
   // img
   popUpContainer.querySelector('.preview').src = `${jobCards[dataIndex].imgDesk}`;
   // tech
