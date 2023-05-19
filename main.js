@@ -31,7 +31,7 @@ for (let i = 0; i < navListAnchors.length; i += 1) {
 }
 
 // ------------------Start Work Section and cards --------------------------------------------//
-function JobCardData(name, description, img, technologies, liveVersion, source,descriptionDesk,imgDesk,) {
+function JobCardData(name, description, img, technologies, liveVersion, source,descriptionDesk,imgDesk,imgPopMobile) {
   this.name = name;
   this.description = description;
   this.img = img;
@@ -40,6 +40,7 @@ function JobCardData(name, description, img, technologies, liveVersion, source,d
   this.source = source;
   this.descriptionDesk = descriptionDesk;
   this.imgDesk = imgDesk;
+  this.imgPopMobile = imgPopMobile;
 }
 
 const jobCards = [
@@ -52,6 +53,7 @@ const jobCards = [
     'https://github.com/Diegogagan2587/Diego-Vidal',
     'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. \n \n Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
     './img/desktop/Preview-desktopxx.png',
+    './img/pop-up-mobile.png',
   ),
   new JobCardData(
     'Multi-Post Stories',
@@ -62,6 +64,7 @@ const jobCards = [
     'https://github.com/Diegogagan2587/Diego-Vidal',
     'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. \n \n Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
     './img/desktop/Preview-desktopxx.png',
+    './img/pop-up-mobile.png',
   ),
   new JobCardData(
     'Facebook 360',
@@ -72,6 +75,8 @@ const jobCards = [
     'https://github.com/Diegogagan2587/Diego-Vidal',
     'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. \n \n Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
     './img/desktop/Preview-desktopxx.png',
+    './img/pop-up-mobile.png',
+
   ),
   new JobCardData(
     'Uber Navigation',
@@ -82,6 +87,7 @@ const jobCards = [
     'https://github.com/Diegogagan2587/Diego-Vidal',
     'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. \n \n Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
     './img/desktop/Preview-desktopxx.png',
+    './img/pop-up-mobile.png',
   ),
 ];
 
@@ -127,10 +133,14 @@ function setPopUpData(e) {
   const dataIndex = e.srcElement.value;
   // name
   popUpContainer.querySelector('h2').innerText = `${jobCards[dataIndex].name}`;
-  // description
-  popUpContainer.querySelector('p').innerText = `${jobCards[dataIndex].descriptionDesk}`;
-  // img
-  popUpContainer.querySelector('.preview').src = `${jobCards[dataIndex].imgDesk}`;
+  // img and description
+  if (screen.width >= 768) {
+    popUpContainer.querySelector('p').innerText = `${jobCards[dataIndex].descriptionDesk}`;
+    popUpContainer.querySelector('.preview').src = `${jobCards[dataIndex].imgDesk}`;
+  } else {
+    popUpContainer.querySelector('p').innerText = `${jobCards[dataIndex].description}`;
+    popUpContainer.querySelector('.preview').src = `${jobCards[dataIndex].img}`;
+  }
   // tech
   const tagsContainer = popUpContainer.querySelector('.technology-tags');
 
@@ -239,3 +249,4 @@ formEmail.onkeydown = saveFromInput;
 formMsg.onkeydown = saveFromInput;
 
 // -------End Local Storage Section ------------------//
+ 
