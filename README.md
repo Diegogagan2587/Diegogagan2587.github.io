@@ -141,6 +141,9 @@ https://diegogagan2587.github.io/Diego-Vidal/#
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+Whatss App Icon From: https://www.iconsdb.com/custom-color/whatsapp-icon.html
+using the color: #505f79, you can get more icons from the color you want there!.
+
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
