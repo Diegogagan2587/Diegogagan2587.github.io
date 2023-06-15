@@ -55,15 +55,15 @@ function JobCardData(
 
 const jobCards = [
   new JobCardData(
-    'Tonic',
-    ' A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    './img/desktop/01Snapshoot Portfolio.svg',
+    'Creative Developers',
+    'A joyful celebration believing in the value of learning to code,',
+    './img/projects/capstone-projeect-1.png',
     ['HTML', 'CSS', 'Javascript'],
-    'https://diegogagan2587.github.io/Diego-Vidal',
-    'https://github.com/Diegogagan2587/Diego-Vidal',
-    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. \n \n Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
-    './img/desktop/Preview-desktopxx.png',
-    './img/pop-up-mobile.png',
+    'https://diegogagan2587.github.io/Capstone-project-module-1/',
+    'https://github.com/Diegogagan2587/Capstone-project-module-1',
+    'The Creative Developers Summit is a gathering that embraces emerging software developers, focusing on the theme of persistence. This annual event aims to foster collaboration and knowledge sharing among developers interested in building robust and reliable software solutions. Attendees include enthusiasts from various domains such as database management, cloud computing, and data storage. Together, we explore innovative techniques, discuss best practices, and envision a future where persistence plays a crucial role in shaping the digital landscape. Join us to contribute and learn at this dynamic summit!',
+    './img/projects/capstone-projeect-1-desktop-popup.png',
+    './img/projects/capstone-projeect-1.png',
   ),
   new JobCardData(
     'Multi-Post Stories',
