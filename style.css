@@ -239,6 +239,7 @@ body {
   min-width: 295px;
   min-height: 220px;
   width: 100%;
+  border-radius: 8px;
 }
 
 .project-name {
