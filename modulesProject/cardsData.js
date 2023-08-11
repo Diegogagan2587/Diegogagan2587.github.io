@@ -44,6 +44,17 @@ const jobCards = [
     './img/projects/capstone-projeect-1.png',
   ),
   new JobCardData(
+    'Math Magicians',
+    '"Math magicias" is a single Page App (SPA) that allows users to make simple calculations and Read Random math-related quotes.',
+    './img/projects/Math-Magicians.png',
+    ['HTML', 'CSS', 'Javascript', 'React'],
+    'https://math-magicians-akxg.onrender.com/',
+    'https://github.com/Diegogagan2587/math-magicians',
+    '"Math magicias" is a single Page App (SPA) that allows users to make simple calculations and Read Random math-related quotes. We used React for building this app.',
+    './img/projects/Math-Magicians.png',
+    './img/projects/Math-Magicians.png',
+  ),
+  new JobCardData(
     'Creative Developers',
     'A joyful celebration believing in the value of learning to code,',
     './img/projects/capstone-projeect-1.png',
