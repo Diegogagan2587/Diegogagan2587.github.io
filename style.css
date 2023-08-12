@@ -621,12 +621,11 @@ media queries Below
 
   .nav-list-top {
     display: flex;
+    gap:0.55vw;
     flex: 1 1 auto;
     width: 100%;
-    padding-right: 10%;
-    padding-left: 45%;
     list-style: none;
-    justify-content: space-between;
+    justify-content: flex-end;
     box-sizing: border-box;
   }
 
