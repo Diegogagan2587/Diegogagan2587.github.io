@@ -43,6 +43,10 @@ function getNewCardFrom(obj) {
   // then we modife the content;
   // name
   newCardFromTemplate.querySelector('.project-name').innerText = `${obj.name}`;
+  // Company, front or back end, year
+  newCardFromTemplate.querySelector('.company').innerText = `${obj.company}`;
+  newCardFromTemplate.querySelector('.type-of-dev').innerText = `${obj.typeOfDev}`;
+  newCardFromTemplate.querySelector('.date').innerText = `${obj.date}`;
   // description
   newCardFromTemplate.querySelector('.card-main-text').innerText = `${obj.description}`;
   // img

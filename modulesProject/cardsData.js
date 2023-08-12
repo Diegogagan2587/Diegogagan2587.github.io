@@ -8,6 +8,9 @@ function JobCardData(
   descriptionDesk,
   imgDesk,
   imgPopMobile,
+  company,
+  typeOfDev,
+  date,
 ) {
   this.name = name;
   this.description = description;
@@ -18,6 +21,9 @@ function JobCardData(
   this.descriptionDesk = descriptionDesk;
   this.imgDesk = imgDesk;
   this.imgPopMobile = imgPopMobile;
+  this.company = company;
+  this.typeOfDev = typeOfDev;
+  this.date = date;
 }
 
 const jobCards = [
@@ -31,6 +37,9 @@ const jobCards = [
     'A Mobile web application to check a list of metrics (numeric values) making use of React and Redux. selected API provides numeric data, the user is able to see the data in the home page, or to look for more details in the details page.',
     './img/projects/metrics-web-app.png',
     './img/projects/metrics-web-app.png',
+    'Self-employed',
+    'Front-End',
+    '2023',
   ),
   new JobCardData(
     'Space Travelers',
@@ -42,6 +51,9 @@ const jobCards = [
     'Space Travelers uses the Space X API to display a list of Rockets and a list of Missions, the user will be able to book a rocket or a mission and also to see all the rockets and missions reserved in the My Profile page.',
     './img/projects/space-travelers-hub.png',
     './img/projects/capstone-projeect-1.png',
+    'Self-employed',
+    'Front-End',
+    '2023',
   ),
   new JobCardData(
     'Math Magicians',
@@ -53,6 +65,9 @@ const jobCards = [
     '"Math magicias" is a single Page App (SPA) that allows users to make simple calculations and Read Random math-related quotes. We used React for building this app.',
     './img/projects/Math-Magicians.png',
     './img/projects/Math-Magicians.png',
+    'Self-employed',
+    'Front-End',
+    '2023',
   ),
   new JobCardData(
     'Creative Developers',
@@ -64,6 +79,9 @@ const jobCards = [
     'The Creative Developers Summit is a gathering that embraces emerging software developers, focusing on the theme of persistence. This annual event aims to foster collaboration and knowledge sharing among developers interested in building robust and reliable software solutions. Attendees include enthusiasts from various domains such as database management, cloud computing, and data storage. Together, we explore innovative techniques, discuss best practices, and envision a future where persistence plays a crucial role in shaping the digital landscape. Join us to contribute and learn at this dynamic summit!',
     './img/projects/capstone-projeect-1-desktop-popup.png',
     './img/projects/capstone-projeect-1.png',
+    'Self-employed',
+    'Front-End',
+    '2023',
   ),
   new JobCardData(
     "Today's To Do",
@@ -75,6 +93,9 @@ const jobCards = [
     'To-Do list is a simple project to keep track of the daily activities, You can add, delete or mark as completed your tasks! Close the browser and retrieve your task later!',
     './img/projects/capstone-projeect-2-desktop-popup.png',
     './img/projects/capstone-projeect-2.png',
+    'Self-employed',
+    'Front-End',
+    '2023',
   ),
   new JobCardData(
     'Facebook 360',
@@ -86,6 +107,9 @@ const jobCards = [
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. \n \n Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.",
     './img/desktop/Preview-desktopxx.png',
     './img/pop-up-mobile.png',
+    'Canopy',
+    'Front-End',
+    '2015',
   ),
   new JobCardData(
     'Uber Navigation',
@@ -97,6 +121,9 @@ const jobCards = [
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. \n \n Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.",
     './img/desktop/Preview-desktopxx.png',
     './img/pop-up-mobile.png',
+    'Canopy',
+    'Front-End',
+    '2015',
   ),
 ];
 
