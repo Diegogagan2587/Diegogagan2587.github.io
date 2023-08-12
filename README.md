@@ -182,7 +182,8 @@ If you like this project feel free to give us any suggestion!
 
 > Special thanks...
 
-I would like to thanks the Microverse Team for inspiring me to be better!
+I would like to thanks the Microverse Team for inspiring me to be better! and for providing the
+[figma design](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?type=design&node-id=75%3A35&mode=design&t=UnQh0bkFUOA8QWj4-1)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
