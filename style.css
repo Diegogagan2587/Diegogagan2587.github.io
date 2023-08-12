@@ -717,15 +717,17 @@ media queries Below
   }
 
   .technology-tags {
-    width: fit-content;
-    gap: 5%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap; 
+    gap: 8px;
+    min-width: 100%;
   }
 
   .technology-tags li {
     border-radius: 8px;
-    padding: 5%;
-    padding-left: 9%;
-    padding-right: 9%;
+    Padding:4px 12px 4px 12px;
+    font-size: 12px;
   }
 
   .project-frame {
