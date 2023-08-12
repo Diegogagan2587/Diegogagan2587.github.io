@@ -80,6 +80,10 @@ function setPopUpData(e) {
   const dataIndex = e.srcElement.value;
   // name
   popUpContainer.querySelector('h2').innerText = `${jobCards[dataIndex].name}`;
+  // company, front or back, year
+  popUpContainer.querySelector('.pop-company').innerText = `${jobCards[dataIndex].company}`;
+  popUpContainer.querySelector('.pop-dev-type').innerText = `${jobCards[dataIndex].typeOfDev}`;
+  popUpContainer.querySelector('.pop-year').innerText = `${jobCards[dataIndex].date}`;
   // img and description
   if (window.innerWidth >= 768) {
     popUpContainer.querySelector('p').innerText = `${jobCards[dataIndex].descriptionDesk}`;
