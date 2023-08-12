@@ -636,7 +636,10 @@ media queries Below
   }
 
   .nav-flex-container {
+    top: 0;
     height: 72px;
+    position: fixed;
+    width: 100%;
   }
 
   /*
@@ -651,6 +654,7 @@ media queries Below
     padding-left: 18%;
     padding-right: 18%;
     padding-bottom: 10%;
+    margin-top: 72px;
   }
 
   .header-text h1 {
