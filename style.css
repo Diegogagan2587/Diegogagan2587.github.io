@@ -875,6 +875,12 @@ media queries Below
     width: fit-content;
   }
 
+  #portfolioPopUpCloseBtn:hover {
+    filter: drop-shadow(8px 8px 10px #6070ff);
+    transition: 50ms;
+    transform: scale(1.1);
+  }
+
   #portfolioPopUpCloseBtn img {
     width: 1.75vmin;
   }
