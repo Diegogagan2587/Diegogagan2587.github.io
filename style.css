@@ -619,13 +619,18 @@ media queries Below
     font-size: 1.5rem;
   }
 
+  .nav-menu-button {
+    display: flex;
+    justify-content: flex-end;
+  }
+
   .nav-list-top {
     display: flex;
-    gap:0.55vw;
     flex: 1 1 auto;
-    width: 100%;
+    max-width: 258px;
     list-style: none;
-    justify-content: flex-end;
+    justify-content: space-evenly;
+    padding-left: 0;
     box-sizing: border-box;
   }
 
