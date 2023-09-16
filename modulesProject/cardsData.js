@@ -125,6 +125,20 @@ const jobCards = [
     'Front-End',
     '2023',
   ),
+  new JobCardData(
+    'Tribute Page',
+    'Tribute page is a static website dedicated to Dr. Norman Borlaug, it was written using basic html and css',
+    './img/projects/tribute-page.png',
+    ['HTML', 'CSS'],
+    'https://diegogagan2587.github.io/tribute-page/',
+    'https://github.com/Diegogagan2587/tribute-page',
+    'Tribute page is a static website dedicated to Dr. Norman Borlaug, it was written using basic html and css and it is a clone page that was builded to put in practice basic skills for html and css. Nothing more complex than that',
+    './img/projects/tribute-page.png',
+    './img/projects/tribute-page.png',
+    'Self-employed',
+    'Front-End',
+    '2020',
+  ),
 ];
 
 export default jobCards;
