@@ -41,9 +41,9 @@
 do you want to see and introduction? 
 take a look on this: https://www.loom.com/share/ba97041d80e146f88306be60cfc43c27
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With <a id="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
+### Tech Stack <a id="tech-stack"></a>
 
 > I based this work on:
 
