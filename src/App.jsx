@@ -1,4 +1,4 @@
-import IntroductionSection from './components/IntroductionSection';
+import IntroductionSection from './sections/IntroductionSection';
 import NavigationBar from './components/NavigationBar';
 
 

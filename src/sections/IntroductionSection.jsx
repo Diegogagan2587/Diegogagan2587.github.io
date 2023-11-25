@@ -1,4 +1,4 @@
-import SocialMediaBar from './SocialMediaBar';
+import SocialMediaBar from '../components/SocialMediaBar';
 
 const IntroductionSection = () => {
   return (
