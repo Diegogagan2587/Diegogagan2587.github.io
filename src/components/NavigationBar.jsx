@@ -8,7 +8,7 @@ const NavigationBar = () => {
   }
   return (
     <nav className="flex justify-between px-5
-    border-2 bg-gray-100 ">
+    border-2 bg-gray-100 h-10">
       <span>DVLoper</span>
       <div>
       <span className='sm:hidden' onClick={handleMenuClick}>
@@ -16,8 +16,8 @@ const NavigationBar = () => {
         </span>
       </div>
       <ul className={`
-      ${isMenuOpen ? 'block absolute w-screen h-screen left-0 top-10' : 'hidden'} 
-      sm:relative sm:flex sm:w-auto sm:h-auto
+      ${isMenuOpen ? 'block absolute w-screen sm:w-auto h-screen sm:h-auto left-0 sm:left-auto top-10 sm:top-auto' : 'hidden'} 
+      sm:relative sm:flex
        gap-5  bg-green-100`}>
         <li>
           <a href="/">Portfolio</a>
