@@ -11,7 +11,7 @@ const ProjectCard = ({ project }) => {
         />
       </div>
       <div
-        className="card-body min-w-[295px] min-h-[288px] border-2
+        className="card-body min-w-[295px] min-h-[288px]
       flex flex-col gap-3"
       >
         <h5 className="card-title font-bold text-3xl text-[#172B4D]">
