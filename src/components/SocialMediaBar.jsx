@@ -8,33 +8,40 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 
 const SocialMediaBar = () => {
+    const GITHUB_URL = 'https://github.com/Diegogagan2587'
+    const LINKEDIN_URL = 'https://www.linkedin.com/in/diego-vidal-lopez/'
+    const TWITTER_URL = 'https://twitter.com/dieg02587'
+    const ANGELLIST_URL = 'https://wellfound.com/u/diego-vidal-lopez'
+    const MEDIUM_URL = 'https://medium.com/@diego27796gagan'
+
   return (
     <div id="social-media" className='border-2'>
       <ul className="h-5 
       flex gap-5 items-center text-md text-[#505F79]">
         <li>
-          <a href="">
+          <a href={GITHUB_URL} target='_blank' rel='noreferrer' >
             <FontAwesomeIcon icon={faGithub} />
           </a>
+          {/* I add and <a> that opens a link in an new tab in next line */}
         </li>
         <li>
-          <a href="">
+        <a href={LINKEDIN_URL} target='_blank' rel='noreferrer' >
             <FontAwesomeIcon icon={faLinkedinIn} />
           </a>
         </li>
         <li>
-          <a href="">
+          <a href={TWITTER_URL} target='_blank' rel='noreferrer' >
             <FontAwesomeIcon icon={faXTwitter} />
           </a>
         </li>
 
         <li>
-          <a href="">
+        <a href={ANGELLIST_URL} target='_blank' rel='noreferrer' >
           <FontAwesomeIcon icon={faAngellist} />
           </a>
         </li>
         <li>
-          <a href="">
+        <a href={MEDIUM_URL} target='_blank' rel='noreferrer' >
           <FontAwesomeIcon icon={faMedium} />
           </a>
         </li>
