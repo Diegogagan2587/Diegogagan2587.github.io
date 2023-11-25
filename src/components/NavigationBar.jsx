@@ -20,13 +20,13 @@ const NavigationBar = () => {
       sm:relative sm:flex p-5 sm:p-0
        gap-5  bg-green-100`}>
         <li>
-          <a href="/">Portfolio</a>
+          <a href="#portfolio">Portfolio</a>
         </li>
         <li>
-          <a href="/about">About</a>
+          <a href="#about">About</a>
         </li>
         <li>
-          <a href="/contact">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </nav>
