@@ -1,7 +1,7 @@
 const skills = [
     {
         name: 'Languages',
-        items: [
+        list: [
             'JavaScript',
             'HTML',
             'CSS',
@@ -9,14 +9,14 @@ const skills = [
     },
     {
         name: 'Libraries/Frameworks',
-        items: [
+        list: [
             'React',
             'Redux',
         ],
     },
     {
         name: 'Skills',
-        items: [
+        list: [
             'Pair Programming',
             'Agile',
             'Test Driven Development',
