@@ -33,7 +33,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 My Portfolio <a name="about-project"></a>
+# 📖 My Portfolio <a id="about-project"></a>
 
 > Why is this?
 
@@ -41,9 +41,9 @@
 do you want to see and introduction? 
 take a look on this: https://www.loom.com/share/ba97041d80e146f88306be60cfc43c27
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With <a id="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
+### Tech Stack <a id="tech-stack"></a>
 
 > I based this work on:
 
@@ -137,7 +137,7 @@ https://diegogagan2587.github.io/Diego-Vidal/#
 
 - GitHub: [@Diegogagan2587](https://github.com/Diegogagan2587)
 - Twitter: [@dieg02587](https://twitter.com/dieg02587)
-- LinkedIn: [Diego Vidal Lopez](https://www.linkedin.com/in/diego-vidal2587/)
+- LinkedIn: [Diego Vidal Lopez](https://www.linkedin.com/in/diego-vidal-lopez/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
