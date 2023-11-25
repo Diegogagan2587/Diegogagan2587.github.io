@@ -16,8 +16,8 @@ const NavigationBar = () => {
         </span>
       </div>
       <ul className={`
-      ${isMenuOpen ? 'block' : 'hidden'} sm:block
-      flex gap-5 sm:block bg-green-100`}>
+      ${isMenuOpen ? 'block' : 'hidden'} sm:flex
+       gap-5 sm:block bg-green-100`}>
         <li>
           <a href="/">Portfolio</a>
         </li>
