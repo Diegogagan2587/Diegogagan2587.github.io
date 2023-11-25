@@ -1,4 +1,6 @@
+import IntroductionSection from './components/IntroductionSection';
 import NavigationBar from './components/NavigationBar';
+
 
 function App() {
   return (
@@ -6,6 +8,9 @@ function App() {
       <header>
         <NavigationBar />
       </header>
+      <main>
+        <IntroductionSection />
+      </main>
     </>
   );
 }
