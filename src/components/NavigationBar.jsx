@@ -17,7 +17,7 @@ const NavigationBar = () => {
       </div>
       <ul className={`
       ${isMenuOpen ? 'block absolute w-screen sm:w-auto h-screen sm:h-auto left-0 sm:left-auto top-10 sm:top-auto' : 'hidden'} 
-      sm:relative sm:flex
+      sm:relative sm:flex p-5 sm:p-0
        gap-5  bg-green-100`}>
         <li>
           <a href="/">Portfolio</a>
