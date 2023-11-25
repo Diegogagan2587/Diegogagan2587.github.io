@@ -48,10 +48,17 @@ take a look on this: https://www.loom.com/share/ba97041d80e146f88306be60cfc43c27
 > I based this work on:
 
 <details>
-  <summary>Website</summary>
+  <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">Html</a></li>
-    <li><a href="https://reactjs.org/">Css</a></li>
+    <li><a href="https://reactjs.org/">HTML</a></li>
+    <li><a href="https://reactjs.org/">CSS</a></li>
+    <li><a href="https://reactjs.org/">React</a></li>
+  </ul>
+</details>
+  <summary>Deployment</summary>
+  <ul>
+    <li><a href="https://pages.github.com/">Github Pages</a></li>
+    <li><a href="https://vitejs.dev/guide/static-deploy.html">Vite: Static Deployment</a></li>
   </ul>
 </details>
 
