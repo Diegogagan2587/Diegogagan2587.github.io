@@ -13,7 +13,7 @@ const skills = [
             'React',
             'Redux',
         ],
-    }
+    },
     {
         name: 'Skills',
         items: [
