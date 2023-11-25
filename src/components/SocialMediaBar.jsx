@@ -9,9 +9,9 @@ import {
 
 const SocialMediaBar = () => {
   return (
-    <div id="social-media">
-      <h2>Social Media</h2>
-      <ul className="flex gap-5 text-2xl text-[#505F79]">
+    <div id="social-media" className='border-2'>
+      <ul className="h-5 
+      flex gap-5 items-center text-md text-[#505F79]">
         <li>
           <a href="">
             <FontAwesomeIcon icon={faGithub} />
