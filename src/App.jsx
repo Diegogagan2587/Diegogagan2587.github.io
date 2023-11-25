@@ -1,5 +1,6 @@
 import IntroductionSection from './sections/IntroductionSection';
 import NavigationBar from './components/NavigationBar';
+import PortfolioSection from './sections/PortfolioSection';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       </header>
       <main>
         <IntroductionSection />
+        <PortfolioSection />
       </main>
     </>
   );
