@@ -5,11 +5,21 @@ const ProjectCard = ({ project }) => {
         {/* images will go here */}
       </div>
       <div className="card-body min-w-[295px] min-h-[288px] border-2">
-        <h5 className="card-title">{project.name}</h5>
+        <h5 className="card-title font-bold text-3xl text-[#172B4D]">{project.name}</h5>
+        <ul>
+            <span>{project.company}</span>
+            <li>{project.typeOfDev}</li>
+            <li>{project.date}</li>
+        </ul>
         <p className="card-text">{project.description}</p>
-        <a href={project.liveVersion} className="btn btn-primary">
-          Go to project
-        </a>
+        <ul className="flex">
+            {project.technologies.map((technology) => {
+                return <li key={technology}>{technology}</li>
+            })}
+        </ul>
+        <button className="border-2 bg-red-100">
+            See Project
+        </button>
       </div>
     </div>
   );
