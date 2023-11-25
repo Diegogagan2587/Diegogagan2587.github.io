@@ -17,7 +17,7 @@ const SocialMediaBar = () => {
   return (
     <div id="social-media" className='border-2'>
       <ul className="h-5 
-      flex gap-5 items-center text-md text-[#505F79]">
+      flex gap-5 items-center text-xl text-[#505F79]">
         <li>
           <a href={GITHUB_URL} target='_blank' rel='noreferrer' >
             <FontAwesomeIcon icon={faGithub} />
