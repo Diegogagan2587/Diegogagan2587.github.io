@@ -7,14 +7,17 @@ const NavigationBar = () => {
     console.log('Menu clicked', isMenuOpen)
   }
   return (
-    <nav className="flex border-2">
+    <nav className="flex justify-between px-5
+    border-2 bg-gray-100 ">
       <span>DVLoper</span>
       <div>
       <span className='sm:hidden' onClick={handleMenuClick}>
           {isMenuOpen ? 'X' : 'Menu'}
         </span>
       </div>
-      <ul className="flex gap-5">
+      <ul className={`
+      ${isMenuOpen ? 'block' : 'hidden'} sm:block
+      flex gap-5 sm:block bg-green-100`}>
         <li>
           <a href="/">Portfolio</a>
         </li>
