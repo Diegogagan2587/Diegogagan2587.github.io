@@ -15,7 +15,10 @@ const SocialMediaBar = () => {
     const MEDIUM_URL = 'https://medium.com/@diego27796gagan'
 
   return (
-    <div id="social-media" className=''>
+    <div id="social-media" className='flex flex-col gap-4'>
+      <span className="text-base font-medium text-[#7F8CFF]">
+        LET'S CONNECT
+      </span>
       <ul className="h-5 
       flex gap-5 items-center text-xl text-[#505F79]">
         <li>

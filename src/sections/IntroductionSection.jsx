@@ -23,7 +23,6 @@ const IntroductionSection = () => {
           you see and have a project you need coded, don’t hesitate to contact
           me.
         </p >
-        <span className='text-base font-medium text-[#7F8CFF]'>LET'S CONNECT</span>
         <SocialMediaBar />
       </div>
     </section>
