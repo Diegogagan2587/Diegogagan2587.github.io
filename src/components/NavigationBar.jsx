@@ -7,7 +7,8 @@ const NavigationBar = () => {
     console.log('Menu clicked', isMenuOpen)
   }
   return (
-    <nav className="flex justify-between px-5
+    <nav className="fixed flex justify-between px-5
+    w-full
     border-2 bg-gray-100 h-10">
       <span>DVLoper</span>
       <div>
