@@ -1,4 +1,5 @@
 import Btn from '../components/Btn';
+import Skills from '../components/Skills';
 import SocialMediaBar from '../components/SocialMediaBar';
 
 const AboutSection = () => {
@@ -21,7 +22,10 @@ const AboutSection = () => {
           <Btn text="Get my resume" />
         </div>
       </div>
-      <div id="skill-list"></div>
+
+      <div id="skill-list" className='w-full'>
+        <Skills />
+      </div>
     </section>
   );
 };
