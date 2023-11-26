@@ -13,7 +13,7 @@ const ProjectCard = ({ project }) => {
     <div id='project-card' 
     className="card bg-white border-2 rounded-xl p-4 flex flex-col sm:flex-row 
     sm:items-center gap-3
-    sm:max-w-[1156px] sm:max-h-[496px]">
+    max-w-[343px] sm:max-w-[1156px] sm:max-h-[496px]">
       <div id='project-img' 
       className="container bg-slate-100 sm:overflow-hidden
       flex items-center justify-center
