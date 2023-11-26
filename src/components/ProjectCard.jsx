@@ -1,6 +1,14 @@
+import { useState } from 'react';
 import Btn from './Btn';
 import Tag from './Tag';
+import PopUp from './PopUp';
 const ProjectCard = ({ project }) => {
+  const [popUp, setPopUp] = useState(false);
+  const handlePopUp = () => {
+    console.log('pop up should open or close');
+    setPopUp(!popUp);
+    console.log('is Popup open?',popUp);
+  };
   return (
     <div className="card bg-white border-2 rounded-xl p-4 flex flex-col gap-3">
       <div className="container h-10 w-full bg-green-100 min-w-[295px] min-h-[220px]">
@@ -31,7 +39,8 @@ const ProjectCard = ({ project }) => {
           })}
         </ul>
         <div>
-          <Btn text="See Project" />
+          <Btn text="See Project" onClick={()=>handlePopUp()}/>
+          {popUp && <PopUp project={project} handlePopUp={handlePopUp}/>}
         </div>
       </div>
     </div>
