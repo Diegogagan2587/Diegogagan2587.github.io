@@ -15,15 +15,15 @@ const ContactForm = () => {
           that you need built or a project that needs coding. I’d love to help
           with it!
         </p>
-        <form className='flex flex-col gap-5'>
+        <form action="https://formspree.io/f/mbjewygq" method="POST" className='flex flex-col gap-5'>
           <div className="form-group">
             <label htmlFor="name">
-              <input type="text" id="name" name="name" placeholder="Name" className='w-full rounded-lg p-2'/>
+              <input type="text" id="name" name="name" placeholder="name" maxLength="30" required className='w-full rounded-lg p-2'/>
             </label>
           </div>
           <div className="form-group">
             <label htmlFor="email">
-              <input type="email" id="email" name="email" placeholder="email" className='w-full rounded-lg p-2'/>
+              <input type="email" id="email" name="email" placeholder="email@domain.com" required className='w-full rounded-lg p-2'/>
             </label>
           </div>
           <div className="form-group">
@@ -32,6 +32,8 @@ const ContactForm = () => {
                 id="message"
                 name="message"
                 placeholder="Write your message here..."
+                maxLength="500"
+                required
                 className='w-full rounded-lg p-2 h-36'
               />
             </label>
