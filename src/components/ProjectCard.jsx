@@ -10,17 +10,24 @@ const ProjectCard = ({ project }) => {
     console.log('is Popup open?',popUp);
   };
   return (
-    <div className="card bg-white border-2 rounded-xl p-4 flex flex-col gap-3">
-      <div className="container h-10 w-full bg-green-100 min-w-[295px] min-h-[220px]">
+    <div id='project-card' 
+    className="card bg-white border-2 rounded-xl p-4 flex flex-col sm:flex-row gap-3
+    sm:max-w-[1156px] sm:max-h-[496px]">
+      <div id='project-img' 
+      className="container bg-slate-100 
+      h-10 sm:h-auto w-full sm:w-1/2 min-w-[295px] min-h-[220px] sm:min-w-[220px]
+      rounded-md border-2">
         <img 
         src={project.img} 
         alt={`Screenshot of ${project.name}`} 
-        className='object-cover w-full h-full rounded-lg'
+        className='object-cover sm:object-contain md:object-cover 
+        w-full h-full rounded-lg'
         />
       </div>
-      <div
-        className="card-body min-w-[295px] min-h-[288px]
-      flex flex-col gap-3"
+      <div id='project-info'
+        className="card-body flex flex-col gap-3 border-2
+        min-w-[295px] sm:min-w-auto sm:w-1/2 min-h-[288px]
+      "
       >
         <h5 className="card-title font-bold text-3xl text-[#172B4D]">
           {project.name}
