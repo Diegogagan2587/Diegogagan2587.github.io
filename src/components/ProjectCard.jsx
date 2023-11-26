@@ -2,8 +2,9 @@ import { useState } from 'react';
 import Btn from './Btn';
 import Tag from './Tag';
 import PopUp from './PopUp';
-const ProjectCard = ({ project }) => {
+const ProjectCard = ({ project,index }) => {
   const [popUp, setPopUp] = useState(false);
+  const desktopFlexDirection = index % 2 === 0 ? "sm:flex-row" : "sm:flex-row-reverse";
   const handlePopUp = () => {
     console.log('pop up should open or close');
     setPopUp(!popUp);
@@ -11,9 +12,9 @@ const ProjectCard = ({ project }) => {
   };
   return (
     <div id='project-card' 
-    className="card bg-white border-2 rounded-xl p-4 flex flex-col sm:flex-row 
+    className={`card bg-white border-2 rounded-xl p-4 flex flex-col ${desktopFlexDirection} 
     sm:items-center gap-3
-    max-w-[343px] sm:max-w-[1156px] sm:max-h-[496px]">
+    max-w-[343px] sm:max-w-[1156px] sm:max-h-[496px]`}>
       <div id='project-img' 
       className="container bg-slate-100 sm:overflow-hidden
       flex items-center justify-center
