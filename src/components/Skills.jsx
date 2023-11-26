@@ -13,14 +13,14 @@ const Skills = () => {
   };
 
   return (
-    <div id="skills" className="border-2 w-full px-1">
+    <div id="skills" className="w-full px-1">
       {skills.map((skill) => {
         const isListVisible = skillVisibility[skill.name] || false;
 
         return (
           <div key={skill.name} className="px-2">
             <div
-              className="flex justify-between items-center py-2 border-2 cursor-pointer"
+              className="flex justify-between items-center py-2 cursor-pointer"
               onClick={() => toggleListVisibility(skill.name)}
             >
               <h3 className="font-medium text-xl">{skill.name}</h3>
