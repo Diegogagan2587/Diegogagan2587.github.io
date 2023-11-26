@@ -27,22 +27,21 @@ const Skills = () => {
               <img src={DropDownIcon} alt="DropDown" />
             </div>
             {isListVisible && (
-              <ul className="flex flex-col gap-3">
+              <ul className="flex flex-col gap-3 py-2">
                 {skill.list.map((item) => {
                   return (
                     <li
                       key={item.name}
-                      className="flex items-center p-2 bg-slate-100 rounded-lg"
+                      className="flex items-center p-2 bg-[#F7F7F9] rounded-lg gap-4"
                     >
-                      <div className="w-12 h-12 bg-slate-500 rounded-full">
+                      <div className="w-12 h-12 bg-slate-500 rounded-full border-2 border-white">
                         <img
                           src={item.icon}
                           alt="Language-Icon"
                           className="w-full h-full object-cover rounded-full"
                         />
                       </div>
-
-                      <p>{item.name}</p>
+                      <p className='font-medium text-[#253858]'>{item.name}</p>
                     </li>
                   );
                 })}
