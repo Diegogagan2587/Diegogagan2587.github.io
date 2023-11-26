@@ -48,10 +48,20 @@ take a look on this: https://www.loom.com/share/ba97041d80e146f88306be60cfc43c27
 > I based this work on:
 
 <details>
-  <summary>Website</summary>
+  <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">Html</a></li>
-    <li><a href="https://reactjs.org/">Css</a></li>
+    <li><a href="https://reactjs.org/">HTML</a></li>
+    <li><a href="https://reactjs.org/">CSS</a></li>
+    <li><a href="https://reactjs.org/">React</a></li>
+    <li><a href="https://fontawesome.com/">Fontawesome icons(Social Icons)</a></li>
+    <li><a href="https://icons8.com/icons"></a>Icons8: Tech Icons</li>
+    
+  </ul>
+</details>
+  <summary>Deployment</summary>
+  <ul>
+    <li><a href="https://pages.github.com/">Github Pages</a></li>
+    <li><a href="https://vitejs.dev/guide/static-deploy.html">Vite: Static Deployment</a></li>
   </ul>
 </details>
 
@@ -184,6 +194,9 @@ If you like this project feel free to give us any suggestion!
 
 I would like to thanks the Microverse Team for inspiring me to be better! and for providing the
 [figma design](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?type=design&node-id=75%3A35&mode=design&t=UnQh0bkFUOA8QWj4-1)
+
+Links to Icons:
+<a target="_blank" href="https://icons8.com/icon/108784/javascript">JavaScript</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
