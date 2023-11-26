@@ -1,19 +1,16 @@
 import SocialMediaBar from '../components/SocialMediaBar';
 import background from '../assets/img/header-shapes-mobile@2x.svg';
 
-const IntroductionSection = () => {
-  const backgroundStyle = {
-    backgroundImage: `url(${background})`,
-    backgroundRepeat: 'no-repeat',
-    backgroundSize:   '100%',
-  };
+ const IntroductionSection = () => {
 
   return (
     <section
       id="introduction-section"
       className="p-6 border-t-[36px] w-full bg-white h-screen flex flex-col justify-center items-center
-      rounded-bl-[64px] border-2"
-      style={backgroundStyle}
+      rounded-bl-[64px] border-2
+      bg-[url('./assets/img/header-shapes-mobile@2x.svg')] bg-no-repeat bg-cover
+      "
+      //style={backgroundStyle}
     >
       <div className="flex flex-col gap-5 max-w-[920px]">
         <h1 className="text-4xl font-bold leading-[52px] text-[#172B4D]">I'm Diego.<br/> Glad to see you !</h1>
