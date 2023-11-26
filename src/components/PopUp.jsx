@@ -8,10 +8,10 @@ const PopUp = ({ project, handlePopUp }) => {
   return (
     <div
       className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center backdrop-blur-md min-h-screen
-    px-4
+    px-4 overflow-y-auto
     "
     >
-      <div className="bg-white rounded-lg p-4 z-10 flex flex-col gap-4">
+      <div className="bg-white rounded-lg p-4 z-10 flex flex-col gap-4 max-h-full overflow-y-auto">
         <div className='flex justify-between items-center p-1'>
           <h3 className="text-3xl font-bold text-[#172B4D] ">{project.name}</h3>
           <button onClick={() => handlePopUp()}>
