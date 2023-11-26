@@ -1,5 +1,4 @@
 import SocialMediaBar from '../components/SocialMediaBar';
-import background from '../assets/img/header-shapes-mobile@2x.svg';
 
  const IntroductionSection = () => {
 
@@ -9,6 +8,7 @@ import background from '../assets/img/header-shapes-mobile@2x.svg';
       className="p-6 border-t-[36px] w-full bg-white h-screen flex flex-col justify-center items-center
       rounded-bl-[64px] border-2
       bg-[url('./assets/img/header-shapes-mobile@2x.svg')] bg-no-repeat bg-cover
+      md:bg-[url('./assets/img/header-shapes-desktop@2x.svg')] md:bg-no-repeat md:bg-cover md:bg-right-bottom
       "
       //style={backgroundStyle}
     >
