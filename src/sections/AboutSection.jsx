@@ -6,10 +6,11 @@ const AboutSection = () => {
   return (
     <section
       id="about"
-      className="flex flex-col items-center justify-center py-28
+      className="flex flex-col sm:flex-row items-center justify-center py-28
       min-h-screen border-2 bg-white rounded-tr-[50px] px-6 gap-6"
     >
-      <div id="mySelf" className="flex flex-col gap-3">
+      <div id="mySelf" className="border-2 flex flex-col gap-3
+      sm:max-w-[447px]">
         <h2 className="font-bold text-4xl text-[#172B4D]">About Myself</h2>
         <p className="text-[#344563]">
           Hello I’m a software developer! I can help you build a product ,
@@ -23,7 +24,8 @@ const AboutSection = () => {
         </div>
       </div>
 
-      <div id="skill-list" className='w-full'>
+      <div id="skill-list" className='w-full border-2
+      sm:max-w-[684px]'>
         <Skills />
       </div>
     </section>
