@@ -13,7 +13,9 @@ const NavigationBar = () => {
     w-full
     border-2 bg-white h-10"
     >
-      <span>DVLoper</span>
+      <span
+      className='text-xl font-bold text-[#6070ff]'
+      >DVLoper</span>
       <div>
         <span className="sm:hidden" onClick={handleMenuClick}>
           {(isMenuOpen && <img src={CloseIcon} alt="Close Icon" 
