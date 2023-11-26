@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import skills from '../data/skills';
 import DropDownIcon from '../assets/icons/Disabledbutton-down-arrow.png';
 
@@ -19,7 +19,7 @@ const Skills = () => {
 
         return (
           <div key={skill.name} className="px-2">
-            <div
+            <div id='skills-group-heading'
               className="flex justify-between items-center py-2 cursor-pointer"
               onClick={() => toggleListVisibility(skill.name)}
             >
@@ -27,15 +27,19 @@ const Skills = () => {
               <img src={DropDownIcon} alt="DropDown" />
             </div>
             {isListVisible && (
-              <ul className="flex flex-col gap-3 py-2">
-                {skill.list.map((item) => {
+              <ul className="flex flex-col gap-3 py-2
+              md:flex-row md:flex-wrap
+              ">
+                {skill.list.map((item,index) => {
                   return (
                     <li
+                     id={`skill-${index}`}
                       key={item.name}
-                      className="flex items-center p-2 bg-[#F7F7F9] rounded-lg gap-4"
+                      className="flex md:flex-col md:w-[122px] md:h-[120px] items-center sm:items-start p-2 bg-[#F7F7F9] rounded-lg gap-4"
                     >
                       <div className="w-12 h-12 bg-slate-500 rounded-full border-2 border-white">
                         <img
+                        
                           src={item.icon}
                           alt="Language-Icon"
                           className="w-full h-full object-cover rounded-full"
