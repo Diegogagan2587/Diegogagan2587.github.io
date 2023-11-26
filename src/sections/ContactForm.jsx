@@ -13,9 +13,10 @@ const ContactForm = () => {
     <div className="bg-white">
       <div
         id="contact"
-        className="border-2 border-green-500 rounded-tl-[68px] bg-[#6070FF] min-h-screen px-6 pt-24 flex flex-col gap-3"
+        className="border-2 border-green-500 rounded-tl-[68px] bg-[#6070FF] min-h-screen px-6 pt-24 flex justify-center items-center"
         style={backgroundStyle}
       >
+        <div className='flex flex-col sm:max-w-[801px] sm:max-h-[577px] gap-3 md:px-[177px]'>
         <h2 className="font-bold text-4xl text-center text-white">
           Contact me
         </h2>
@@ -51,6 +52,8 @@ const ContactForm = () => {
             <Btn type="submit" text="Get in touch" />
           </div>
         </form>
+        </div>
+        
       </div>
     </div>
   );
