@@ -13,7 +13,7 @@ const ProjectCard = ({ project,index }) => {
   return (
     <div id='project-card' 
     className={`card bg-white border-2 rounded-xl p-4 flex flex-col ${desktopFlexDirection} 
-    sm:items-center gap-3
+    sm:items-center gap-3 sm:aspect-[145/62]
     max-w-[343px] sm:max-w-[1156px] sm:max-h-[496px]`}>
       <div id='project-img' 
       className="container bg-slate-100 sm:overflow-hidden
