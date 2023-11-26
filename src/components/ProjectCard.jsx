@@ -27,7 +27,7 @@ const ProjectCard = ({ project }) => {
         /> 
       </div>
       <div id='project-info'
-        className="card-body flex flex-col gap-3 border-2
+        className="card-body flex flex-col gap-3
         min-w-[295px] sm:min-w-auto sm:w-1/2 min-h-[288px]
       "
       >
