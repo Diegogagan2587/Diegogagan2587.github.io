@@ -11,7 +11,7 @@ function App() {
       <header>
         <NavigationBar />
       </header>
-      <main>
+      <main className='bg-[#F4F5F7]'>
         <IntroductionSection />
         <PortfolioSection />
         <AboutSection />
