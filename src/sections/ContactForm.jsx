@@ -8,7 +8,7 @@ const ContactForm = () => {
         className="rounded-tl-[68px] bg-[#6070FF] min-h-screen px-6 pt-24 flex flex-col gap-3"
       >
         <h2 className="font-bold text-4xl text-center text-white">
-          Contact Me
+          Contact me
         </h2>
         <p className="text-xl leading-7 text-center text-[#EBEBFF]">
           If you have an application you are interested in developing, a feature
