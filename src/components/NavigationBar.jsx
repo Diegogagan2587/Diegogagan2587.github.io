@@ -11,19 +11,18 @@ const NavigationBar = () => {
     <nav
       className="fixed flex justify-between items-center px-5
     w-full
-    border-2 bg-white h-10"
+    bg-white h-10"
     >
-      <span
-      className='text-xl font-bold text-[#6070ff]'
-      >DVLoper</span>
+      <span className="text-xl font-bold text-[#6070ff]">DVLoper</span>
       <div>
         <span className="sm:hidden" onClick={handleMenuClick}>
-          {(isMenuOpen && <img src={CloseIcon} alt="Close Icon" 
-          className='relative h-full p-2.5'
-          />) || (
-            <img src={Hamburguer} alt="Hamburguer Icon" 
-            className='h-7'/>
-          )}
+          {(isMenuOpen && (
+            <img
+              src={CloseIcon}
+              alt="Close Icon"
+              className="relative h-full p-2.5"
+            />
+          )) || <img src={Hamburguer} alt="Hamburguer Icon" className="h-7" />}
         </span>
       </div>
       <ul
@@ -34,7 +33,7 @@ const NavigationBar = () => {
           : 'hidden'
       } 
       sm:relative sm:flex p-5 sm:p-0
-       gap-5  bg-green-100`}
+       gap-5 sm:font-medium sm:text-[#344563]`}
       >
         <li>
           <a href="#portfolio">Portfolio</a>
