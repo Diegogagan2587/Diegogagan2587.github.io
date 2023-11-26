@@ -1,13 +1,6 @@
 import Btn from '../components/Btn';
 
 const ContactForm = () => {
-  // const backgroundStyle = {
-  //   backgroundImage: `url(${background})`,
-  //   backgroundRepeat: 'no-repeat',
-  //   backgroundSize:   '50%',
-  //   backgroundPosition: 'right',
-  // };
-
   return (
     <div className="bg-white">
       <div
@@ -15,7 +8,6 @@ const ContactForm = () => {
         className="bg-[url('./assets/img/background-form-mobile-react.svg')] bg-no-repeat bg-contain bg-right
         md:bg-[url('./assets/img/background-form-desktop-react.svg')] md:bg-no-repeat md:bg-contain md:bg-center
         border-2 border-green-500 rounded-tl-[68px] bg-[#6070FF] min-h-screen px-6 pt-24 flex justify-center items-center"
-        // style={backgroundStyle}
       >
         <div className='flex flex-col sm:max-w-[801px] sm:max-h-[577px] gap-3 md:px-[177px]'>
         <h2 className="font-bold text-4xl text-center text-white">
