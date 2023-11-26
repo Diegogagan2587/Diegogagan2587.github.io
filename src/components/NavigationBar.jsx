@@ -4,6 +4,8 @@ import CloseIcon from '../assets/icons/close-popup-button.png';
 
 const NavigationBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const dropdownOpenClasses =
+    'block absolute w-screen sm:w-auto h-screen sm:h-auto left-0 sm:left-auto top-10 sm:top-auto bg-[#201DCE99] backdrop-blur-[5px] bg-opacity-60 text-white font-semibold text-3xl leading-10';
   const handleMenuClick = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -27,22 +29,24 @@ const NavigationBar = () => {
       </div>
       <ul
         className={`
-      ${
-        isMenuOpen
-          ? 'block absolute w-screen sm:w-auto h-screen sm:h-auto left-0 sm:left-auto top-10 sm:top-auto'
-          : 'hidden'
-      } 
-      sm:relative sm:flex p-5 sm:p-0
+      ${isMenuOpen ? dropdownOpenClasses : 'hidden'} 
+      sm:relative sm:flex p-5 sm:p-0 sm:bg-white
        gap-5 sm:font-medium sm:text-[#344563]`}
       >
         <li>
-          <a href="#portfolio">Portfolio</a>
+          <a href="#portfolio"
+          onClick={()=>handleMenuClick()}
+          >Portfolio</a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a href="#about"
+          onClick={()=>handleMenuClick()}
+          >About</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact"
+          onClick={()=>handleMenuClick()}
+          >Contact</a>
         </li>
       </ul>
     </nav>
