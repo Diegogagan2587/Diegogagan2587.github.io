@@ -53,7 +53,8 @@ take a look on this: https://www.loom.com/share/ba97041d80e146f88306be60cfc43c27
     <li><a href="https://reactjs.org/">HTML</a></li>
     <li><a href="https://reactjs.org/">CSS</a></li>
     <li><a href="https://reactjs.org/">React</a></li>
-    <li><a href="https://fontawesome.com/">Fontawesome icons</a></li>
+    <li><a href="https://fontawesome.com/">Fontawesome icons(Social Icons)</a></li>
+    <li><a href="https://icons8.com/icons"></a>Icons8: Tech Icons</li>
     
   </ul>
 </details>
