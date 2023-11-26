@@ -1,11 +1,20 @@
 import Btn from '../components/Btn';
+import background from '../assets/img/background-form-mobile-react.svg';
 
 const ContactForm = () => {
+  const backgroundStyle = {
+    backgroundImage: `url(${background})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize:   '50%',
+    backgroundPosition: 'right',
+  };
+
   return (
     <div className="bg-white">
       <div
         id="contact"
-        className="rounded-tl-[68px] bg-[#6070FF] min-h-screen px-6 pt-24 flex flex-col gap-3"
+        className="border-2 border-green-500 rounded-tl-[68px] bg-[#6070FF] min-h-screen px-6 pt-24 flex flex-col gap-3"
+        style={backgroundStyle}
       >
         <h2 className="font-bold text-4xl text-center text-white">
           Contact me
