@@ -51,6 +51,7 @@ const Skills = () => {
                 })}
               </ul>
             )}
+            <hr/>
           </div>
         );
       })}
