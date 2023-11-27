@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import Tag from './Tag';
 import Btn from './Btn';
 import CloseIcon from '../assets/icons/close-popup-button.png';
@@ -68,6 +69,22 @@ const PopUp = ({ project, handlePopUp }) => {
       </div>
     </div>
   );
+};
+
+// we can use proptypes to check the type of props
+PopUp.propTypes = {
+  project: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    company: PropTypes.string.isRequired,
+    typeOfDev: PropTypes.string.isRequired,
+    date: PropTypes.string.isRequired,
+    img: PropTypes.string.isRequired,
+    descriptionDesk: PropTypes.string.isRequired,
+    technologies: PropTypes.arrayOf(PropTypes.string).isRequired,
+    liveVersion: PropTypes.string.isRequired,
+    source: PropTypes.string.isRequired,
+  }).isRequired,
+  handlePopUp: PropTypes.func.isRequired,
 };
 
 export default PopUp;
