@@ -9,6 +9,8 @@ import imgDocumentationPage from '/assets/img/projects/documentation-page.png';
 import imgProductLandingPage from '/assets/img/projects/landing-page-original-trombones.png';
 import imgTributePage from '/assets/img/projects/tribute-page.png';
 import bookAConcert from '/assets/img/projects/book-a-concert.png';
+import recipeApp from '/assets/img/projects/recipe-app-best-dishes.png';
+import budgetApp from '/assets/img/projects/budget-app-live-demo.png';
 
 const projects = [
   {
@@ -32,6 +34,53 @@ const projects = [
       'Ruby',
       'Rails',
       'PostgreSQL',
+    ],
+  },
+  {
+    name: 'Recipe App Best Dishes',
+    company: 'Self-employed',
+    typeOfDev: 'Full-stack',
+    date: '2023',
+    description:
+      'Recipe App keeps track of all your recipes and ingredients. It will allow you to save ingredients, keep track of what you have, create recipes and...',
+    descriptionDesk:
+      'Recipe App keeps track of all your recipes and ingredients. It will allow you to save ingredients, keep track of what you have, create recipes and generate a shopping list based on what you have and what you are missing from a recipe. Also, since sharing recipes is an important part of cooking the app should allow you to make them public so anyone can access them.',
+    img: recipeApp,
+    liveVersion: 'https://my-recipe-app-d41m.onrender.com/',
+    source: 'https://github.com/Diegogagan2587/Recipe-app-bests-dishes',
+    technologies: [
+      'HTML5',
+      'CSS3',
+      'Bootstrap',
+      'Ruby',
+      'Rails',
+      'PostgreSQL',
+      'Rspec',
+      'Capybara',
+    ],
+  },
+  {
+    name: 'Budget-App',
+    company: 'Self-employed',
+    typeOfDev: 'Full-stack',
+    date: '2023',
+    description:
+      'Budget App is a server-side rendered mobile application following MVC architecture, where you can manage your budget: You have a list of...',
+    descriptionDesk:
+      'Budget App is a server-side rendered mobile application following MVC architecture, where you can manage your budget: You have a list of transactions associated with a category so you can see how much money you spent on what.',
+    img: budgetApp,
+    liveVersion: 'https://www-budget-app.onrender.com/',
+    source: 'https://github.com/Diegogagan2587/budget-app',
+    technologies: [
+      'HTML5',
+      'CSS3',
+      'Tailwind-CSS',
+      'Javascript',
+      'Ruby',
+      'Rails',
+      'PostgreSQL',
+      'Rspec',
+      'Capybara',
     ],
   },
   {
