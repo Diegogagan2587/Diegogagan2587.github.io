@@ -1,9 +1,11 @@
+import imgMetricsWebApp from '/assets/img/projects/metrics-web-app.png';
+
 const projects = [
   {
     name: 'Metrics Webapp',
     description:
       'A Mobile web application to check a list of metrics (numeric values) making use of React and Redux.',
-    img: '/assets/img/projects/metrics-web-app.png',
+    img: imgMetricsWebApp,
     technologies: ['HTML', 'CSS', 'Javascript', 'React', 'Redux'],
     liveVersion: 'https://diegogagan2587.github.io/metrics-webapp/',
     source: 'https://github.com/Diegogagan2587/metrics-webapp',
