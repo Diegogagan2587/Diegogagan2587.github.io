@@ -13,17 +13,17 @@ const IntroductionSection = () => {
     >
       <div className="flex flex-col gap-5 max-w-[920px]">
         <h1 className="text-4xl font-bold leading-[52px] text-[#172B4D]">
-          Welcome! I'm Diego Vidal.
+          I&apos;m Diego Vidal
           <br />
-          And I know why you are here!
+          Full-stack Web Developer.
         </h1>
         <p className="text-base leading-6 text-[#344563]">
-          Your time is money so lets go ahead. I'm a seasoned Full-Stack Web
-          Developer, adept at crafting dynamic Single Page Applications, robust
-          Server Side Rendering, and powerful APIs. Specializing in JavaScript,
-          React, Redux, Tailwind-CSS, Ruby on Rails, PostgreSQL, and more, I
-          bring over 2,500 hours of hands-on experience in building, testing,
-          and debugging software. <br /> check out my work below.
+          I'm a seasoned Full-Stack Web Developer, adept at crafting functional
+          Single Page Applications, robust Server Side Rendering Websites, and
+          powerful APIs. Specializing in JavaScript, React, Redux, Tailwind-CSS,
+          Ruby on Rails, PostgreSQL, and more, I bring over 2,500 hours of
+          hands-on experience in building, testing, and debugging software.
+          <br /> check out my work below.
         </p>
         <SocialMediaBar />
       </div>
