@@ -16,7 +16,8 @@ const ContactForm = () => {
         <p className="text-xl leading-7 text-center text-[#EBEBFF]">
           If you have an application you are interested in developing, a feature
           that you need built or a project that needs coding. I’d love to help
-          with it!
+          with it!.
+          contact me at <strong>diego27796gagan@gmail.com</strong> or fill out the form below.
         </p>
         <form action="https://formspree.io/f/mbjewygq" method="POST" className='flex flex-col gap-5'>
           <div className="form-group">
