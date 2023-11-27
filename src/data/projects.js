@@ -10,6 +10,7 @@ import imgProductLandingPage from '/assets/img/projects/landing-page-original-tr
 import imgTributePage from '/assets/img/projects/tribute-page.png';
 import bookAConcert from '/assets/img/projects/book-a-concert.png';
 import recipeApp from '/assets/img/projects/recipe-app-best-dishes.png';
+import budgetApp from '/assets/img/projects/budget-app-live-demo.png';
 
 const projects = [
   {
@@ -51,6 +52,30 @@ const projects = [
       'HTML5',
       'CSS3',
       'Bootstrap',
+      'Ruby',
+      'Rails',
+      'PostgreSQL',
+      'Rspec',
+      'Capybara',
+    ],
+  },
+  {
+    name: 'Budget-App',
+    company: 'Self-employed',
+    typeOfDev: 'Full-stack',
+    date: '2023',
+    description:
+      'Budget App is a server-side rendered mobile application following MVC architecture, where you can manage your budget: You have a list of...',
+    descriptionDesk:
+      'Budget App is a server-side rendered mobile application following MVC architecture, where you can manage your budget: You have a list of transactions associated with a category so you can see how much money you spent on what.',
+    img: budgetApp,
+    liveVersion: 'https://www-budget-app.onrender.com/',
+    source: 'https://github.com/Diegogagan2587/budget-app',
+    technologies: [
+      'HTML5',
+      'CSS3',
+      'Tailwind-CSS',
+      'Javascript',
       'Ruby',
       'Rails',
       'PostgreSQL',
