@@ -18,7 +18,7 @@ const IntroductionSection = () => {
           Full-stack Web Developer.
         </h1>
         <p className="text-base leading-6 text-[#344563]">
-          I'm a seasoned Full-Stack Web Developer, adept at crafting functional
+          I&apos;m a seasoned Full-Stack Web Developer, adept at crafting functional
           Single Page Applications, robust Server Side Rendering Websites, and
           powerful APIs. Specializing in JavaScript, React, Redux, Tailwind-CSS,
           Ruby on Rails, PostgreSQL, and more, I bring over 2,500 hours of
