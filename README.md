@@ -197,11 +197,23 @@ I would like to thanks the Microverse Team for inspiring me to be better! and fo
 
 Links to Icons:
 <a target="_blank" href="https://icons8.com/icon/108784/javascript">JavaScript</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
 <a target="_blank" href="https://icons8.com/icon/jD-fJzVguBmw/redux">Redux</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
 <a target="_blank" href="https://icons8.com/icon/4PiNHtUJVbLs/tailwind-css">Tailwind CSS</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
 <a target="_blank" href="https://icons8.com/icon/38561/postgresql">PostgreSQL</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 <a target="_blank" href="https://icons8.com/icon/20906/git">Git</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 <a target="_blank" href="https://icons8.com/icon/63777/github">GitHub</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/AVT7Ugvtc2vn/inspect-code">Inspect Code</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/32992/collaboration-female-male">Collaboration Female Male</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/103937/meeting-room">Teamwork</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/yOMwOAfJGWPF/time-management-skills">Time Management Skills</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+<a target="_blank" href="https://icons8.com/icon/768ZYN92f0tO/world-map-continents">World Map Continents</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+
+
 [Jest Icon](https://uxwing.com/jest-js-icon/)
 [RSpec Icon](https://iconduck.com/icons/102381/file-type-rspec)
 
