@@ -11,6 +11,7 @@ import imgTributePage from '/assets/img/projects/tribute-page.png';
 import bookAConcert from '/assets/img/projects/book-a-concert.png';
 import recipeApp from '/assets/img/projects/recipe-app-best-dishes.png';
 import budgetApp from '/assets/img/projects/budget-app-live-demo.png';
+import catalogueOfThings from '/assets/img/projects/catalogue-of-my-things.png';
 
 const projects = [
   {
@@ -81,6 +82,24 @@ const projects = [
       'PostgreSQL',
       'Rspec',
       'Capybara',
+    ],
+  },
+  {
+    name: 'Catalogue of things',
+    company: 'Self-employed',
+    typeOfDev: 'command-line interface (CLI)',
+    date: '2023',
+    description:
+      'Catalog of my things is a a console app that will help you to keep a record of different types of things you own: books, music albums, movies, and games. Everything is based on...',
+    descriptionDesk:
+      'Catalog of my things is a a console app that will help you to keep a record of different types of things you own: books, music albums, movies, and games. Everything is based on the UML class diagram presented in the Readme file. As well this app is able to preserve the data, data will be saved in the data that will contain a JSON file per each item. As well We have included a table representation in SQL.',
+    img: catalogueOfThings,
+    liveVersion: 'https://youtu.be/X8ozhDjzom0?si=Ej3x8mAcBtzWga1N',
+    source: 'https://github.com/Diegogagan2587/catalog-of-my-things',
+    technologies: [
+      'Ruby',
+      'JSON',
+      'Rspec',
     ],
   },
   {
