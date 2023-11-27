@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { useState } from 'react';
 import Btn from './Btn';
 import Tag from './Tag';
@@ -56,4 +57,10 @@ const ProjectCard = ({ project,index }) => {
     </div>
   );
 };
+
+ProjectCard.propTypes = {
+  project: PropTypes.object.isRequired,
+  index: PropTypes.number.isRequired,
+};
+
 export default ProjectCard;
