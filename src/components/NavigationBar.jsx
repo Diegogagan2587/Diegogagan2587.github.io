@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Hamburguer from '../assets/icons/Icon-Menunav-button.png';
 import CloseIcon from '../assets/icons/close-popup-button.png';
 

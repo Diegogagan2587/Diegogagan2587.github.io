@@ -22,6 +22,7 @@ Btn.propTypes = {
   text: PropTypes.string,
   onClick: PropTypes.func,
   type: PropTypes.string,
+  icon: PropTypes.string,
 };
 
 export default Btn;
