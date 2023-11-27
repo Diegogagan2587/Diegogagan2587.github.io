@@ -5,7 +5,7 @@ import CloseIcon from '../assets/icons/close-popup-button.png';
 const NavigationBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const dropdownOpenClasses =
-    'block absolute w-screen sm:w-auto h-screen sm:h-auto left-0 sm:left-auto top-10 sm:top-auto bg-[#201DCE99] backdrop-blur-[5px] bg-opacity-60 text-white font-semibold text-3xl leading-10';
+    'block absolute w-screen sm:w-auto h-screen sm:h-auto left-0 sm:left-auto top-10 sm:top-auto bg-[#201DCE99] backdrop-blur-[5px] bg-opacity-60 text-white font-semibold text-3xl sm:text-base leading-10';
   const handleMenuClick = () => {
     setIsMenuOpen(!isMenuOpen);
   };
