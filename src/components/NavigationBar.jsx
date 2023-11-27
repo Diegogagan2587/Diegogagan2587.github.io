@@ -15,7 +15,9 @@ const NavigationBar = () => {
     w-full
     bg-white h-10"
     >
-      <span className="text-xl font-bold text-[#6070ff]">DVLoper</span>
+      <a className="text-xl font-bold text-[#6070ff]"
+      href='#introduction-section'
+      >DVLoper</a>
       <div>
         <span className="sm:hidden" onClick={handleMenuClick}>
           {(isMenuOpen && (
