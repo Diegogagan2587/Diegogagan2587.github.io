@@ -725,14 +725,14 @@ media queries Below
   .technology-tags {
     display: flex;
     justify-content: flex-start;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     gap: 8px;
     min-width: 100%;
   }
 
   .technology-tags li {
     border-radius: 8px;
-    Padding:4px 12px 4px 12px;
+    padding: 4px 12px 4px 12px;
     font-size: 12px;
   }
 

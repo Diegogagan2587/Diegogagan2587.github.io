@@ -48,10 +48,20 @@ take a look on this: https://www.loom.com/share/ba97041d80e146f88306be60cfc43c27
 > I based this work on:
 
 <details>
-  <summary>Website</summary>
+  <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">Html</a></li>
-    <li><a href="https://reactjs.org/">Css</a></li>
+    <li><a href="https://reactjs.org/">HTML</a></li>
+    <li><a href="https://reactjs.org/">CSS</a></li>
+    <li><a href="https://reactjs.org/">React</a></li>
+    <li><a href="https://fontawesome.com/">Fontawesome icons(Social Icons)</a></li>
+    <li><a href="https://icons8.com/icons"></a>Icons8: Tech Icons</li>
+    
+  </ul>
+</details>
+  <summary>Deployment</summary>
+  <ul>
+    <li><a href="https://pages.github.com/">Github Pages</a></li>
+    <li><a href="https://vitejs.dev/guide/static-deploy.html">Vite: Static Deployment</a></li>
   </ul>
 </details>
 
@@ -184,6 +194,30 @@ If you like this project feel free to give us any suggestion!
 
 I would like to thanks the Microverse Team for inspiring me to be better! and for providing the
 [figma design](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?type=design&node-id=75%3A35&mode=design&t=UnQh0bkFUOA8QWj4-1)
+
+Links to Icons:
+<a target="_blank" href="https://icons8.com/icon/108784/javascript">JavaScript</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+<a target="_blank" href="https://icons8.com/icon/jD-fJzVguBmw/redux">Redux</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+<a target="_blank" href="https://icons8.com/icon/4PiNHtUJVbLs/tailwind-css">Tailwind CSS</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+<a target="_blank" href="https://icons8.com/icon/38561/postgresql">PostgreSQL</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/20906/git">Git</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/63777/github">GitHub</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/AVT7Ugvtc2vn/inspect-code">Inspect Code</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/32992/collaboration-female-male">Collaboration Female Male</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/103937/meeting-room">Teamwork</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/yOMwOAfJGWPF/time-management-skills">Time Management Skills</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+<a target="_blank" href="https://icons8.com/icon/768ZYN92f0tO/world-map-continents">World Map Continents</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+
+
+[Jest Icon](https://uxwing.com/jest-js-icon/)
+[RSpec Icon](https://iconduck.com/icons/102381/file-type-rspec)
+
+Thanks to [iconduck.com](https://iconduck.com/icons/108481/rails) for rails icon!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
