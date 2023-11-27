@@ -197,6 +197,15 @@ I would like to thanks the Microverse Team for inspiring me to be better! and fo
 
 Links to Icons:
 <a target="_blank" href="https://icons8.com/icon/108784/javascript">JavaScript</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/jD-fJzVguBmw/redux">Redux</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/4PiNHtUJVbLs/tailwind-css">Tailwind CSS</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/38561/postgresql">PostgreSQL</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/20906/git">Git</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/63777/github">GitHub</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+[Jest Icon](https://uxwing.com/jest-js-icon/)
+[RSpec Icon](https://iconduck.com/icons/102381/file-type-rspec)
+
+Thanks to [iconduck.com](https://iconduck.com/icons/108481/rails) for rails icon!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
