@@ -8,10 +8,32 @@ import imgAwesomeBooks from '/assets/img/projects/awesome-books.png';
 import imgDocumentationPage from '/assets/img/projects/documentation-page.png';
 import imgProductLandingPage from '/assets/img/projects/landing-page-original-trombones.png';
 import imgTributePage from '/assets/img/projects/tribute-page.png';
-
-
+import bookAConcert from '/assets/img/projects/book-a-concert.png';
 
 const projects = [
+  {
+    name: 'Book a Concert',
+    company: 'Self-employed',
+    typeOfDev: 'Full-stack',
+    date: '2023',
+    description:
+      'Book a Concert app is a prototype website where you can create a `concert`, and other people can book for your event.',
+    descriptionDesk:
+      'Book a Concert app is a prototype website where you can create a `concert`, and other people can book for your event. Or you can book for the events of others. Front-end was built with JavaScript and React while Back-end was built using Ruby on Rails.',
+    img: bookAConcert,
+    liveVersion: 'https://book-a-concert.onrender.com/',
+    source: 'https://github.com/Diegogagan2587/Book-a-concert-front-end',
+    technologies: [
+      'HTML5',
+      'Tailwind-CSS',
+      'Javascript',
+      'React',
+      'Redux',
+      'Ruby',
+      'Rails',
+      'PostgreSQL',
+    ],
+  },
   {
     name: 'Metrics Webapp',
     description:

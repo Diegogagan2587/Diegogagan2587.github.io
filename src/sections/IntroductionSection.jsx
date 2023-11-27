@@ -1,7 +1,6 @@
 import SocialMediaBar from '../components/SocialMediaBar';
 
- const IntroductionSection = () => {
-
+const IntroductionSection = () => {
   return (
     <section
       id="introduction-section"
@@ -13,13 +12,19 @@ import SocialMediaBar from '../components/SocialMediaBar';
       //style={backgroundStyle}
     >
       <div className="flex flex-col gap-5 max-w-[920px]">
-        <h1 className="text-4xl font-bold leading-[52px] text-[#172B4D]">I'm Diego.<br/> Glad to see you !</h1>
-        <p className='text-base leading-6 text-[#344563]'>
-          I’m a software developer! I can help you build a product, feature, or
-          website Look through some of my work and experience! If you like what
-          you see and have a project you need coded, don’t hesitate to contact
-          me.
-        </p >
+        <h1 className="text-4xl font-bold leading-[52px] text-[#172B4D]">
+          Welcome! I'm Diego Vidal.
+          <br />
+          And I know why you are here!
+        </h1>
+        <p className="text-base leading-6 text-[#344563]">
+          Your time is money so lets go ahead. I'm a seasoned Full-Stack Web
+          Developer, adept at crafting dynamic Single Page Applications, robust
+          Server Side Rendering, and powerful APIs. Specializing in JavaScript,
+          React, Redux, Tailwind-CSS, Ruby on Rails, PostgreSQL, and more, I
+          bring over 2,500 hours of hands-on experience in building, testing,
+          and debugging software. <br /> check out my work below.
+        </p>
         <SocialMediaBar />
       </div>
     </section>
