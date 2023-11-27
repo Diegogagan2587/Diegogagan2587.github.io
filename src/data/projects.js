@@ -1,4 +1,15 @@
 import imgMetricsWebApp from '/assets/img/projects/metrics-web-app.png';
+import imgSpaceTravelersHub from '/assets/img/projects/space-travelers-hub.png';
+import imgMathMagicians from '/assets/img/projects/Math-Magicians.png';
+import imgCreativeDevelopers from '/assets/img/projects/capstone-projeect-1.png';
+import imgTodayToDo from '/assets/img/projects/capstone-projeect-2.png';
+import imgWorldWideFlags from '/assets/img/projects/world-wide-flags.png';
+import imgAwesomeBooks from '/assets/img/projects/awesome-books.png';
+import imgDocumentationPage from '/assets/img/projects/documentation-page.png';
+import imgProductLandingPage from '/assets/img/projects/landing-page-original-trombones.png';
+import imgTributePage from '/assets/img/projects/tribute-page.png';
+
+
 
 const projects = [
   {
@@ -21,7 +32,7 @@ const projects = [
     name: 'Space Travelers',
     description:
       'Space Travelers uses the Space X API to display a list of Rockets and a list of Missions',
-    img: '/assets/img/projects/space-travelers-hub.png',
+    img: imgSpaceTravelersHub,
     technologies: ['HTML', 'CSS', 'Javascript', 'React', 'Redux'],
     liveVersion:
       'https://github.com/Diegogagan2587/space-travelers/tree/development',
@@ -39,7 +50,7 @@ const projects = [
     name: 'Math Magicians',
     description:
       '"Math magician" is a single Page App (SPA) that allows users to make simple calculations and Read Random math-related quotes.',
-    img: '/assets/img/projects/Math-Magicians.png',
+    img: imgMathMagicians,
     technologies: ['HTML', 'CSS', 'Javascript', 'React'],
     liveVersion: 'https://math-magicians-akxg.onrender.com/',
     source: 'https://github.com/Diegogagan2587/math-magicians',
@@ -55,7 +66,7 @@ const projects = [
     name: 'Creative Developers',
     description:
       'A joyful celebration believing in the value of learning to code.',
-    img: '/assets/img/projects/capstone-projeect-1.png',
+    img: imgCreativeDevelopers,
     technologies: ['HTML', 'CSS', 'Javascript'],
     liveVersion: 'https://diegogagan2587.github.io/Capstone-project-module-1/',
     source: 'https://github.com/Diegogagan2587/Capstone-project-module-1',
@@ -71,7 +82,7 @@ const projects = [
     name: "Today's To Do",
     description:
       'To-Do list is a simple project to keep track of the daily activities.',
-    img: '/assets/img/projects/capstone-projeect-2.png',
+    img: imgTodayToDo,
     technologies: ['HTML', 'CSS', 'Javascript'],
     liveVersion: 'https://diegogagan2587.github.io/To-Do-List/dist/index.html',
     source: 'https://github.com/Diegogagan2587/To-Do-List',
@@ -87,7 +98,7 @@ const projects = [
     name: 'World Wide Flags',
     description:
       'World Wide Flags is a project built based on an external API. We have selected a countries API that provides data.',
-    img: '/assets/img/projects/world-wide-flags.png',
+    img: imgWorldWideFlags,
     technologies: ['HTML', 'CSS', 'JavaScript'],
     liveVersion:
       'https://diegogagan2587.github.io/JavaScript-Capstone-wwFlags/dist/',
@@ -105,7 +116,7 @@ const projects = [
     name: 'Awesome Books',
     description:
       'Awesome Books is a simple website that stores a booklist, allowing you to revisit it later and add or remove any books you would like to read.',
-    img: '/assets/img/projects/awesome-books.png',
+    img: imgAwesomeBooks,
     technologies: ['HTML', 'CSS', 'JavaScript'],
     liveVersion: 'https://diegogagan2587.github.io/AwesomeBook-with-ES6/',
     source: 'https://github.com/Diegogagan2587/AwesomeBook-with-ES6',
@@ -121,7 +132,7 @@ const projects = [
     name: 'JS Documentation',
     description:
       'JS documentation is a simple documentation page to serve as instruction or reference. It was built with plain HTML and CSS.',
-    img: '/assets/img/projects/documentation-page.png',
+    img: imgDocumentationPage,
     technologies: ['HTML', 'CSS'],
     liveVersion:
       'https://diegogagan2587.github.io/diegolab/rwd-projects/4-technical-Documentation-page.html',
@@ -139,7 +150,7 @@ const projects = [
     name: 'Product Landing Page',
     description:
       'Product Landing Page is a project to market a product, in this case Original Trombones, it was built for putting in practice HTML and CSS skills by creating a static site that includes navigation, video, and a simple dummy form for submitting customer email.',
-    img: '/assets/img/projects/landing-page-original-trombones.png',
+    img: imgProductLandingPage,
     technologies: ['HTML', 'CSS'],
     liveVersion: 'https://diegogagan2587.github.io/product-landing-page/',
     source: 'https://github.com/Diegogagan2587/product-landing-page',
@@ -155,7 +166,7 @@ const projects = [
     name: 'Tribute Page',
     description:
       'Tribute page is a static website dedicated to Dr. Norman Borlaug, it was written using basic html and css',
-    img: '/assets/img/projects/tribute-page.png',
+    img: imgTributePage,
     technologies: ['HTML', 'CSS'],
     liveVersion: 'https://diegogagan2587.github.io/tribute-page/',
     source: 'https://github.com/Diegogagan2587/tribute-page',
