@@ -18,7 +18,10 @@ const PopUp = ({ project, handlePopUp }) => {
       md:aspect-square"
       >
         <div id="pop-up-header">
-          <div id='pop-up-title ' className="flex justify-between items-center p-1">
+          <div
+            id="pop-up-title "
+            className="flex justify-between items-center p-1"
+          >
             <h3 className="text-3xl font-bold text-[#172B4D] ">
               {project.name}
             </h3>
@@ -44,10 +47,7 @@ const PopUp = ({ project, handlePopUp }) => {
             className="object-cover w-full h-full rounded-lg"
           />
         </div>
-        <div
-          id="pop-up-body"
-          className="flex flex-col sm:flex-row sm:h-2/6"
-        >
+        <div id="pop-up-body" className="flex flex-col sm:flex-row sm:h-2/6">
           <p className="text-[#344563] sm:w-3/5">{project.descriptionDesk}</p>
           <div className="flex flex-col gap-4 sm:w-2/5">
             <div className="flex flex-wrap gap-2">
@@ -56,8 +56,12 @@ const PopUp = ({ project, handlePopUp }) => {
               })}
             </div>
             <div className="flex items-center justify-center gap-2">
-              <Btn text="See Live" icon={SeeProjectIcon} />
-              <Btn text="See Source" icon={SeeCodeIcon} />
+              <a href={project.liveVersion} target="_blank" rel="noreferrer">
+                <Btn text="See Live" icon={SeeProjectIcon} />
+              </a>
+              <a href={project.source} target="_blank" rel="noreferrer">
+                <Btn text="See Source" icon={SeeCodeIcon} />
+              </a>
             </div>
           </div>
         </div>
