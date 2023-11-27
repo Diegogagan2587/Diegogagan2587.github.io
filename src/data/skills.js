@@ -19,6 +19,14 @@ import gitflow       from '../assets/icons/skills/icons8-merge-git-96.png';
 import mobile       from '../assets/icons/skills/icons8-mobile-96.png';
 import test      from '../assets/icons/skills/icons8-test-96.png';
 import mvc     from '../assets/icons/skills/icons8-connect-96.png';
+import pairProgramming from '../assets/icons/skills/icons8-collaboration-female-male-96.png';
+import codeReview from '../assets/icons/skills/icons8-inspect-code-48.png';
+import teamWork from '../assets/icons/skills/icons8-teamwork-48.png';
+import timeManagement from '../assets/icons/skills/icons8-time-management-skills-48.png';
+import crossCultural from '../assets/icons/skills/icons8-world-map-continents-48.png';
+import constructiveFeedback from '../assets/icons/skills/icons8-talking-48.png';
+
+
 
 
 
@@ -26,14 +34,14 @@ const skills = [
     {
         name: 'Languages',
         list: [
-            {name:'JavaScript', icon:JavaScriptIcon },
             {name:'HTML5', icon:htmlIcon },
             {name:'CSS3', icon:cssIcon },
+            {name:'JavaScript', icon:JavaScriptIcon },
             {name:'Ruby', icon:rubyIcon },
         ],
     },
     {
-        name: 'Libraries/Frameworks',
+        name: 'Libraries && Frameworks',
         list: [
             {name:'React', icon:reactIcon },
             {name:'Redux', icon:reduxIcon },
@@ -63,12 +71,12 @@ const skills = [
     {
         name: 'Skills',
         list: [
-            {name:'Remote Pair-Programming', icon:'' },
-            {name:'Code review', icon:'' },
-            {name:'Teamwork', icon:'' },
-            {name:'Time Management', icon:'' },
-            {name:'Cross-cultural,', icon:'' },
-            {name:'Constructive feedback', icon:'' },
+            {name:'Remote Pair-Programming', icon:pairProgramming },
+            {name:'Code review', icon:codeReview },
+            {name:'Teamwork', icon:teamWork },
+            {name:'Time Management', icon:timeManagement },
+            {name:'Cross-cultural,', icon:crossCultural },
+            {name:'Constructive feedback', icon:constructiveFeedback },
 
         ],
     },
