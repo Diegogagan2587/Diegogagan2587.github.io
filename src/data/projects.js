@@ -56,7 +56,7 @@ const projects = [
       'Ruby',
       'Rails',
       'PostgreSQL',
-      'Rspec',
+      'RSpec',
       'Capybara',
     ],
   },
@@ -80,7 +80,7 @@ const projects = [
       'Ruby',
       'Rails',
       'PostgreSQL',
-      'Rspec',
+      'RSpec',
       'Capybara',
     ],
   },
@@ -96,11 +96,7 @@ const projects = [
     img: catalogueOfThings,
     liveVersion: 'https://youtu.be/X8ozhDjzom0?si=Ej3x8mAcBtzWga1N',
     source: 'https://github.com/Diegogagan2587/catalog-of-my-things',
-    technologies: [
-      'Ruby',
-      'JSON',
-      'Rspec',
-    ],
+    technologies: ['Ruby', 'JSON', 'RSpec'],
   },
   {
     name: 'Metrics Webapp',
@@ -139,13 +135,13 @@ const projects = [
   {
     name: 'Math Magicians',
     description:
-      '"Math magician" is a single Page App (SPA) that allows users to make simple calculations and Read Random math-related quotes.',
+      '"Math Magicians" is a Single Page App (SPA) divided into three sections: Home, Quote, and Calculator. It enables users to perform simple calculations such as...',
+    descriptionDesk:
+      '"Math Magicians" is a Single Page App (SPA) divided into three sections: Home, Quote, and Calculator. It enables users to perform simple calculations such as addition, subtraction, and multiplication, in addition to reading random math-related quotes. Built with JavaScript and React.',
     img: imgMathMagicians,
     technologies: ['HTML', 'CSS', 'Javascript', 'React'],
     liveVersion: 'https://math-magicians-akxg.onrender.com/',
     source: 'https://github.com/Diegogagan2587/math-magicians',
-    descriptionDesk:
-      '"Math magicias" is a single Page App (SPA) that allows users to make simple calculations and Read Random math-related quotes. We used React for building this app.',
     imgDesk: '/assets/img/projects/Math-Magicians.png',
     imgPopMobile: '/assets/img/projects/Math-Magicians.png',
     company: 'Self-employed',
