@@ -20,9 +20,9 @@ const projects = [
     typeOfDev: 'Full-stack',
     date: '2023',
     description:
-      'Book a Concert app is a prototype website where you can create a `concert`, and other people can book for your event.',
+      '"Book a Concert" is a web app designed to assist users in booking concerts or creating their independent events for others to book. ',
     descriptionDesk:
-      'Book a Concert app is a prototype website where you can create a `concert`, and other people can book for your event. Or you can book for the events of others. Front-end was built with JavaScript and React while Back-end was built using Ruby on Rails.',
+      '"Book a Concert" is a web app designed to assist users in booking concerts or creating their independent events for others to book. Users can register, reserve concerts created by others, create independent concerts, or cancel an event if they are the organizer. Built with React, Redux, Tailwind CSS, Ruby on Rails, and PostgreSQL.',
     img: bookAConcert,
     liveVersion: 'https://book-a-concert.onrender.com/',
     source: 'https://github.com/Diegogagan2587/Book-a-concert-front-end',
