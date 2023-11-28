@@ -41,20 +41,20 @@ const skills = [
         ],
     },
     {
-        name: 'Libraries && Frameworks',
+        name: 'Libraries & Frameworks',
         list: [
             {name:'React', icon:reactIcon },
             {name:'Redux', icon:reduxIcon },
-            {name:'Rails', icon:railsIcon },
+            {name:'Ruby on Rails', icon:railsIcon },
             {name:'Tailwind CSS', icon:Tailwind },
         ],
     },
     {
-        name: 'Tools, Platforms && Methodologies',
+        name: 'Tools, Platforms & Methodologies',
         list: [
             {name:'PostgreSQL', icon:PostgreSQL },
             {name:'Git', icon:git },
-            {name:'Github', icon:github },
+            {name:'GitHub', icon:github },
             {name:'Vite', icon:vite },
             {name:'Webpack', icon:Webpack },
             {name:'Jest', icon:jest },
