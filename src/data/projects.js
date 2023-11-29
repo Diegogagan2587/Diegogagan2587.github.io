@@ -66,9 +66,9 @@ const projects = [
     typeOfDev: 'Full-stack',
     date: '2023',
     description:
-      'Budget App is a server-side rendered mobile application following MVC architecture, where you can manage your budget: You have a list of...',
+      '"Budget App" is a Server-side Rendering application (SSR) following the MVC architecture, allowing users to efficiently manage their budget.',
     descriptionDesk:
-      'Budget App is a server-side rendered mobile application following MVC architecture, where you can manage your budget: You have a list of transactions associated with a category so you can see how much money you spent on what.',
+      '"Budget App" is a Server-side Rendering application (SSR) following the MVC architecture, allowing users to efficiently manage their budget. Users can register, add transactions, and create new categories. The application is built with JavaScript, Ruby, Rails, Tailwind CSS, and PostgreSQL.',
     img: budgetApp,
     liveVersion: 'https://www-budget-app.onrender.com/',
     source: 'https://github.com/Diegogagan2587/budget-app',
