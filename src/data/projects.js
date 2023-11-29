@@ -145,7 +145,7 @@ const projects = [
     liveVersion: 'https://math-magicians-akxg.onrender.com/',
     source: 'https://github.com/Diegogagan2587/math-magicians',
     descriptionDesk:
-      '"Math magicias" is a single Page App (SPA) that allows users to make simple calculations and Read Random math-related quotes. We used React for building this app.',
+      '"Math Magicians" is a Single Page App (SPA) divided into three sections: Home, Quote, and Calculator. It enables users to perform simple calculations such as addition, subtraction, and multiplication, in addition to reading random math-related quotes. Built with JavaScript and React.',
     imgDesk: '/assets/img/projects/Math-Magicians.png',
     imgPopMobile: '/assets/img/projects/Math-Magicians.png',
     company: 'Self-employed',
