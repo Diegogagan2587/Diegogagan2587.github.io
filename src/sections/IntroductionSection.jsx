@@ -23,7 +23,7 @@ const IntroductionSection = () => {
           powerful APIs. Specializing in JavaScript, React, Redux, Tailwind-CSS,
           Ruby on Rails, PostgreSQL, and more, I bring over 2,500 hours of
           hands-on experience in building, testing, and debugging software.
-          <br /> check out my work below.
+          <br /> check out my work below or reach me out the Contact Section.
         </p>
         <SocialMediaBar />
       </div>
