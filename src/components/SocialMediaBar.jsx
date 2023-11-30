@@ -51,7 +51,7 @@ const SocialMediaBar = () => {
           </a>
         </li>
         <li>
-          <a href="mailto:diego27796gagan@gmail.com">
+          <a href="mailto:diego27796gagan@gmail.com" target='_blank' rel='noreferrer'>
           <FontAwesomeIcon icon={faEnvelope} />
           </a>
         </li>
