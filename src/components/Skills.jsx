@@ -3,7 +3,7 @@ import skills from '../data/skills';
 import DropDownIcon from '../assets/icons/Disabledbutton-down-arrow.png';
 
 const Skills = () => {
-  const [skillVisibility, setSkillVisibility] = useState({});
+  const [skillVisibility, setSkillVisibility] = useState({Languages:true,});
 
   const toggleListVisibility = (skillName) => {
     setSkillVisibility((prevVisibility) => ({
