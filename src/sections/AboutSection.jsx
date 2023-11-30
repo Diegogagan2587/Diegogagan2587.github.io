@@ -32,7 +32,11 @@ const AboutSection = () => {
         </p>
         <SocialMediaBar />
         <div>
-          <a href="https://drive.google.com/file/d/1rckQXpJjK18qrsFbAi8FhVgk4NnHTGtJ/view?usp=sharing">
+          <a
+            href="https://drive.google.com/file/d/1rckQXpJjK18qrsFbAi8FhVgk4NnHTGtJ/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Btn text="Get my resume" />
           </a>
         </div>
