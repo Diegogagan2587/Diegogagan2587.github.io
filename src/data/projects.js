@@ -124,7 +124,7 @@ const projects = [
     img: imgSpaceTravelersHub,
     technologies: ['HTML', 'CSS', 'Javascript', 'React', 'Redux'],
     liveVersion:
-      'https://github.com/Diegogagan2587/space-travelers/tree/development',
+      'https://diegogagan2587.github.io/space-travelers/',
     source:
       'https://github.com/Diegogagan2587/space-travelers/tree/development',
 
