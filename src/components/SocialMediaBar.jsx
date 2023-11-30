@@ -23,34 +23,34 @@ const SocialMediaBar = () => {
       </span>
       <ul className="h-5 
       flex gap-5 items-center text-xl text-[#505F79]">
-        <li className='hover:scale-125  active:animate-ping'>
+        <li className='hover:drop-shadow-2xl hover:scale-125  active:animate-ping'> 
           <a href={GITHUB_URL} target='_blank' rel='noreferrer' >
             <FontAwesomeIcon icon={faGithub} />
           </a>
           {/* I add and <a> that opens a link in an new tab in next line */}
         </li>
-        <li className='hover:scale-125 active:animate-ping'>
+        <li className='hover:drop-shadow-2xl hover:scale-125 active:animate-ping'>
         <a href={LINKEDIN_URL} target='_blank' rel='noreferrer' >
             <FontAwesomeIcon icon={faLinkedinIn} />
           </a>
         </li>
-        <li className='hover:scale-125 active:animate-ping'>
+        <li className='hover:drop-shadow-2xl hover:scale-125 active:animate-ping'>
           <a href={TWITTER_URL} target='_blank' rel='noreferrer' >
             <FontAwesomeIcon icon={faXTwitter} />
           </a>
         </li>
 
-        <li className='hover:scale-125 active:animate-ping'>
+        <li className='hover:drop-shadow-2xl hover:scale-125 active:animate-ping'>
         <a href={ANGELLIST_URL} target='_blank' rel='noreferrer' >
           <FontAwesomeIcon icon={faAngellist} />
           </a>
         </li>
-        <li className='hover:scale-125 active:animate-ping'>
+        <li className='hover:drop-shadow-2xl hover:scale-125 active:animate-ping'>
         <a href={MEDIUM_URL} target='_blank' rel='noreferrer' >
           <FontAwesomeIcon icon={faMedium} />
           </a>
         </li>
-        <li className='hover:scale-125 active:animate-ping'>
+        <li className='hover:drop-shadow-2xl hover:scale-125 active:animate-ping'>
           <a href="mailto:diego27796gagan@gmail.com" target='_blank' rel='noreferrer'>
           <FontAwesomeIcon icon={faEnvelope} />
           </a>
