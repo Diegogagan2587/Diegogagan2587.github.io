@@ -16,10 +16,19 @@ const AboutSection = () => {
       >
         <h2 className="font-bold text-4xl text-[#172B4D]">About Myself</h2>
         <p className="text-[#344563]">
-          Hello I’m a software developer! I can help you build a product ,
-          feature or website. Look through some of my work and experience! If
-          you like what you see and have a project you need coded, don’t
-          hesitate to contact me.
+          Navigating from childhood curiosity to full-stack web development, my
+          journey blends tenacity and learning. "Questions and Answers" ignited
+          my passion for understanding the world. At 16, I was guided by Dale
+          Carnegie's wisdom and committed to community fitness. Transitioning to
+          the software field, I dedicated 1.5 years to mastering by myself
+          English for remote work. Despite setbacks, including illness, I
+          embraced unfamiliar territories, showcasing adaptability and quick
+          learning. Remote work at a call center honed language and
+          problem-solving skills. At Microverse, amidst delivering for Uber, I
+          mastered HTML, CSS, and Javascript, emerging as a resilient full-stack
+          web developer. My coding journey reflects a commitment to tech growth.
+          A passionate learner and achiever, fueled by curiosity and dedication
+          to innovation.
         </p>
         <SocialMediaBar />
         <div>
