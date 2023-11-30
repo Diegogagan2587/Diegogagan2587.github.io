@@ -8,10 +8,10 @@ import ContactForm from './sections/ContactForm';
 function App() {
   return (
     <>
-      <header>
+      <header className='font-poppins'>
         <NavigationBar />
       </header>
-      <main className='bg-[#F4F5F7]'>
+      <main className='bg-[#F4F5F7] font-poppins'>
         <IntroductionSection />
         <PortfolioSection />
         <AboutSection />
