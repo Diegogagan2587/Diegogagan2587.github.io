@@ -16,5 +16,6 @@ const PortfolioSection = ({sectionRef, isActive}) => {
 PortfolioSection.propTypes = {
   sectionRef: PropTypes.shape({ current: PropTypes.instanceOf(Element) })
     .isRequired,
+  isActive: PropTypes.bool.isRequired,
 };
 export default PortfolioSection;

@@ -84,6 +84,7 @@ const ProjectCard = ({ project,index, isActive }) => {
 ProjectCard.propTypes = {
   project: PropTypes.object.isRequired,
   index: PropTypes.number.isRequired,
+  isActive: PropTypes.bool.isRequired,
 };
 
 export default ProjectCard;

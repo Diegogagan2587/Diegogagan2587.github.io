@@ -63,6 +63,7 @@ IntroductionSection.propTypes = {
   sectionRef: PropTypes.shape(
     { current: PropTypes.instanceOf(Element) },
   ).isRequired,
+  isActive: PropTypes.bool.isRequired,
 };
 
 export default IntroductionSection;
