@@ -20,9 +20,9 @@ const projects = [
     typeOfDev: 'Full-stack',
     date: '2023',
     description:
-      '"Book a Concert" is a web app designed to assist users in booking concerts or creating their independent events for others to book. ',
+      '"Book a Concert" is a Single Page Application (SPA) and an API designed to assist users in booking concerts or creating independent events for others to book.',
     descriptionDesk:
-      '"Book a Concert" is a web app designed to assist users in booking concerts or creating their independent events for others to book. Users can register, reserve concerts created by others, create independent concerts, or cancel an event if they are the organizer. Built with React, Redux, Tailwind CSS, Ruby on Rails, and PostgreSQL.',
+      '"Book a Concert" is a Single Page Application (SPA) and an API designed to assist users in booking concerts or creating independent events for others to book. Users can register, reserve, create independent concerts, or cancel an event if they are the organizer. Built with React, Redux, Tailwind CSS, Ruby on Rails, and PostgreSQL.',
     img: bookAConcert,
     liveVersion: 'https://book-a-concert.onrender.com/',
     source: 'https://github.com/Diegogagan2587/Book-a-concert-front-end',
@@ -43,9 +43,9 @@ const projects = [
     typeOfDev: 'Full-stack',
     date: '2023',
     description:
-      'Recipe App keeps track of all your recipes and ingredients. It will allow you to save ingredients, keep track of what you have, create recipes and...',
+      '"Recipe App" is a Server-side Rendering application (SSR) following the MVC architecture. It assists users in storing and tracking their recipes and ingredients.',
     descriptionDesk:
-      'Recipe App keeps track of all your recipes and ingredients. It will allow you to save ingredients, keep track of what you have, create recipes and generate a shopping list based on what you have and what you are missing from a recipe. Also, since sharing recipes is an important part of cooking the app should allow you to make them public so anyone can access them.',
+      '"Recipe App" is a Server-side Rendering application (SSR) following the MVC architecture. It assists users in storing and tracking their recipes and ingredients. Users can register, create recipes (making them public if desired), and generate a shopping list based on their current inventory. Built with Ruby, Rails, Bootstrap, and PostgreSQL.',
     img: recipeApp,
     liveVersion: 'https://my-recipe-app-d41m.onrender.com/',
     source: 'https://github.com/Diegogagan2587/Recipe-app-bests-dishes',
@@ -66,9 +66,9 @@ const projects = [
     typeOfDev: 'Full-stack',
     date: '2023',
     description:
-      'Budget App is a server-side rendered mobile application following MVC architecture, where you can manage your budget: You have a list of...',
+      '"Budget App" is a Server-side Rendering application (SSR) following the MVC architecture, allowing users to efficiently manage their budget.',
     descriptionDesk:
-      'Budget App is a server-side rendered mobile application following MVC architecture, where you can manage your budget: You have a list of transactions associated with a category so you can see how much money you spent on what.',
+      '"Budget App" is a Server-side Rendering application (SSR) following the MVC architecture, allowing users to efficiently manage their budget. Users can register, add transactions, and create new categories. The application is built with JavaScript, Ruby, Rails, Tailwind CSS, and PostgreSQL.',
     img: budgetApp,
     liveVersion: 'https://www-budget-app.onrender.com/',
     source: 'https://github.com/Diegogagan2587/budget-app',
@@ -101,13 +101,14 @@ const projects = [
   {
     name: 'Metrics Webapp',
     description:
-      'A Mobile web application to check a list of metrics (numeric values) making use of React and Redux.',
+      '"Metrics Web-App" is a mobile Single Page Application (SPA) that connects with an API and enables users to view the air quality of six different states in Mexico.',
+    descriptionDesk:
+      '"Metrics Web-App" is a mobile Single Page Application (SPA) that connects with an API and enables users to view the air quality of six different states in Mexico. Users can customize the number of cities (up to six), click on a state to explore more metrics, and easily return to the main page. Built with JavaScript, React, HTML5, and CSS3.',
     img: imgMetricsWebApp,
     technologies: ['HTML', 'CSS', 'Javascript', 'React', 'Redux'],
     liveVersion: 'https://diegogagan2587.github.io/metrics-webapp/',
     source: 'https://github.com/Diegogagan2587/metrics-webapp',
-    descriptionDesk:
-      'A Mobile web application to check a list of metrics (numeric values) making use of React and Redux. selected API provides numeric data, the user is able to see the data in the home page, or to look for more details in the details page.',
+
     imgDesk: '/assets/img/projects/metrics-web-app.png',
     imgPopMobile: '/assets/img/projects/metrics-web-app.png',
     company: 'Self-employed',
@@ -117,15 +118,16 @@ const projects = [
   {
     name: 'Space Travelers',
     description:
-      'Space Travelers uses the Space X API to display a list of Rockets and a list of Missions',
+      '"Space Travelers" is a Single Page Application (SPA) that allows users to explore a list of rockets and missions retrieved from the Space-X API.',
+    descriptionDesk:
+      '"Space Travelers" is a Single Page Application (SPA) that allows users to explore a list of rockets and missions retrieved from the Space-X API. Users can click to reserve a rocket, join a mission, and view reserved or joined missions in the My Profile section. Built with HTML5, CSS3, JavaScript, and React.',
     img: imgSpaceTravelersHub,
     technologies: ['HTML', 'CSS', 'Javascript', 'React', 'Redux'],
     liveVersion:
-      'https://github.com/Diegogagan2587/space-travelers/tree/development',
+      'https://diegogagan2587.github.io/space-travelers/',
     source:
       'https://github.com/Diegogagan2587/space-travelers/tree/development',
-    descriptionDesk:
-      'Space Travelers uses the Space X API to display a list of Rockets and a list of Missions, the user will be able to book a rocket or a mission and also to see all the rockets and missions reserved in the My Profile page.',
+
     imgDesk: '/assets/img/projects/space-travelers-hub.png',
     imgPopMobile: '/assets/img/projects/capstone-projeect-1.png',
     company: 'Self-employed',
@@ -135,7 +137,7 @@ const projects = [
   {
     name: 'Math Magicians',
     description:
-      '"Math Magicians" is a Single Page App (SPA) divided into three sections: Home, Quote, and Calculator. It enables users to perform simple calculations such as...',
+      '"Math Magicians" is a Single Page App (SPA) divided into three sections: Home, Quote, and Calculator. It enables users to perform simple calculations',
     descriptionDesk:
       '"Math Magicians" is a Single Page App (SPA) divided into three sections: Home, Quote, and Calculator. It enables users to perform simple calculations such as addition, subtraction, and multiplication, in addition to reading random math-related quotes. Built with JavaScript and React.',
     img: imgMathMagicians,

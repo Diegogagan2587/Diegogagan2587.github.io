@@ -1,4 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import {
   faXTwitter,
   faLinkedinIn,
@@ -6,6 +7,7 @@ import {
   faAngellist,
   faMedium,
 } from '@fortawesome/free-brands-svg-icons';
+
 
 const SocialMediaBar = () => {
     const GITHUB_URL = 'https://github.com/Diegogagan2587'
@@ -46,6 +48,11 @@ const SocialMediaBar = () => {
         <li>
         <a href={MEDIUM_URL} target='_blank' rel='noreferrer' >
           <FontAwesomeIcon icon={faMedium} />
+          </a>
+        </li>
+        <li>
+          <a href="mailto:diego27796gagan@gmail.com" target='_blank' rel='noreferrer'>
+          <FontAwesomeIcon icon={faEnvelope} />
           </a>
         </li>
       </ul>
