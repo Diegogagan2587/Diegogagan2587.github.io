@@ -28,6 +28,8 @@ const ProjectCard = ({ project,index, isActive }) => {
     console.log('is Popup open?',popUp);
   };
   return (
+    <>
+    {popUp && <PopUp project={project} handlePopUp={handlePopUp}/>}
     <div id={`project-card-${index}`} 
     className={`card bg-white border-2 rounded-xl p-4 flex flex-col ${desktopFlexDirection} 
     sm:items-center gap-3 sm:aspect-[145/62]
@@ -74,10 +76,11 @@ const ProjectCard = ({ project,index, isActive }) => {
         </ul>
         <div>
           <Btn text="See Project" onClick={()=>handlePopUp()}/>
-          {popUp && <PopUp project={project} handlePopUp={handlePopUp}/>}
+          
         </div>
       </div>
     </div>
+    </>
   );
 };
 
