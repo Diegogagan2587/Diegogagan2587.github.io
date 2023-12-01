@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import IntroductionSection from './sections/IntroductionSection';
 import NavigationBar from './components/NavigationBar';
 import PortfolioSection from './sections/PortfolioSection';
@@ -7,6 +7,8 @@ import ContactForm from './sections/ContactForm';
 
 
 function App() {
+  const [activeSection, setActiveSection] = useState('introduction'); 
+  // ['introductionRef', 'portfolioRef', 'aboutRef', 'contactRef'
   const introductionRef = useRef(null);
   const portfolioRef = useRef(null);
   const aboutRef = useRef(null);
@@ -21,20 +23,21 @@ function App() {
     }[refName];
 
     if (sectionRef) {
-      sectionRef.current.scrollIntoView({ behavior: 'smooth' })
+       sectionRef.current.scrollIntoView({ behavior: 'smooth' })
+        setActiveSection(refName);
     }
   };
 
   return (
     <>
       <header className='font-poppins'>
-        <NavigationBar scrollToSection={scrollToSection} />
+        <NavigationBar scrollToSection={scrollToSection} activeSection={activeSection}/>
       </header>
       <main className='bg-[#F4F5F7] font-poppins'>
-        <IntroductionSection sectionRef={introductionRef}/>
-        <PortfolioSection sectionRef={portfolioRef} />
-        <AboutSection sectionRef={ aboutRef }/>
-        <ContactForm sectionRef={ contactRef }/>
+        <IntroductionSection sectionRef={introductionRef}isActive={activeSection === 'introductionRef'}/>
+        <PortfolioSection sectionRef={portfolioRef} isActive={activeSection===portfolioRef}/>
+        <AboutSection sectionRef={ aboutRef } isActive={activeSection===aboutRef}/>
+        <ContactForm sectionRef={ contactRef } isActive={activeSection===contactRef}/>
       </main>
     </>
   );
