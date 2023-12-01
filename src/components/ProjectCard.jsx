@@ -31,14 +31,14 @@ const ProjectCard = ({ project,index, isActive }) => {
     <div id={`project-card-${index}`} 
     className={`card bg-white border-2 rounded-xl p-4 flex flex-col ${desktopFlexDirection} 
     sm:items-center gap-3 sm:aspect-[145/62]
-    max-w-[343px] sm:max-w-[1156px] sm:max-h-[496px] overflow-hidden`}>
+    max-w-[343px] sm:max-w-[1156px] sm:max-h-[496px] overflow-hidden
+    opacity-0 ${animate ? 'opacity-100' : ''} transition-opacity duration-500 ease-in-out
+    `}>
       <div id='project-img' 
       className="container bg-slate-100 sm:overflow-hidden
       flex items-center justify-center
       h-10 sm:h-full sm:max-h-[448px] w-full sm:w-1/2 min-w-[295px] min-h-[220px] sm:min-w-[220px]
-      rounded-md border-2
-      
-      ">
+      rounded-md border-2">
          <img 
         src={project.img} 
         alt={`Screenshot of ${project.name}`} 
