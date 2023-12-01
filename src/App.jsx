@@ -34,10 +34,10 @@ function App() {
         <NavigationBar scrollToSection={scrollToSection} activeSection={activeSection}/>
       </header>
       <main className='bg-[#F4F5F7] font-poppins'>
-        <IntroductionSection sectionRef={introductionRef}isActive={activeSection === 'introductionRef'}/>
-        <PortfolioSection sectionRef={portfolioRef} isActive={activeSection===portfolioRef}/>
-        <AboutSection sectionRef={ aboutRef } isActive={activeSection===aboutRef}/>
-        <ContactForm sectionRef={ contactRef } isActive={activeSection===contactRef}/>
+        <IntroductionSection sectionRef={introductionRef} isActive={activeSection === 'introductionRef'}/>
+        <PortfolioSection sectionRef={portfolioRef} isActive={activeSection==='portfolioRef'}/>
+        <AboutSection sectionRef={ aboutRef } isActive={activeSection==='aboutRef'}/>
+        <ContactForm sectionRef={ contactRef } isActive={activeSection==='contactRef'}/>
       </main>
     </>
   );
