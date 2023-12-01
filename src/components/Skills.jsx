@@ -27,7 +27,7 @@ const Skills = () => {
               <img
                 src={DropDownIcon}
                 alt="DropDown"
-                className={`transform ${isListVisible ? '-rotate-90' : ''} transition-transform duration-300 ease-in-out`}
+                className={`transform ${isListVisible ? '' : '-rotate-90'} transition-transform duration-300 ease-in-out`}
               />
             </div>
             {isListVisible && (
