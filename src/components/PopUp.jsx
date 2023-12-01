@@ -10,7 +10,7 @@ const PopUp = ({ project, handlePopUp }) => {
     <div
       id="pop-up-background"
       className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center backdrop-blur-md min-h-screen
-    px-4 md:p-6 overflow-y-auto
+    px-4 md:p-6 overflow-y-auto z-40
     "
     >
       <div
