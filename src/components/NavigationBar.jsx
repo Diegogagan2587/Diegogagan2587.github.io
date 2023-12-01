@@ -15,7 +15,7 @@ const NavigationBar = ({scrollToSection}) => {
     <nav
       className="fixed flex justify-between items-center px-5
     w-full
-    bg-white h-10 z-40"
+    bg-white h-10 z-30"
     >
       <a className="text-xl font-bold text-[#6070ff] cursor-pointer"
       onClick={()=>{
