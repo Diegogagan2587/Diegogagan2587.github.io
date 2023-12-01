@@ -28,7 +28,9 @@ const IntroductionSection = ({sectionRef, isActive}) => {
       //style={backgroundStyle}
     >
       <div className="flex flex-col gap-5 max-w-[920px]">
-        <div className='flex flex-col gap-5 overflow-hidden'>
+        <div className={`flex flex-col gap-5 overflow-hidden
+        opacity-0 ${animate ? 'opacity-100' : ''} transition-opacity duration-500 ease-in-out
+        `}>
           <h1 className={`text-4xl font-bold leading-[52px] text-[#172B4D]
                 ${animate ? 'transform translate-y-0 opacity-100' : 'transform translate-y-full'}
                 transition-transform ease-in-out duration-500 
