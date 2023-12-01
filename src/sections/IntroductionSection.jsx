@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import SocialMediaBar from '../components/SocialMediaBar';
 
-const IntroductionSection = () => {
+const IntroductionSection = ({sectionRef}) => {
   const [animate, setAnimate] = useState(false);
 
   useEffect(() => {
@@ -11,6 +11,7 @@ const IntroductionSection = () => {
   return (
     <section
       id="introduction-section"
+      ref={sectionRef}
       className="p-6 border-t-[36px] w-full bg-white h-screen flex flex-col justify-center items-center
       rounded-bl-[64px] border-2
       bg-[url('./assets/img/header-shapes-mobile@2x.svg')] bg-no-repeat bg-cover

@@ -2,10 +2,11 @@ import Btn from '../components/Btn';
 import Skills from '../components/Skills';
 import SocialMediaBar from '../components/SocialMediaBar';
 
-const AboutSection = () => {
+const AboutSection = ({sectionRef}) => {
   return (
     <section
       id="about"
+      ref={sectionRef}
       className="flex flex-col sm:flex-row items-center sm:items-start justify-center py-28
       min-h-screen border-2 bg-white rounded-tr-[50px] px-6 gap-6"
     >
