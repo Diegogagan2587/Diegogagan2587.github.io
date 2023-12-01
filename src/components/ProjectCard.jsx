@@ -32,7 +32,8 @@ const ProjectCard = ({ project,index, isActive }) => {
     {popUp && <PopUp project={project} handlePopUp={handlePopUp}/>}
     <div id={`project-card-${index}`} 
     className={`card bg-white border-2 rounded-xl p-4 flex flex-col ${desktopFlexDirection} 
-    sm:items-center gap-3 sm:aspect-[145/62]
+    sm:items-center gap-3 sm:aspect-[145/62] 
+    hover:scale-105 hover:shadow-xl transition-all duration-500 ease-in-out
     max-w-[343px] sm:max-w-[1156px] sm:max-h-[496px] overflow-hidden
     opacity-0 ${animate ? 'opacity-100' : ''} transition-opacity duration-500 ease-in-out
     `}>

@@ -24,12 +24,16 @@ const Skills = () => {
               onClick={() => toggleListVisibility(skill.name)}
             >
               <h3 className="font-medium text-xl">{skill.name}</h3>
-              <img src={DropDownIcon} alt="DropDown" />
+              <img
+                src={DropDownIcon}
+                alt="DropDown"
+                className={`transform ${isListVisible ? '' : '-rotate-90'} transition-transform duration-300 ease-in-out`}
+              />
             </div>
-            {isListVisible && (
-              <ul className="flex flex-col gap-3 py-2
+              <ul className={` ${isListVisible ? 'opacity-100 max-h-full' : 'opacity-0 max-h-0 overflow-hidden'} transition-opacity duration-500 ease-in-out
+              flex flex-col gap-3 py-2
               md:flex-row md:flex-wrap
-              ">
+              `}>
                 {skill.list.map((item,index) => {
                   return (
                     <li
@@ -50,7 +54,7 @@ const Skills = () => {
                   );
                 })}
               </ul>
-            )}
+            
             <hr/>
           </div>
         );
