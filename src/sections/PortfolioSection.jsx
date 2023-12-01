@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import projects from "../data/projects";
 import ProjectCard from "../components/ProjectCard";
 const PortfolioSection = ({sectionRef}) => {
@@ -9,5 +10,10 @@ const PortfolioSection = ({sectionRef}) => {
       })}
     </section>
   );
+};
+
+PortfolioSection.propTypes = {
+  sectionRef: PropTypes.shape({ current: PropTypes.instanceOf(Element) })
+    .isRequired,
 };
 export default PortfolioSection;

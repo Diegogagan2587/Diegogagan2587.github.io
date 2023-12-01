@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import Btn from '../components/Btn';
 import Skills from '../components/Skills';
 import SocialMediaBar from '../components/SocialMediaBar';
@@ -52,6 +53,11 @@ const AboutSection = ({sectionRef}) => {
       </div>
     </section>
   );
+};
+
+AboutSection.propTypes = {
+  sectionRef: PropTypes.shape({ current: PropTypes.instanceOf(Element) })
+    .isRequired,
 };
 
 export default AboutSection;

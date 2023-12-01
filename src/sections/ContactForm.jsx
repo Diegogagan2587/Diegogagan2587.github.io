@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import Btn from '../components/Btn';
 
 const ContactForm = ({sectionRef}) => {
@@ -51,5 +52,10 @@ const ContactForm = ({sectionRef}) => {
       </div>
     </div>
   );
+};
+
+ContactForm.propTypes = {
+  sectionRef: PropTypes.shape({ current: PropTypes.instanceOf(Element) })
+    .isRequired,
 };
 export default ContactForm;

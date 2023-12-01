@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { useEffect, useState } from 'react';
 import SocialMediaBar from '../components/SocialMediaBar';
 
@@ -47,6 +48,12 @@ const IntroductionSection = ({sectionRef}) => {
       </div>
     </section>
   );
+};
+
+IntroductionSection.propTypes = {
+  sectionRef: PropTypes.shape(
+    { current: PropTypes.instanceOf(Element) },
+  ).isRequired,
 };
 
 export default IntroductionSection;

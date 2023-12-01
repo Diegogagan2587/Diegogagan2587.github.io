@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import PropTypes from 'prop-types';
 import Hamburguer from '../assets/icons/Icon-Menunav-button.png';
 import CloseIcon from '../assets/icons/close-popup-button.png';
 
@@ -65,6 +66,10 @@ const NavigationBar = ({scrollToSection}) => {
       </ul>
     </nav>
   );
+};
+
+NavigationBar.propTypes = {
+  scrollToSection: PropTypes.func.isRequired,
 };
 
 export default NavigationBar;
