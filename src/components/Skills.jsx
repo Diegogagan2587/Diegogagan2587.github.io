@@ -24,7 +24,11 @@ const Skills = () => {
               onClick={() => toggleListVisibility(skill.name)}
             >
               <h3 className="font-medium text-xl">{skill.name}</h3>
-              <img src={DropDownIcon} alt="DropDown" />
+              <img
+                src={DropDownIcon}
+                alt="DropDown"
+                className={`transform ${isListVisible ? '-rotate-90' : ''} transition-transform duration-300 ease-in-out`}
+              />
             </div>
             {isListVisible && (
               <ul className="flex flex-col gap-3 py-2
