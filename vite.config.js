@@ -6,6 +6,6 @@ export default defineConfig({
   build: {
     outDir: './docs',
   },
-  base: '/Diego-Vidal/',
+  base: '/',
   plugins: [react()],
 })
