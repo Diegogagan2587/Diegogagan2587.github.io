@@ -18,7 +18,10 @@ const NavigationBar = ({scrollToSection}) => {
     bg-white h-10 z-40"
     >
       <a className="text-xl font-bold text-[#6070ff] cursor-pointer"
-      onClick={()=>scrollToSection('introductionRef')}
+      onClick={()=>{
+        scrollToSection('introductionRef')
+        handleMenuClick()
+      }}
       >DVLoper</a>
       <div>
         <span className="sm:hidden" onClick={handleMenuClick}>
