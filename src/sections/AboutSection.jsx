@@ -17,9 +17,9 @@ const AboutSection = () => {
         <h2 className="font-bold text-4xl text-[#172B4D]">About Myself</h2>
         <p className="text-[#344563]">
           Navigating from childhood curiosity to full-stack web development, my
-          journey blends tenacity and learning. "Questions and Answers" ignited
+          journey blends tenacity and learning. &quot;Questions and Answers&quot; ignited
           my passion for understanding the world. At 16, I was guided by Dale
-          Carnegie's wisdom and committed to community fitness. Transitioning to
+          Carnegie&apos;s wisdom and committed to community fitness. Transitioning to
           the software field, I dedicated 1.5 years to mastering by myself
           English for remote work. Despite setbacks, including illness, I
           embraced unfamiliar territories, showcasing adaptability and quick
