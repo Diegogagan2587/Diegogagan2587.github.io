@@ -1,8 +1,9 @@
+import PropTypes from 'prop-types';
 import Btn from '../components/Btn';
 
-const ContactForm = () => {
+const ContactForm = ({sectionRef}) => {
   return (
-    <div className="bg-white">
+    <div className="bg-white" ref={sectionRef}>
       <div
         id="contact"
         className="bg-[url('./assets/img/background-form-mobile-react.svg')] bg-no-repeat bg-contain bg-right
@@ -51,5 +52,10 @@ const ContactForm = () => {
       </div>
     </div>
   );
+};
+
+ContactForm.propTypes = {
+  sectionRef: PropTypes.shape({ current: PropTypes.instanceOf(Element) })
+    .isRequired,
 };
 export default ContactForm;

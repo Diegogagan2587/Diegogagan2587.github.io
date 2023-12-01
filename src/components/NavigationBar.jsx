@@ -1,9 +1,11 @@
 import { useState } from 'react';
+import PropTypes from 'prop-types';
 import Hamburguer from '../assets/icons/Icon-Menunav-button.png';
 import CloseIcon from '../assets/icons/close-popup-button.png';
 
-const NavigationBar = () => {
+const NavigationBar = ({scrollToSection}) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   const dropdownOpenClasses =
     'block absolute w-screen sm:w-auto h-screen sm:h-auto left-0 sm:left-auto top-10 sm:top-auto bg-[#201DCE99] backdrop-blur-[5px] bg-opacity-60 text-white font-semibold text-3xl sm:text-base leading-10';
   const handleMenuClick = () => {
@@ -15,8 +17,11 @@ const NavigationBar = () => {
     w-full
     bg-white h-10 z-40"
     >
-      <a className="text-xl font-bold text-[#6070ff]"
-      href='#introduction-section'
+      <a className="text-xl font-bold text-[#6070ff] cursor-pointer"
+      onClick={()=>{
+        scrollToSection('introductionRef')
+        handleMenuClick()
+      }}
       >DVLoper</a>
       <div>
         <span className="sm:hidden" onClick={handleMenuClick}>
@@ -36,22 +41,38 @@ const NavigationBar = () => {
        gap-5 sm:font-medium sm:text-[#344563]`}
       >
         <li>
-          <a href="#portfolio"
-          onClick={()=>handleMenuClick()}
+          <a 
+          className='cursor-pointer'
+          onClick={()=>{
+            scrollToSection('portfolioRef')
+            handleMenuClick()}} 
           >Portfolio</a>
         </li>
         <li>
-          <a href="#about"
-          onClick={()=>handleMenuClick()}
+          <a 
+          className='cursor-pointer'
+          onClick={()=>{
+            scrollToSection('aboutRef')
+            handleMenuClick()
+          }}
           >About</a>
         </li>
         <li>
-          <a href="#contact"
-          onClick={()=>handleMenuClick()}
+          <a 
+          className='cursor-pointer'
+          onClick={()=>{
+            scrollToSection('contactRef')
+            handleMenuClick()
+          }}
           >Contact</a>
         </li>
       </ul>
     </nav>
   );
 };
+
+NavigationBar.propTypes = {
+  scrollToSection: PropTypes.func.isRequired,
+};
+
 export default NavigationBar;
