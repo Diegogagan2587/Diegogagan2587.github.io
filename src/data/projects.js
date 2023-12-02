@@ -99,23 +99,6 @@ const projects = [
     technologies: ['Ruby', 'JSON', 'RSpec'],
   },
   {
-    name: 'Metrics Webapp',
-    description:
-      '"Metrics Web-App" is a mobile Single Page Application (SPA) that connects with an API and enables users to view the air quality of six different states in Mexico.',
-    descriptionDesk:
-      '"Metrics Web-App" is a mobile Single Page Application (SPA) that connects with an API and enables users to view the air quality of six different states in Mexico. Users can customize the number of cities (up to six), click on a state to explore more metrics, and easily return to the main page. Built with JavaScript, React, HTML5, and CSS3.',
-    img: imgMetricsWebApp,
-    technologies: ['HTML', 'CSS', 'Javascript', 'React', 'Redux'],
-    liveVersion: 'https://diegogagan2587.github.io/metrics-webapp/',
-    source: 'https://github.com/Diegogagan2587/metrics-webapp',
-
-    imgDesk: '/assets/img/projects/metrics-web-app.png',
-    imgPopMobile: '/assets/img/projects/metrics-web-app.png',
-    company: 'Self-employed',
-    typeOfDev: 'Front-End',
-    date: '2023',
-  },
-  {
     name: 'Space Travelers',
     description:
       '"Space Travelers" is a Single Page Application (SPA) that allows users to explore a list of rockets and missions retrieved from the Space-X API.',
@@ -130,6 +113,23 @@ const projects = [
 
     imgDesk: '/assets/img/projects/space-travelers-hub.png',
     imgPopMobile: '/assets/img/projects/capstone-projeect-1.png',
+    company: 'Self-employed',
+    typeOfDev: 'Front-End',
+    date: '2023',
+  },
+  {
+    name: 'Metrics Webapp',
+    description:
+      '"Metrics Web-App" is a mobile Single Page Application (SPA) that connects with an API and enables users to view the air quality of six different states in Mexico.',
+    descriptionDesk:
+      '"Metrics Web-App" is a mobile Single Page Application (SPA) that connects with an API and enables users to view the air quality of six different states in Mexico. Users can customize the number of cities (up to six), click on a state to explore more metrics, and easily return to the main page. Built with JavaScript, React, HTML5, and CSS3.',
+    img: imgMetricsWebApp,
+    technologies: ['HTML', 'CSS', 'Javascript', 'React', 'Redux'],
+    liveVersion: 'https://diegogagan2587.github.io/metrics-webapp/',
+    source: 'https://github.com/Diegogagan2587/metrics-webapp',
+
+    imgDesk: '/assets/img/projects/metrics-web-app.png',
+    imgPopMobile: '/assets/img/projects/metrics-web-app.png',
     company: 'Self-employed',
     typeOfDev: 'Front-End',
     date: '2023',
@@ -223,7 +223,7 @@ const projects = [
     img: imgDocumentationPage,
     technologies: ['HTML', 'CSS'],
     liveVersion:
-      'https://diegogagan2587.github.io/diegolab/rwd-projects/4-technical-Documentation-page.html',
+      'https://dvloper-z.com/Diegogagan2587-old-portfolio/diegolab/rwd-projects/4-technical-Documentation-page.html',
     source:
       'https://github.com/Diegogagan2587/Diegogagan2587.github.io/tree/master/diegolab/rwd-projects',
     descriptionDesk:
@@ -246,22 +246,6 @@ const projects = [
       'Product Landing Page is a project to market a product, in this case Original Trombones. It was built for putting in practice HTML and CSS skills by creating a static site that includes navigation, video, and a simple dummy form for submitting customer email. The project was initially created in 2020 but has been moved to its own repository.',
     imgDesk: '/assets/img/projects/landing-page-original-trombones.png',
     imgPopMobile: '/assets/img/projects/landing-page-original-trombones.png',
-    company: 'Self-employed',
-    typeOfDev: 'Front-End',
-    date: '2020',
-  },
-  {
-    name: 'Tribute Page',
-    description:
-      'Tribute page is a static website dedicated to Dr. Norman Borlaug, it was written using basic html and css',
-    img: imgTributePage,
-    technologies: ['HTML', 'CSS'],
-    liveVersion: 'https://diegogagan2587.github.io/tribute-page/',
-    source: 'https://github.com/Diegogagan2587/tribute-page',
-    descriptionDesk:
-      'Tribute page is a static website dedicated to Dr. Norman Borlaug, it was written using basic html and css and it is a clone page that was built to put in practice basic skills for html and css. Nothing more complex than that',
-    imgDesk: '/assets/img/projects/tribute-page.png',
-    imgPopMobile: '/assets/img/projects/tribute-page.png',
     company: 'Self-employed',
     typeOfDev: 'Front-End',
     date: '2020',
