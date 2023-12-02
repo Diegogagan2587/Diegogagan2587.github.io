@@ -28,29 +28,46 @@ const IntroductionSection = ({sectionRef, isActive}) => {
       //style={backgroundStyle}
     >
       <div className="flex flex-col gap-5 max-w-[920px]">
-        <div className={`flex flex-col gap-5 overflow-hidden
-        opacity-0 ${animate ? 'opacity-100' : ''} transition-opacity duration-500 ease-in-out
-        `}>
-          <h1 className={`text-4xl font-bold leading-[52px] text-[#172B4D]
-                ${animate ? 'transform translate-y-0 opacity-100' : 'transform translate-y-full'}
+        <div
+          className={`flex flex-col gap-5 overflow-hidden
+        opacity-0 ${
+          animate ? 'opacity-100' : ''
+        } transition-opacity duration-500 ease-in-out
+        `}
+        >
+          <h1
+            className={`text-4xl font-bold leading-[52px] text-[#172B4D]
+                ${
+                  animate
+                    ? 'transform translate-y-0 opacity-100'
+                    : 'transform translate-y-full'
+                }
                 transition-transform ease-in-out duration-500 
-          `}>
+          `}
+          >
             I&apos;m Diego Vidal
             <br />
             Full-stack Web Developer.
           </h1>
-          <p className={`text-base leading-6 text-[#344563]
-          ${animate ? 'transform translate-y-0 opacity-100' : 'transform translate-y-full '}
+          <p
+            className={`text-base leading-6 text-[#344563]
+          ${
+            animate
+              ? 'transform translate-y-0 opacity-100'
+              : 'transform translate-y-full '
+          }
           transition-transform ease-in-out duration-500 delay-100
-          `}>
+          `}
+          >
             I&apos;m a seasoned Full-Stack Web Developer, adept at crafting
             functional Single Page Applications, robust Server Side Rendering
-            Websites, and powerful APIs. Specializing in JavaScript, React, Redux,
-            Tailwind-CSS, Ruby on Rails, PostgreSQL, and more, I bring over 2,500
-            hours of hands-on experience in building, testing, and debugging
-            software.
-            <br /> Check out my work below or reach out to me in the Contact
-            Section.
+            Websites, and powerful APIs. Specializing in JavaScript, React,
+            Redux, Tailwind-CSS, Ruby on Rails, PostgreSQL, and more, I bring
+            over 2,500 hours of hands-on experience in building, testing, and
+            debugging software.
+            <br /> Check out my work below, or reach out to me in the Contact
+            Section to schedule a meeting. I&apos;ll be happy to answer your
+            questions!
           </p>
         </div>
         <SocialMediaBar />
