@@ -25,7 +25,7 @@ const NavigationBar = ({scrollToSection}) => {
         scrollToSection('introductionRef')
         handleMenuClick()
       }}
-      >DVLoper</a>
+      >DVLoper-z</a>
       <div>
         <span className={`sm:hidden ${isMenuOpen?'text-white':'text-[#6070ff]'}
         transition-all duration-500 ease-in-out
