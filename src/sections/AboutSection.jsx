@@ -30,7 +30,7 @@ const AboutSection = ({sectionRef, isActive}) => {
       <div
         id="mySelf"
         className={`flex flex-col gap-3
-      sm:max-w-[447px] md:w-2/5
+      sm:max-w-[447px] lg:w-2/5
       ${animate ? 'transform translate-y-0' : 'transform translate-y-full'}
       transition-transform ease-in-out duration-500 
       `}>
@@ -48,7 +48,8 @@ const AboutSection = ({sectionRef, isActive}) => {
           mastered HTML, CSS, and Javascript, emerging as a resilient full-stack
           web developer. My coding journey reflects a commitment to tech growth.
           A passionate learner and achiever, fueled by curiosity and dedication
-          to innovation.
+          to innovation.<br/>
+          Fun-fact: when I was a child, I used to think that everyone spoke the same language.
         </p>
         <SocialMediaBar />
         <div>
@@ -65,7 +66,7 @@ const AboutSection = ({sectionRef, isActive}) => {
       <div
         id="skill-list"
         className={`"w-full 
-      sm:max-w-[684px] md:w-3/5"
+      sm:max-w-[684px] lg:w-3/5"
       ${animate ? 'transform translate-y-0 opacity-100' : 'transform translate-y-full'}
       transition-transform ease-in-out duration-500 
   `}>
