@@ -85,20 +85,6 @@ const projects = [
     ],
   },
   {
-    name: 'Catalogue of things',
-    company: 'Self-employed',
-    typeOfDev: 'command-line interface (CLI)',
-    date: '2023',
-    description:
-      'Catalog of my things is a console app that will help you to keep a record of different types of things you own: books, music albums, movies, and games. Everything is based on...',
-    descriptionDesk:
-      'Catalog of my things is a console app that will help you to keep a record of different types of things you own: books, music albums, movies, and games. Everything is based on the UML class diagram presented in the Readme file. As well this app is able to preserve the data, data will be saved in the data that will contain a JSON file per each item. As well We have included a table representation in SQL.',
-    img: catalogueOfThings,
-    liveVersion: 'https://youtu.be/X8ozhDjzom0?si=Ej3x8mAcBtzWga1N',
-    source: 'https://github.com/Diegogagan2587/catalog-of-my-things',
-    technologies: ['Ruby', 'JSON', 'RSpec'],
-  },
-  {
     name: 'Space Travelers',
     description:
       '"Space Travelers" is a Single Page Application (SPA) that allows users to explore a list of rockets and missions retrieved from the Space-X API.',
@@ -151,6 +137,20 @@ const projects = [
     date: '2023',
   },
   {
+    name: 'Catalogue of things',
+    company: 'Self-employed',
+    typeOfDev: 'command-line interface (CLI)',
+    date: '2023',
+    description:
+      'Catalog of my things is a console app that will help you to keep a record of different types of things you own: books, music albums, movies, and games. Everything is based on...',
+    descriptionDesk:
+      'Catalog of my things is a console app that will help you to keep a record of different types of things you own: books, music albums, movies, and games. Everything is based on the UML class diagram presented in the Readme file. As well this app is able to preserve the data, data will be saved in the data that will contain a JSON file per each item. As well We have included a table representation in SQL.',
+    img: catalogueOfThings,
+    liveVersion: 'https://youtu.be/X8ozhDjzom0?si=Ej3x8mAcBtzWga1N',
+    source: 'https://github.com/Diegogagan2587/catalog-of-my-things',
+    technologies: ['Ruby', 'JSON', 'RSpec'],
+  },
+  {
     name: 'Creative Developers',
     description:
       'A joyful celebration believing in the value of learning to code.',
@@ -199,23 +199,22 @@ const projects = [
     typeOfDev: 'Front-End',
     date: '2023',
   },
-
-  {
-    name: 'Awesome Books',
-    description:
-      'Awesome Books is a simple website that stores a booklist, allowing you to revisit it later and add or remove any books you would like to read.',
-    img: imgAwesomeBooks,
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveVersion: 'https://diegogagan2587.github.io/AwesomeBook-with-ES6/',
-    source: 'https://github.com/Diegogagan2587/AwesomeBook-with-ES6',
-    descriptionDesk:
-      'Awesome Books is a simple website that stores a booklist, allowing you to revisit it later and add or remove any books you would like to read. The inner workings of this project rely on JavaScript to dynamically generate the list of books based on user input and also make use of localStorage.',
-    imgDesk: '/assets/img/projects/awesome-books.png',
-    imgPopMobile: '/assets/img/projects/awesome-books.png',
-    company: 'Self-employed',
-    typeOfDev: 'Front-End',
-    date: '2023',
-  },
+  // {
+  //   name: 'Awesome Books',
+  //   description:
+  //     'Awesome Books is a simple website that stores a booklist, allowing you to revisit it later and add or remove any books you would like to read.',
+  //   img: imgAwesomeBooks,
+  //   technologies: ['HTML', 'CSS', 'JavaScript'],
+  //   liveVersion: 'https://diegogagan2587.github.io/AwesomeBook-with-ES6/',
+  //   source: 'https://github.com/Diegogagan2587/AwesomeBook-with-ES6',
+  //   descriptionDesk:
+  //     'Awesome Books is a simple website that stores a booklist, allowing you to revisit it later and add or remove any books you would like to read. The inner workings of this project rely on JavaScript to dynamically generate the list of books based on user input and also make use of localStorage.',
+  //   imgDesk: '/assets/img/projects/awesome-books.png',
+  //   imgPopMobile: '/assets/img/projects/awesome-books.png',
+  //   company: 'Self-employed',
+  //   typeOfDev: 'Front-End',
+  //   date: '2023',
+  // },
   {
     name: 'JS Documentation',
     description:
