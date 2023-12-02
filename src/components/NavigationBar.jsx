@@ -13,7 +13,7 @@ const NavigationBar = ({scrollToSection}) => {
   };
   return (
     <nav
-      className={`fixed flex justify-between items-center px-5
+      className={`fixed flex justify-between lg:justify-around items-center px-5
     w-full
     transition-all duration-500 ease-in-out
     ${isMenuOpen?'bg-[#201DCE99] sm:bg-white':'bg-white'}  h-10 z-30`}
