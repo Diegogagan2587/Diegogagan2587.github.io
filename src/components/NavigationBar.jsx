@@ -1,42 +1,44 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
-import Hamburguer from '../assets/icons/Icon-Menunav-button.png';
-import CloseIcon from '../assets/icons/close-popup-button.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faX, faBars } from '@fortawesome/free-solid-svg-icons'
 
 const NavigationBar = ({scrollToSection}) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const dropdownOpenClasses =
-    'block absolute w-screen sm:w-auto h-screen sm:h-auto left-0 sm:left-auto top-10 sm:top-auto bg-[#201DCE99] backdrop-blur-[5px] bg-opacity-60 text-white font-semibold text-3xl sm:text-base leading-10';
+    'absolute h-screen sm:h-auto left-0 sm:left-auto top-10 sm:top-auto bg-[#201DCE99] backdrop-blur-[5px] bg-opacity-60 text-white font-semibold text-3xl sm:text-base leading-10';
   const handleMenuClick = () => {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
     <nav
-      className="fixed flex justify-between items-center px-5
+      className={`fixed flex justify-between lg:justify-around items-center px-5
     w-full
-    bg-white h-10 z-30"
+    transition-all duration-500 ease-in-out
+    ${isMenuOpen?'bg-[#201DCE99] sm:bg-white':'bg-white'}  h-10 z-30`}
     >
-      <a className="text-xl font-bold text-[#6070ff] cursor-pointer"
+      <a className={`text-xl font-bold  cursor-pointer
+      ${isMenuOpen?'text-white sm:text-[#6070ff]':'text-[#6070ff]'}
+      `}
       onClick={()=>{
         scrollToSection('introductionRef')
         handleMenuClick()
       }}
-      >DVLoper</a>
+      >DVLoper-z</a>
       <div>
-        <span className="sm:hidden" onClick={handleMenuClick}>
-          {(isMenuOpen && (
-            <img
-              src={CloseIcon}
-              alt="Close Icon"
-              className="relative h-full p-2.5"
-            />
-          )) || <img src={Hamburguer} alt="Hamburguer Icon" className="h-7" />}
+        <span className={`sm:hidden ${isMenuOpen?'text-white':'text-[#6070ff]'}
+        transition-all duration-500 ease-in-out
+        `} 
+        onClick={handleMenuClick}>
+            <FontAwesomeIcon icon={ isMenuOpen?faX:faBars} />
         </span>
       </div>
       <ul
         className={`
-      ${isMenuOpen ? dropdownOpenClasses : 'hidden'} 
+      ${isMenuOpen ? dropdownOpenClasses : 'hidden'}
+      flex flex-col sm:flex-row
+      w-screen sm:w-auto
       sm:relative sm:flex p-5 sm:p-0 sm:bg-white
        gap-5 sm:font-medium sm:text-[#344563]`}
       >
