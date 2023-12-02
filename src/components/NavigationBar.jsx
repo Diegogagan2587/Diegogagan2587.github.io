@@ -7,7 +7,7 @@ const NavigationBar = ({scrollToSection}) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const dropdownOpenClasses =
-    'block absolute w-screen sm:w-auto h-screen sm:h-auto left-0 sm:left-auto top-10 sm:top-auto bg-[#201DCE99] backdrop-blur-[5px] bg-opacity-60 text-white font-semibold text-3xl sm:text-base leading-10';
+    'absolute h-screen sm:h-auto left-0 sm:left-auto top-10 sm:top-auto bg-[#201DCE99] backdrop-blur-[5px] bg-opacity-60 text-white font-semibold text-3xl sm:text-base leading-10';
   const handleMenuClick = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -37,6 +37,8 @@ const NavigationBar = ({scrollToSection}) => {
       <ul
         className={`
       ${isMenuOpen ? dropdownOpenClasses : 'hidden'} 
+      flex flex-col sm:flex-row
+      w-screen sm:w-auto
       sm:relative sm:flex p-5 sm:p-0 sm:bg-white
        gap-5 sm:font-medium sm:text-[#344563]`}
       >
