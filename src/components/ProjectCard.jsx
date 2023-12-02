@@ -7,7 +7,7 @@ import PopUp from './PopUp';
 const ProjectCard = ({ project,index, isActive }) => {
   const [popUp, setPopUp] = useState(false);
   const [animate, setAnimate] = useState(false);
-  const desktopFlexDirection = index % 2 === 0 ? "sm:flex-row" : "sm:flex-row-reverse";
+  const desktopFlexDirection = index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse";
   
   useEffect(() => {
     console.log('is active?',isActive)
@@ -32,20 +32,20 @@ const ProjectCard = ({ project,index, isActive }) => {
     {popUp && <PopUp project={project} handlePopUp={handlePopUp}/>}
     <div id={`project-card-${index}`} 
     className={`card bg-white border-2 rounded-xl p-4 flex flex-col ${desktopFlexDirection} 
-    sm:items-center gap-3 sm:aspect-[145/62] 
+     gap-3 md:aspect-[145/62] 
     hover:scale-105 hover:shadow-xl transition-all duration-500 ease-in-out
-    max-w-[343px] sm:max-w-[1156px] sm:max-h-[496px] overflow-hidden
+    max-w-[343px] md:max-w-[1156px] md:max-h-[496px] lg:overflow-hidden
     opacity-0 ${animate ? 'opacity-100' : ''} transition-opacity duration-500 ease-in-out
     `}>
       <div id='project-img' 
       className="container bg-slate-100 sm:overflow-hidden
       flex items-center justify-center
-      h-10 sm:h-full sm:max-h-[448px] w-full sm:w-1/2 min-w-[295px] min-h-[220px] sm:min-w-[220px]
+       md:max-h-[448px] w-full md:w-1/2 min-w-[295px] min-h-[220px] md:min-w-[220px]
       rounded-md border-2">
          <img 
         src={project.img} 
         alt={`Screenshot of ${project.name}`} 
-        className={`object-cover sm:object-contain md:object-cover
+        className={`object-cover sm:object-contain justify-center items-center
         w-full h-full rounded-lg
         ${animate ? 'transform translate-y-0' : 'transform translate-y-full'}
         transition-transform ease-in-out duration-500 
@@ -53,7 +53,7 @@ const ProjectCard = ({ project,index, isActive }) => {
         /> 
       </div>
       <div id='project-info'
-        className={`card-body flex flex-col gap-3
+        className={`card-body flex flex-col gap-3 md:p-6
         min-w-[295px] sm:min-w-auto sm:w-1/2 min-h-[288px]
         ${animate ? 'transform translate-y-0' : 'transform translate-y-full'}
         transition-transform ease-in-out duration-500 
