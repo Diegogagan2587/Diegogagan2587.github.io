@@ -4,10 +4,10 @@ import imgMathMagicians from '/assets/img/projects/Math-Magicians.png';
 import imgCreativeDevelopers from '/assets/img/projects/capstone-projeect-1.png';
 import imgTodayToDo from '/assets/img/projects/capstone-projeect-2.png';
 import imgWorldWideFlags from '/assets/img/projects/world-wide-flags.png';
-import imgAwesomeBooks from '/assets/img/projects/awesome-books.png';
+// import imgAwesomeBooks from '/assets/img/projects/awesome-books.png';
 import imgDocumentationPage from '/assets/img/projects/documentation-page.png';
 import imgProductLandingPage from '/assets/img/projects/landing-page-original-trombones.png';
-import imgTributePage from '/assets/img/projects/tribute-page.png';
+// import imgTributePage from '/assets/img/projects/tribute-page.png';
 import bookAConcert from '/assets/img/projects/book-a-concert.png';
 import recipeApp from '/assets/img/projects/recipe-app-best-dishes.png';
 import budgetApp from '/assets/img/projects/budget-app-live-demo.png';
@@ -85,37 +85,6 @@ const projects = [
     ],
   },
   {
-    name: 'Catalogue of things',
-    company: 'Self-employed',
-    typeOfDev: 'command-line interface (CLI)',
-    date: '2023',
-    description:
-      'Catalog of my things is a console app that will help you to keep a record of different types of things you own: books, music albums, movies, and games. Everything is based on...',
-    descriptionDesk:
-      'Catalog of my things is a console app that will help you to keep a record of different types of things you own: books, music albums, movies, and games. Everything is based on the UML class diagram presented in the Readme file. As well this app is able to preserve the data, data will be saved in the data that will contain a JSON file per each item. As well We have included a table representation in SQL.',
-    img: catalogueOfThings,
-    liveVersion: 'https://youtu.be/X8ozhDjzom0?si=Ej3x8mAcBtzWga1N',
-    source: 'https://github.com/Diegogagan2587/catalog-of-my-things',
-    technologies: ['Ruby', 'JSON', 'RSpec'],
-  },
-  {
-    name: 'Metrics Webapp',
-    description:
-      '"Metrics Web-App" is a mobile Single Page Application (SPA) that connects with an API and enables users to view the air quality of six different states in Mexico.',
-    descriptionDesk:
-      '"Metrics Web-App" is a mobile Single Page Application (SPA) that connects with an API and enables users to view the air quality of six different states in Mexico. Users can customize the number of cities (up to six), click on a state to explore more metrics, and easily return to the main page. Built with JavaScript, React, HTML5, and CSS3.',
-    img: imgMetricsWebApp,
-    technologies: ['HTML', 'CSS', 'Javascript', 'React', 'Redux'],
-    liveVersion: 'https://diegogagan2587.github.io/metrics-webapp/',
-    source: 'https://github.com/Diegogagan2587/metrics-webapp',
-
-    imgDesk: '/assets/img/projects/metrics-web-app.png',
-    imgPopMobile: '/assets/img/projects/metrics-web-app.png',
-    company: 'Self-employed',
-    typeOfDev: 'Front-End',
-    date: '2023',
-  },
-  {
     name: 'Space Travelers',
     description:
       '"Space Travelers" is a Single Page Application (SPA) that allows users to explore a list of rockets and missions retrieved from the Space-X API.',
@@ -135,6 +104,23 @@ const projects = [
     date: '2023',
   },
   {
+    name: 'Metrics Webapp',
+    description:
+      '"Metrics Web-App" is a mobile Single Page Application (SPA) that connects with an API and enables users to view the air quality of six different states in Mexico.',
+    descriptionDesk:
+      '"Metrics Web-App" is a mobile Single Page Application (SPA) that connects with an API and enables users to view the air quality of six different states in Mexico. Users can customize the number of cities (up to six), click on a state to explore more metrics, and easily return to the main page. Built with JavaScript, React, HTML5, and CSS3.',
+    img: imgMetricsWebApp,
+    technologies: ['HTML', 'CSS', 'Javascript', 'React', 'Redux'],
+    liveVersion: 'https://diegogagan2587.github.io/metrics-webapp/',
+    source: 'https://github.com/Diegogagan2587/metrics-webapp',
+
+    imgDesk: '/assets/img/projects/metrics-web-app.png',
+    imgPopMobile: '/assets/img/projects/metrics-web-app.png',
+    company: 'Self-employed',
+    typeOfDev: 'Front-End',
+    date: '2023',
+  },
+  {
     name: 'Math Magicians',
     description:
       '"Math Magicians" is a Single Page App (SPA) divided into three sections: Home, Quote, and Calculator. It enables users to perform simple calculations',
@@ -149,6 +135,20 @@ const projects = [
     company: 'Self-employed',
     typeOfDev: 'Front-End',
     date: '2023',
+  },
+  {
+    name: 'Catalogue of things',
+    company: 'Self-employed',
+    typeOfDev: 'command-line interface (CLI)',
+    date: '2023',
+    description:
+      'Catalog of my things is a console app that will help you to keep a record of different types of things you own: books, music albums, movies, and games. Everything is based on...',
+    descriptionDesk:
+      'Catalog of my things is a console app that will help you to keep a record of different types of things you own: books, music albums, movies, and games. Everything is based on the UML class diagram presented in the Readme file. As well this app is able to preserve the data, data will be saved in the data that will contain a JSON file per each item. As well We have included a table representation in SQL.',
+    img: catalogueOfThings,
+    liveVersion: 'https://youtu.be/X8ozhDjzom0?si=Ej3x8mAcBtzWga1N',
+    source: 'https://github.com/Diegogagan2587/catalog-of-my-things',
+    technologies: ['Ruby', 'JSON', 'RSpec'],
   },
   {
     name: 'Creative Developers',
@@ -199,23 +199,22 @@ const projects = [
     typeOfDev: 'Front-End',
     date: '2023',
   },
-
-  {
-    name: 'Awesome Books',
-    description:
-      'Awesome Books is a simple website that stores a booklist, allowing you to revisit it later and add or remove any books you would like to read.',
-    img: imgAwesomeBooks,
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveVersion: 'https://diegogagan2587.github.io/AwesomeBook-with-ES6/',
-    source: 'https://github.com/Diegogagan2587/AwesomeBook-with-ES6',
-    descriptionDesk:
-      'Awesome Books is a simple website that stores a booklist, allowing you to revisit it later and add or remove any books you would like to read. The inner workings of this project rely on JavaScript to dynamically generate the list of books based on user input and also make use of localStorage.',
-    imgDesk: '/assets/img/projects/awesome-books.png',
-    imgPopMobile: '/assets/img/projects/awesome-books.png',
-    company: 'Self-employed',
-    typeOfDev: 'Front-End',
-    date: '2023',
-  },
+  // {
+  //   name: 'Awesome Books',
+  //   description:
+  //     'Awesome Books is a simple website that stores a booklist, allowing you to revisit it later and add or remove any books you would like to read.',
+  //   img: imgAwesomeBooks,
+  //   technologies: ['HTML', 'CSS', 'JavaScript'],
+  //   liveVersion: 'https://diegogagan2587.github.io/AwesomeBook-with-ES6/',
+  //   source: 'https://github.com/Diegogagan2587/AwesomeBook-with-ES6',
+  //   descriptionDesk:
+  //     'Awesome Books is a simple website that stores a booklist, allowing you to revisit it later and add or remove any books you would like to read. The inner workings of this project rely on JavaScript to dynamically generate the list of books based on user input and also make use of localStorage.',
+  //   imgDesk: '/assets/img/projects/awesome-books.png',
+  //   imgPopMobile: '/assets/img/projects/awesome-books.png',
+  //   company: 'Self-employed',
+  //   typeOfDev: 'Front-End',
+  //   date: '2023',
+  // },
   {
     name: 'JS Documentation',
     description:
@@ -223,7 +222,7 @@ const projects = [
     img: imgDocumentationPage,
     technologies: ['HTML', 'CSS'],
     liveVersion:
-      'https://diegogagan2587.github.io/diegolab/rwd-projects/4-technical-Documentation-page.html',
+      'https://dvloper-z.com/Diegogagan2587-old-portfolio/diegolab/rwd-projects/4-technical-Documentation-page.html',
     source:
       'https://github.com/Diegogagan2587/Diegogagan2587.github.io/tree/master/diegolab/rwd-projects',
     descriptionDesk:
@@ -246,22 +245,6 @@ const projects = [
       'Product Landing Page is a project to market a product, in this case Original Trombones. It was built for putting in practice HTML and CSS skills by creating a static site that includes navigation, video, and a simple dummy form for submitting customer email. The project was initially created in 2020 but has been moved to its own repository.',
     imgDesk: '/assets/img/projects/landing-page-original-trombones.png',
     imgPopMobile: '/assets/img/projects/landing-page-original-trombones.png',
-    company: 'Self-employed',
-    typeOfDev: 'Front-End',
-    date: '2020',
-  },
-  {
-    name: 'Tribute Page',
-    description:
-      'Tribute page is a static website dedicated to Dr. Norman Borlaug, it was written using basic html and css',
-    img: imgTributePage,
-    technologies: ['HTML', 'CSS'],
-    liveVersion: 'https://diegogagan2587.github.io/tribute-page/',
-    source: 'https://github.com/Diegogagan2587/tribute-page',
-    descriptionDesk:
-      'Tribute page is a static website dedicated to Dr. Norman Borlaug, it was written using basic html and css and it is a clone page that was built to put in practice basic skills for html and css. Nothing more complex than that',
-    imgDesk: '/assets/img/projects/tribute-page.png',
-    imgPopMobile: '/assets/img/projects/tribute-page.png',
     company: 'Self-employed',
     typeOfDev: 'Front-End',
     date: '2020',
