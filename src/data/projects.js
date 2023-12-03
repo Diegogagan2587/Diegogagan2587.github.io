@@ -47,7 +47,7 @@ const projects = [
     descriptionDesk:
       '"Recipe App" is a Server-side Rendering application (SSR) following the MVC architecture. It assists users in storing and tracking their recipes and ingredients. Users can register, create recipes (making them public if desired), and generate a shopping list based on their current inventory. Built with Ruby, Rails, Bootstrap, and PostgreSQL.',
     img: recipeApp,
-    liveVersion: 'https://my-recipe-app-d41m.onrender.com/',
+    liveVersion: 'http://www.recipe-app-best-dishes.dvloper-z.com',
     source: 'https://github.com/Diegogagan2587/Recipe-app-bests-dishes',
     technologies: [
       'HTML5',
