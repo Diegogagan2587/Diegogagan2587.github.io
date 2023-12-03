@@ -61,7 +61,7 @@ const IntroductionSection = ({sectionRef, isActive}) => {
             I can help you turn designs into functional single-page
             applications, craft Server Side Rendering Websites, and develop
             powerful APIs—from code creation to deployment. Using JavaScript,
-            React, Redux, Tailwind-CSS, Ruby on Rails, PostgreSQL, and more, I
+            React, Redux, Tailwind-CSS, Ruby on Rails, PostgreSQL, and more. I
             bring over 2,500 hours of hands-on experience in building, testing,
             and debugging software.
             Explore my work below or reach out through the Contact

@@ -40,14 +40,14 @@ const AboutSection = ({sectionRef, isActive}) => {
           journey blends tenacity and learning. &quot;Questions and Answers&quot; ignited
           my passion for understanding the world. At 16, I was guided by Dale
           Carnegie&apos;s wisdom and committed to community fitness. Transitioning to
-          the software field, I dedicated 1.5 years to mastering by myself
-          English for remote work. Despite setbacks, including illness, I
+          the software field, I dedicated 1.5 years to mastering
+          English by myself for remote work. Despite setbacks, including illness, I
           embraced unfamiliar territories, showcasing adaptability and quick
-          learning. Remote work at a call center honed language and
+          learning. Remote work at a call center honed my language and
           problem-solving skills. At Microverse, amidst delivering for Uber, I
           mastered HTML, CSS, and Javascript, emerging as a resilient full-stack
           web developer. My coding journey reflects a commitment to tech growth.
-          A passionate learner and achiever, fueled by curiosity and dedication
+          I&apos;m a passionate learner and achiever, fueled by curiosity and dedication
           to innovation.<br/>
           Fun-fact: when I was a child, I used to think that everyone spoke the same language.
         </p>
