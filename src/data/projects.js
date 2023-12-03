@@ -70,7 +70,7 @@ const projects = [
     descriptionDesk:
       '"Budget App" is a Server-side Rendering application (SSR) following the MVC architecture, allowing users to efficiently manage their budget. Users can register, add transactions, and create new categories. The application is built with JavaScript, Ruby, Rails, Tailwind CSS, and PostgreSQL.',
     img: budgetApp,
-    liveVersion: 'https://www-budget-app.onrender.com/',
+    liveVersion: 'https://www.budget-app.dvloper-z.com',
     source: 'https://github.com/Diegogagan2587/budget-app',
     technologies: [
       'HTML5',
