@@ -215,24 +215,24 @@ const projects = [
   //   typeOfDev: 'Front-End',
   //   date: '2023',
   // },
-  {
-    name: 'JS Documentation',
-    description:
-      'JS documentation is a simple documentation page to serve as instruction or reference. It was built with plain HTML and CSS.',
-    img: imgDocumentationPage,
-    technologies: ['HTML', 'CSS'],
-    liveVersion:
-      'https://dvloper-z.com/Diegogagan2587-old-portfolio/diegolab/rwd-projects/4-technical-Documentation-page.html',
-    source:
-      'https://github.com/Diegogagan2587/Diegogagan2587.github.io/tree/master/diegolab/rwd-projects',
-    descriptionDesk:
-      'JS documentation is a simple documentation page to serve as instruction or reference. It was built with plain HTML and CSS to put in practice HTML and CSS basic skills. The content has been taken from MDN.',
-    imgDesk: '/assets/img/projects/documentation-page.png',
-    imgPopMobile: '/assets/img/projects/documentation-page.png',
-    company: 'Self-employed',
-    typeOfDev: 'Front-End',
-    date: '2020',
-  },
+  // {
+  //   name: 'JS Documentation',
+  //   description:
+  //     'JS documentation is a simple documentation page to serve as instruction or reference. It was built with plain HTML and CSS.',
+  //   img: imgDocumentationPage,
+  //   technologies: ['HTML', 'CSS'],
+  //   liveVersion:
+  //     'https://dvloper-z.com/Diegogagan2587-old-portfolio/diegolab/rwd-projects/4-technical-Documentation-page.html',
+  //   source:
+  //     'https://github.com/Diegogagan2587/Diegogagan2587.github.io/tree/master/diegolab/rwd-projects',
+  //   descriptionDesk:
+  //     'JS documentation is a simple documentation page to serve as instruction or reference. It was built with plain HTML and CSS to put in practice HTML and CSS basic skills. The content has been taken from MDN.',
+  //   imgDesk: '/assets/img/projects/documentation-page.png',
+  //   imgPopMobile: '/assets/img/projects/documentation-page.png',
+  //   company: 'Self-employed',
+  //   typeOfDev: 'Front-End',
+  //   date: '2020',
+  // },
   {
     name: 'Product Landing Page',
     description:
