@@ -70,7 +70,7 @@ const projects = [
     descriptionDesk:
       '"Budget App" is a Server-side Rendering application (SSR) following the MVC architecture, allowing users to efficiently manage their budget. Users can register, add transactions, and create new categories. The application is built with JavaScript, Ruby, Rails, Tailwind CSS, and PostgreSQL.',
     img: budgetApp,
-    liveVersion: 'https://www-budget-app.onrender.com/',
+    liveVersion: 'https://www.budget-app.dvloper-z.com',
     source: 'https://github.com/Diegogagan2587/budget-app',
     technologies: [
       'HTML5',
@@ -136,20 +136,20 @@ const projects = [
     typeOfDev: 'Front-End',
     date: '2023',
   },
-  {
-    name: 'Catalogue of things',
-    company: 'Self-employed',
-    typeOfDev: 'command-line interface (CLI)',
-    date: '2023',
-    description:
-      'Catalog of my things is a console app that will help you to keep a record of different types of things you own: books, music albums, movies, and games. Everything is based on...',
-    descriptionDesk:
-      'Catalog of my things is a console app that will help you to keep a record of different types of things you own: books, music albums, movies, and games. Everything is based on the UML class diagram presented in the Readme file. As well this app is able to preserve the data, data will be saved in the data that will contain a JSON file per each item. As well We have included a table representation in SQL.',
-    img: catalogueOfThings,
-    liveVersion: 'https://youtu.be/X8ozhDjzom0?si=Ej3x8mAcBtzWga1N',
-    source: 'https://github.com/Diegogagan2587/catalog-of-my-things',
-    technologies: ['Ruby', 'JSON', 'RSpec'],
-  },
+  // {
+  //   name: 'Catalogue of things',
+  //   company: 'Self-employed',
+  //   typeOfDev: 'command-line interface (CLI)',
+  //   date: '2023',
+  //   description:
+  //     'Catalog of my things is a console app that will help you to keep a record of different types of things you own: books, music albums, movies, and games. Everything is based on...',
+  //   descriptionDesk:
+  //     'Catalog of my things is a console app that will help you to keep a record of different types of things you own: books, music albums, movies, and games. Everything is based on the UML class diagram presented in the Readme file. As well this app is able to preserve the data, data will be saved in the data that will contain a JSON file per each item. As well We have included a table representation in SQL.',
+  //   img: catalogueOfThings,
+  //   liveVersion: 'https://youtu.be/X8ozhDjzom0?si=Ej3x8mAcBtzWga1N',
+  //   source: 'https://github.com/Diegogagan2587/catalog-of-my-things',
+  //   technologies: ['Ruby', 'JSON', 'RSpec'],
+  // },
   {
     name: 'Creative Developers',
     description:
@@ -215,24 +215,24 @@ const projects = [
   //   typeOfDev: 'Front-End',
   //   date: '2023',
   // },
-  {
-    name: 'JS Documentation',
-    description:
-      'JS documentation is a simple documentation page to serve as instruction or reference. It was built with plain HTML and CSS.',
-    img: imgDocumentationPage,
-    technologies: ['HTML', 'CSS'],
-    liveVersion:
-      'https://dvloper-z.com/Diegogagan2587-old-portfolio/diegolab/rwd-projects/4-technical-Documentation-page.html',
-    source:
-      'https://github.com/Diegogagan2587/Diegogagan2587.github.io/tree/master/diegolab/rwd-projects',
-    descriptionDesk:
-      'JS documentation is a simple documentation page to serve as instruction or reference. It was built with plain HTML and CSS to put in practice HTML and CSS basic skills. The content has been taken from MDN.',
-    imgDesk: '/assets/img/projects/documentation-page.png',
-    imgPopMobile: '/assets/img/projects/documentation-page.png',
-    company: 'Self-employed',
-    typeOfDev: 'Front-End',
-    date: '2020',
-  },
+  // {
+  //   name: 'JS Documentation',
+  //   description:
+  //     'JS documentation is a simple documentation page to serve as instruction or reference. It was built with plain HTML and CSS.',
+  //   img: imgDocumentationPage,
+  //   technologies: ['HTML', 'CSS'],
+  //   liveVersion:
+  //     'https://dvloper-z.com/Diegogagan2587-old-portfolio/diegolab/rwd-projects/4-technical-Documentation-page.html',
+  //   source:
+  //     'https://github.com/Diegogagan2587/Diegogagan2587.github.io/tree/master/diegolab/rwd-projects',
+  //   descriptionDesk:
+  //     'JS documentation is a simple documentation page to serve as instruction or reference. It was built with plain HTML and CSS to put in practice HTML and CSS basic skills. The content has been taken from MDN.',
+  //   imgDesk: '/assets/img/projects/documentation-page.png',
+  //   imgPopMobile: '/assets/img/projects/documentation-page.png',
+  //   company: 'Self-employed',
+  //   typeOfDev: 'Front-End',
+  //   date: '2020',
+  // },
   {
     name: 'Product Landing Page',
     description:
