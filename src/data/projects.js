@@ -1,7 +1,7 @@
 import imgMetricsWebApp from '/assets/img/projects/metrics-web-app.png';
 import imgSpaceTravelersHub from '/assets/img/projects/space-travelers-hub.png';
 import imgMathMagicians from '/assets/img/projects/Math-Magicians.png';
-import imgCreativeDevelopers from '/assets/img/projects/capstone-projeect-1.png';
+import imgCreativeDevelopers from '/assets/img/projects/feature-creative-developers.png';
 import imgTodayToDo from '/assets/img/projects/capstone-projeect-2.png';
 import imgWorldWideFlags from '/assets/img/projects/world-wide-flags.png';
 // import imgAwesomeBooks from '/assets/img/projects/awesome-books.png';
@@ -103,39 +103,39 @@ const projects = [
     typeOfDev: 'Front-End',
     date: '2023',
   },
-  {
-    name: 'Metrics Webapp',
-    description:
-      '"Metrics Web-App" is a mobile Single Page Application (SPA) that connects with an API and enables users to view the air quality of six different states in Mexico.',
-    descriptionDesk:
-      '"Metrics Web-App" is a mobile Single Page Application (SPA) that connects with an API and enables users to view the air quality of six different states in Mexico. Users can customize the number of cities (up to six), click on a state to explore more metrics, and easily return to the main page. Built with JavaScript, React, HTML5, and CSS3.',
-    img: imgMetricsWebApp,
-    technologies: ['HTML', 'CSS', 'Javascript', 'React', 'Redux'],
-    liveVersion: 'https://diegogagan2587.github.io/metrics-webapp/',
-    source: 'https://github.com/Diegogagan2587/metrics-webapp',
+  // {
+  //   name: 'Metrics Webapp',
+  //   description:
+  //     '"Metrics Web-App" is a mobile Single Page Application (SPA) that connects with an API and enables users to view the air quality of six different states in Mexico.',
+  //   descriptionDesk:
+  //     '"Metrics Web-App" is a mobile Single Page Application (SPA) that connects with an API and enables users to view the air quality of six different states in Mexico. Users can customize the number of cities (up to six), click on a state to explore more metrics, and easily return to the main page. Built with JavaScript, React, HTML5, and CSS3.',
+  //   img: imgMetricsWebApp,
+  //   technologies: ['HTML', 'CSS', 'Javascript', 'React', 'Redux'],
+  //   liveVersion: 'https://diegogagan2587.github.io/metrics-webapp/',
+  //   source: 'https://github.com/Diegogagan2587/metrics-webapp',
 
-    imgDesk: '/assets/img/projects/metrics-web-app.png',
-    imgPopMobile: '/assets/img/projects/metrics-web-app.png',
-    company: 'Self-employed',
-    typeOfDev: 'Front-End',
-    date: '2023',
-  },
-  {
-    name: 'Math Magicians',
-    description:
-      '"Math Magicians" is a Single Page App (SPA) divided into three sections: Home, Quote, and Calculator. It enables users to perform simple calculations',
-    descriptionDesk:
-      '"Math Magicians" is a Single Page App (SPA) divided into three sections: Home, Quote, and Calculator. It enables users to perform simple calculations such as addition, subtraction, and multiplication, in addition to reading random math-related quotes. Built with JavaScript and React.',
-    img: imgMathMagicians,
-    technologies: ['HTML', 'CSS', 'Javascript', 'React'],
-    liveVersion: 'https://math-magicians-akxg.onrender.com/',
-    source: 'https://github.com/Diegogagan2587/math-magicians',
-    imgDesk: '/assets/img/projects/Math-Magicians.png',
-    imgPopMobile: '/assets/img/projects/Math-Magicians.png',
-    company: 'Self-employed',
-    typeOfDev: 'Front-End',
-    date: '2023',
-  },
+  //   imgDesk: '/assets/img/projects/metrics-web-app.png',
+  //   imgPopMobile: '/assets/img/projects/metrics-web-app.png',
+  //   company: 'Self-employed',
+  //   typeOfDev: 'Front-End',
+  //   date: '2023',
+  // },
+  // {
+  //   name: 'Math Magicians',
+  //   description:
+  //     '"Math Magicians" is a Single Page App (SPA) divided into three sections: Home, Quote, and Calculator. It enables users to perform simple calculations',
+  //   descriptionDesk:
+  //     '"Math Magicians" is a Single Page App (SPA) divided into three sections: Home, Quote, and Calculator. It enables users to perform simple calculations such as addition, subtraction, and multiplication, in addition to reading random math-related quotes. Built with JavaScript and React.',
+  //   img: imgMathMagicians,
+  //   technologies: ['HTML', 'CSS', 'Javascript', 'React'],
+  //   liveVersion: 'https://math-magicians-akxg.onrender.com/',
+  //   source: 'https://github.com/Diegogagan2587/math-magicians',
+  //   imgDesk: '/assets/img/projects/Math-Magicians.png',
+  //   imgPopMobile: '/assets/img/projects/Math-Magicians.png',
+  //   company: 'Self-employed',
+  //   typeOfDev: 'Front-End',
+  //   date: '2023',
+  // },
   // {
   //   name: 'Catalogue of things',
   //   company: 'Self-employed',
@@ -166,22 +166,22 @@ const projects = [
     typeOfDev: 'Front-End',
     date: '2023',
   },
-  {
-    name: "Today's To Do",
-    description:
-      'To-Do list is a simple project to keep track of the daily activities.',
-    img: imgTodayToDo,
-    technologies: ['HTML', 'CSS', 'Javascript'],
-    liveVersion: 'https://diegogagan2587.github.io/To-Do-List/dist/index.html',
-    source: 'https://github.com/Diegogagan2587/To-Do-List',
-    descriptionDesk:
-      'To-Do list is a simple project to keep track of the daily activities. You can add, delete, or mark as completed your tasks! Close the browser and retrieve your task later!',
-    imgDesk: '/assets/img/projects/capstone-projeect-2-desktop-popup.png',
-    imgPopMobile: '/assets/img/projects/capstone-projeect-2.png',
-    company: 'Self-employed',
-    typeOfDev: 'Front-End',
-    date: '2023',
-  },
+  // {
+  //   name: "Today's To Do",
+  //   description:
+  //     'To-Do list is a simple project to keep track of the daily activities.',
+  //   img: imgTodayToDo,
+  //   technologies: ['HTML', 'CSS', 'Javascript'],
+  //   liveVersion: 'https://diegogagan2587.github.io/To-Do-List/dist/index.html',
+  //   source: 'https://github.com/Diegogagan2587/To-Do-List',
+  //   descriptionDesk:
+  //     'To-Do list is a simple project to keep track of the daily activities. You can add, delete, or mark as completed your tasks! Close the browser and retrieve your task later!',
+  //   imgDesk: '/assets/img/projects/capstone-projeect-2-desktop-popup.png',
+  //   imgPopMobile: '/assets/img/projects/capstone-projeect-2.png',
+  //   company: 'Self-employed',
+  //   typeOfDev: 'Front-End',
+  //   date: '2023',
+  // },
   {
     name: 'World Wide Flags',
     description:
