@@ -1,7 +1,7 @@
 import imgMetricsWebApp from '/assets/img/projects/metrics-web-app.png';
 import imgSpaceTravelersHub from '/assets/img/projects/space-travelers-hub.png';
 import imgMathMagicians from '/assets/img/projects/Math-Magicians.png';
-import imgCreativeDevelopers from '/assets/img/projects/capstone-projeect-1.png';
+import imgCreativeDevelopers from '/assets/img/projects/feature-creative-developers.png';
 import imgTodayToDo from '/assets/img/projects/capstone-projeect-2.png';
 import imgWorldWideFlags from '/assets/img/projects/world-wide-flags.png';
 // import imgAwesomeBooks from '/assets/img/projects/awesome-books.png';
