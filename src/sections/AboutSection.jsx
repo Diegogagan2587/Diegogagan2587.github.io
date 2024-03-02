@@ -23,7 +23,7 @@ const AboutSection = ({sectionRef, isActive}) => {
       id="about"
       ref={sectionRef}
       className={`flex flex-col sm:flex-row items-center sm:items-start justify-center py-28
-      min-h-screen border-2 bg-white rounded-tr-[50px] px-6 gap-6
+      min-h-screen border-2 border-b-0 bg-white rounded-tr-[50px] px-6 gap-6
       opacity-0 ${animate ? 'opacity-100' : ''} transition-opacity duration-500 ease-in-out
       overflow-hidden
       `}>
