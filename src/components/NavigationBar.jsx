@@ -68,6 +68,12 @@ const NavigationBar = ({scrollToSection}) => {
           }}
           >Contact</a>
         </li>
+        <li>
+          <a 
+          className='cursor-pointer'
+          href='https://blog.dvloper-z.com'
+          >Blog</a>
+        </li>
       </ul>
     </nav>
   );
