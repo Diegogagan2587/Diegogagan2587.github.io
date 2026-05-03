@@ -24,7 +24,7 @@ soon i'm gona explain in detail how I'll plan to use each concept on my applicat
 ## Technical concepts
 
 To have this project working on Mobile, I do have the need to register records even when there is no internet conextion,
-to achieve this, i'm plannin to give a try to  Hotwire Native, wich might look like a wrapper but with I do believe i could use Indexd DB + Service Worker.
+to achieve this, i'm plannin to give a try to  Hotwire Native, wich might look like a wrapper but with I do believe i could use Indexd DB + Service Worker to implement off-line, wich is somthign we really do need to have fully native offline app behavior.
 
 As i do start the implementation I'll update this post to describe wich other concepts and or tools are required and
 how the do need to be used.
