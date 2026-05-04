@@ -8,6 +8,9 @@ interface Props {
 	title: string;
 	description: string;
 	image?: string;
+	imageAlt?: string;
+	pubDate?: Date;
+	updatedDate?: Date;
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://dvloper-z.com');
