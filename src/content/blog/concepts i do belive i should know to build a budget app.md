@@ -28,3 +28,6 @@ to achieve this, i'm plannin to give a try to  Hotwire Native, wich might look l
 
 As i do start the implementation I'll update this post to describe wich other concepts and or tools are required and
 how the do need to be used.
+
+Now what if we do want to leverage AI go analize our data?
+we could implemnet a Chat, MPC server to get a Model Conected and use the Broadcast helpers methods on models, to broadcast the changes on real time.  I'm still working on [[How to implemement a MCP Server on Ruby on Rails]] but I expect to have the process detailed soon.
