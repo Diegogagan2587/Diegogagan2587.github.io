@@ -4,6 +4,8 @@ description: On this article i do reference and explain briefy some tools we can
 pubDate: 2026-05-04
 heroImage: /blog-placeholder-2.jpg
 ---
+> On this article I do not explain step by step the process for creating and MCP server on rails, instead I do gather or explour resources to help us to achieve our goal.
+
 The community of Model Context Protocol has created a gem to manage MCP on Rails, so we can use it.
 - [Official  Ruby SKD for the Model Context Protocol](https://github.com/modelcontextprotocol/ruby-sdk)
 Below there is a Youtube video from Pawel  Strzalkowski on the Ruby On rails Channel explaining how to havea Rails ready for AI:
