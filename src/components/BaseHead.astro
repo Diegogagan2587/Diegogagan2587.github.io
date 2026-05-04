@@ -15,7 +15,14 @@ interface Props {
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://dvloper-z.com');
 
-const { title, description, image = '/img/profile-picture.jpg', pubDate, updatedDate } = Astro.props;
+const {
+	title,
+	description,
+	image = '/img/profile-picture.jpg',
+	imageAlt = 'Diego Vidal',
+	pubDate,
+	updatedDate,
+} = Astro.props;
 
 const schema = {
 	"@context": "https://schema.org",
