@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faX, faBars } from '@fortawesome/free-solid-svg-icons';
+import HamburgerBtn from './nav/HamburgerBtn';
 
 const NavigationBar = (props) => {
   const { scrollToSection } = props;
@@ -37,11 +36,11 @@ const NavigationBar = (props) => {
       className={`fixed flex justify-between lg:justify-around items-center px-5
     w-full max-w-[100vw]
     transition-all duration-500 ease-in-out
-    ${isMenuOpen ? 'bg-[#201DCE99] sm:bg-white' : 'bg-white'}  h-10 z-30`}
+    ${isMenuOpen ? 'bg-[#201DCE99] sm:bg-white' : 'bg-white'} h-10 z-30`}
     >
       <a
         className={`text-xl font-bold cursor-pointer
-      ${isMenuOpen ? 'text-white sm:text-[#6070ff]' : 'text-[#6070ff]'}
+      ${isMenuOpen ? 'text-white sm:text-[var(--accent)]' : 'text-[var(--accent)]'}
       `}
         onClick={() => {
           handleNavigationClick('introductionRef');
@@ -50,21 +49,14 @@ const NavigationBar = (props) => {
         DVLoper-z
       </a>
       <div>
-        <span
-          className={`sm:hidden ${isMenuOpen ? 'text-white' : 'text-[#6070ff]'}
-        transition-all duration-500 ease-in-out`}
-          onClick={handleMenuClick}
-        >
-          <FontAwesomeIcon icon={isMenuOpen ? faX : faBars} />
-        </span>
+        <div className="sm:hidden">
+          <HamburgerBtn isOpen={isMenuOpen} toggle={handleMenuClick} />
+        </div>
       </div>
       <ul
-        className={`
-      ${isMenuOpen ? dropdownOpenClasses : 'hidden'}
-      flex flex-col sm:flex-row
-      w-screen sm:w-auto
-      sm:relative sm:flex p-5 sm:p-0 sm:bg-white
-      gap-5 sm:font-medium sm:text-[#344563]`}
+        className={`fixed top-10 left-0 w-full h-full z-20 pl-8 flex flex-col justify-center space-y-8 transition-transform duration-500 ease-in-out
+          sm:static sm:flex sm:flex-row sm:items-center sm:justify-end sm:h-auto sm:w-auto sm:pl-0 sm:space-y-0 sm:space-x-5 sm:bg-white sm:text-[#344563] sm:text-base sm:font-normal sm:leading-normal sm:translate-y-0 sm:pointer-events-auto
+          ${isMenuOpen ? 'translate-y-0 bg-[#201DCE99] text-white pointer-events-auto text-3xl font-semibold leading-10' : '-translate-y-full bg-transparent text-[#344563] pointer-events-none text-3xl font-semibold leading-10'}`}
       >
         <li>
           <a
