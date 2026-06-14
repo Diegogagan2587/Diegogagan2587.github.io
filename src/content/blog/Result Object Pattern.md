@@ -1,7 +1,7 @@
 ---
 title: Result Object Pattern
 description: Lorem ipsum dolor sit amet
-pubDate:
+pubDate: 2026-06-13
 heroImage: /img/blog/result-pattern.png
 ---
 # Result Object Pattern
